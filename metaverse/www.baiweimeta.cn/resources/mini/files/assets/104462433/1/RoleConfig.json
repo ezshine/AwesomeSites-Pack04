@@ -1,0 +1,320 @@
+{
+    "model": [
+        {
+            "type": "player1",
+            "model": "man1.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "player2",
+            "model": "amy.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "player3",
+            "model": "bell.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "player4",
+            "model": "bill.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "player5",
+            "model": "cathy.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "player6",
+            "model": "cody.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "player7",
+            "model": "daisy.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "player8",
+            "model": "ella.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "player9",
+            "model": "dan.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "player10",
+            "model": "eric.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": -0.9,
+                "z": 0
+            }
+        },
+        {
+            "type": "npc_1",
+            "model": "npc_1.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        {
+            "type": "npc_2",
+            "model": "npc_2.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        {
+            "type": "DJ",
+            "model": "DJ.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 90,
+                "y": 180,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        {
+            "type": "medal",
+            "model": "xunzhang.glb",
+            "defaultAnim": "idle",
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        }
+    ],
+    "animation": {
+        "player1": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "player2": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "player3": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "player4": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "player5": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "player6": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "player7": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "player8": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "player9": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "player10": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "npc_1": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "npc_2": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        },
+        "DJ": {
+            "idle": {
+                "loop": true
+            },
+            "Running": {
+                "loop": true
+            }
+        }
+    }
+}

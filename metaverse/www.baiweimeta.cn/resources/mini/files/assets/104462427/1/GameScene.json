@@ -1,0 +1,34 @@
+{
+    "glbFiles": [
+        "GameScene.glb"
+    ],
+    "setting": {
+        "rendering": {
+            "skybox": "360sky.hdr",
+            "exposure": 0.6
+        }
+    },
+    "entityConfig": {
+        "GameScene.glb/Scene/map_basic": {
+            "castShadows": false,
+            "collision": "mesh"
+        }
+    },
+    "playerConfig": {
+        "position": {
+            "x": 8.1898698806762695,
+            "y": 1.8,
+            "z": 19.931535720825195
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "cameraPos": {
+            "x": 542,
+            "y": 361,
+            "z": 0
+        }
+    }
+}

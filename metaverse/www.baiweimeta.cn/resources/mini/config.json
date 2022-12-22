@@ -1,0 +1,4358 @@
+{
+    "application_properties":
+    {
+        "i18nAssets":
+        [],
+        "useTouch": true,
+        "layerOrder":
+        [
+            {
+                "layer": 0,
+                "enabled": true,
+                "transparent": false
+            },
+            {
+                "layer": 1,
+                "enabled": true,
+                "transparent": false
+            },
+            {
+                "layer": 2,
+                "enabled": true,
+                "transparent": false
+            },
+            {
+                "layer": 0,
+                "enabled": true,
+                "transparent": true
+            },
+            {
+                "layer": 3,
+                "enabled": true,
+                "transparent": false
+            },
+            {
+                "layer": 3,
+                "enabled": true,
+                "transparent": true
+            },
+            {
+                "layer": 1001,
+                "transparent": true,
+                "enabled": true
+            },
+            {
+                "layer": 1002,
+                "transparent": false,
+                "enabled": true
+            },
+            {
+                "layer": 1002,
+                "transparent": true,
+                "enabled": true
+            },
+            {
+                "layer": 4,
+                "enabled": true,
+                "transparent": true
+            },
+            {
+                "layer": 1003,
+                "transparent": false,
+                "enabled": true
+            },
+            {
+                "layer": 1003,
+                "transparent": true,
+                "enabled": true
+            },
+            {
+                "layer": 1004,
+                "transparent": false,
+                "enabled": true
+            },
+            {
+                "layer": 1004,
+                "transparent": true,
+                "enabled": true
+            }
+        ],
+        "externalScripts":
+        [],
+        "height": 720,
+        "vr": false,
+        "useModelV2": false,
+        "antiAlias": true,
+        "layers":
+        {
+            "0":
+            {
+                "transparentSortMode": 3,
+                "opaqueSortMode": 2,
+                "name": "World"
+            },
+            "1":
+            {
+                "transparentSortMode": 3,
+                "opaqueSortMode": 2,
+                "name": "Depth"
+            },
+            "2":
+            {
+                "transparentSortMode": 3,
+                "opaqueSortMode": 0,
+                "name": "Skybox"
+            },
+            "3":
+            {
+                "transparentSortMode": 3,
+                "opaqueSortMode": 0,
+                "name": "Immediate"
+            },
+            "4":
+            {
+                "transparentSortMode": 1,
+                "opaqueSortMode": 1,
+                "name": "UI"
+            },
+            "1000":
+            {
+                "name": "collision",
+                "opaqueSortMode": 2,
+                "transparentSortMode": 3
+            },
+            "1001":
+            {
+                "name": "iconUI",
+                "opaqueSortMode": 2,
+                "transparentSortMode": 3
+            },
+            "1002":
+            {
+                "name": "Player",
+                "opaqueSortMode": 2,
+                "transparentSortMode": 3
+            },
+            "1003":
+            {
+                "name": "Game",
+                "opaqueSortMode": 2,
+                "transparentSortMode": 3
+            },
+            "1004":
+            {
+                "name": "GameUI",
+                "opaqueSortMode": 2,
+                "transparentSortMode": 3
+            }
+        },
+        "width": 1280,
+        "useDevicePixelRatio": true,
+        "useKeyboard": true,
+        "maxAssetRetries": 5,
+        "powerPreference": "low-power",
+        "batchGroups":
+        [],
+        "preserveDrawingBuffer": false,
+        "useLegacyScripts": false,
+        "fillMode": "FILL_WINDOW",
+        "scripts":
+        [
+            104462396,
+            104462376,
+            104462426,
+            104462386,
+            104462436,
+            104462388,
+            104462389,
+            104462423,
+            104462380,
+            104462390,
+            104462400,
+            104462385,
+            104462399,
+            104462394,
+            104462432,
+            104462412,
+            104462419,
+            104462424,
+            104462422,
+            104462383,
+            104462431,
+            104462430,
+            104462382,
+            104499897,
+            104528850,
+            104537279,
+            104703960,
+            104860476,
+            104872122,
+            105912700,
+            106106947,
+            106106994,
+            106115635,
+            106139494,
+            106921483,
+            107461849,
+            107694521,
+            107810015,
+            108172880,
+            108173504,
+            108183161,
+            108965064
+        ],
+        "useMouse": true,
+        "use3dPhysics": false,
+        "transparentCanvas": false,
+        "resolutionMode": "AUTO",
+        "loadingScreenScript": "104872122",
+        "preferWebGl2": true,
+        "useGamepads": false,
+        "libraries":
+        []
+    },
+    "scenes":
+    [
+        {
+            "name": "Main",
+            "url": "1549191.json"
+        }
+    ],
+    "assets":
+    {
+        "104462376":
+        {
+            "name": "H5Inteaction.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "gameData":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462376"
+        },
+        "104462380":
+        {
+            "name": "SceneManager.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "sceneManager":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462380"
+        },
+        "104462382":
+        {
+            "name": "touch-input.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "orbitTouchInput":
+                    {
+                        "attributesOrder":
+                        [
+                            "orbitSensitivity",
+                            "distanceSensitivity"
+                        ],
+                        "attributes":
+                        {
+                            "orbitSensitivity":
+                            {
+                                "type": "number",
+                                "default": 0.4,
+                                "title": "Orbit Sensitivity",
+                                "description": "How fast the camera moves around the orbit. Higher is faster"
+                            },
+                            "distanceSensitivity":
+                            {
+                                "type": "number",
+                                "default": 0.2,
+                                "title": "Distance Sensitivity",
+                                "description": "How fast the camera moves in and out. Higher is faster"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462382"
+        },
+        "104462383":
+        {
+            "name": "load-font-face.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "loadFontFace":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462383"
+        },
+        "104462384":
+        {
+            "name": "basis.wasm.wasm",
+            "type": "wasm",
+            "file":
+            {
+                "filename": "basis.wasm.wasm",
+                "size": 608061,
+                "hash": "cd9753b3bfef24d7a10b05eb500bc2da",
+                "url": "files/assets/104462384/1/basis.wasm.wasm"
+            },
+            "data":
+            {
+                "moduleName": "",
+                "glueScriptId": 104462393,
+                "fallbackScriptId": 104462387,
+                "loadingType": 0
+            },
+            "preload": false,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462384"
+        },
+        "104462385":
+        {
+            "name": "draco.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "draco.js",
+                "size": 712903,
+                "hash": "aa1ea7bdfaf6c965cf5b0198c07adb88",
+                "url": "files/assets/104462385/1/draco.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {},
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": false,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462385"
+        },
+        "104462386":
+        {
+            "name": "OtherPlayerManager.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "otherPlayerManager":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462386"
+        },
+        "104462387":
+        {
+            "name": "basis.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "basis.js",
+                "size": 1031196,
+                "hash": "4f3c510909fb44b7363ec8ba9cf74565",
+                "url": "files/assets/104462387/1/basis.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {},
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": false,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462387"
+        },
+        "104462388":
+        {
+            "name": "lightManager.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "lightManager":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462388"
+        },
+        "104462389":
+        {
+            "name": "Network.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "network":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462389"
+        },
+        "104462390":
+        {
+            "name": "WorldSetting.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "worldSetting":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462390"
+        },
+        "104462392":
+        {
+            "name": "joystick.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "joystick.png",
+                "size": 57145,
+                "hash": "97af2eee9b2884e72e5d51035dd1abaf",
+                "variants":
+                {},
+                "url": "files/assets/104462392/1/joystick.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462392"
+        },
+        "104462393":
+        {
+            "name": "basis.wasm.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "basis.wasm.js",
+                "size": 61361,
+                "hash": "4ba46c1bce647cd524ea5afc7d40f1ed",
+                "url": "files/assets/104462393/1/basis.wasm.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {},
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": false,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462393"
+        },
+        "104462394":
+        {
+            "name": "VirtualStickBtnCtrl.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "virtualStickBtnCtrl":
+                    {
+                        "attributesOrder":
+                        [
+                            "leftHandler",
+                            "leftStick",
+                            "jumpBtn",
+                            "actBtn",
+                            "actBtnGroup",
+                            "hit",
+                            "ctrlBtnGroup"
+                        ],
+                        "attributes":
+                        {
+                            "leftHandler":
+                            {
+                                "type": "entity"
+                            },
+                            "jumpBtn":
+                            {
+                                "type": "entity"
+                            },
+                            "actBtn":
+                            {
+                                "type": "entity"
+                            },
+                            "actBtnGroup":
+                            {
+                                "type": "entity"
+                            },
+                            "hit":
+                            {
+                                "type": "entity"
+                            },
+                            "ctrlBtnGroup":
+                            {
+                                "type": "entity"
+                            },
+                            "leftStick":
+                            {
+                                "type": "entity"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462394"
+        },
+        "104462396":
+        {
+            "name": "glb-utils.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "glbUtils":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462396"
+        },
+        "104462399":
+        {
+            "name": "draco.wasm.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "draco.wasm.js",
+                "size": 66735,
+                "hash": "857757e49b95ec411c7bb423bb65b950",
+                "url": "files/assets/104462399/1/draco.wasm.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {},
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": false,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462399"
+        },
+        "104462400":
+        {
+            "name": "virtual-joystick.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {
+                    "virtualJoystick":
+                    {
+                        "attributesOrder":
+                        [
+                            "stick",
+                            "enableEvent",
+                            "moveEvent",
+                            "disableEvent"
+                        ],
+                        "attributes":
+                        {
+                            "stick":
+                            {
+                                "type": "entity"
+                            },
+                            "enableEvent":
+                            {
+                                "type": "string"
+                            },
+                            "moveEvent":
+                            {
+                                "type": "string"
+                            },
+                            "disableEvent":
+                            {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462400"
+        },
+        "104462401":
+        {
+            "name": "direction.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "direction.png",
+                "size": 22687,
+                "hash": "2e330ecda38465c590fe0d0b83a2b148",
+                "variants":
+                {},
+                "url": "files/assets/104462401/1/direction.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462401"
+        },
+        "104462404":
+        {
+            "name": "draco.wasm.wasm",
+            "type": "wasm",
+            "file":
+            {
+                "filename": "draco.wasm.wasm",
+                "size": 283712,
+                "hash": "5d5da31835da3c2e3d32daef910d9e3d",
+                "url": "files/assets/104462404/1/draco.wasm.wasm"
+            },
+            "data":
+            {
+                "moduleName": "",
+                "glueScriptId": 104462399,
+                "fallbackScriptId": 104462385,
+                "loadingType": 0
+            },
+            "preload": false,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462404"
+        },
+        "104462405":
+        {
+            "name": "collisionConfig.json",
+            "type": "json",
+            "file":
+            {
+                "filename": "collisionConfig.json",
+                "size": 102,
+                "hash": "34702ddd5fa0b5ca39712ce0f057cdf3",
+                "url": "files/assets/104462405/1/collisionConfig.json"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462405"
+        },
+        "104462406":
+        {
+            "name": "ammo.wasm.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "ammo.wasm.js",
+                "size": 391789,
+                "hash": "6b7ab3989e4f9f17c86e44380f9181c6",
+                "url": "files/assets/104462406/1/ammo.wasm.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {},
+                "loadingType": 0
+            },
+            "preload": false,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462406"
+        },
+        "104462408":
+        {
+            "name": "ammo.wasm.wasm",
+            "type": "wasm",
+            "file":
+            {
+                "filename": "ammo.wasm.wasm",
+                "size": 659433,
+                "hash": "a6819ea71a53e67f1dfe3e42957c2971",
+                "url": "files/assets/104462408/1/ammo.wasm.wasm"
+            },
+            "data":
+            {
+                "moduleName": "Ammo",
+                "glueScriptId": 104462406,
+                "fallbackScriptId": 104462410,
+                "loadingType": 0
+            },
+            "preload": false,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462408"
+        },
+        "104462410":
+        {
+            "name": "ammo.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "ammo.js",
+                "size": 1895438,
+                "hash": "34480c72ed787337db20c105cb9ba69d",
+                "url": "files/assets/104462410/1/ammo.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {},
+                "loadingType": 0
+            },
+            "preload": false,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462410"
+        },
+        "104462412":
+        {
+            "name": "CameraMovement.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {
+                    "cameraMovement":
+                    {
+                        "attributesOrder":
+                        [
+                            "mouseSpeed"
+                        ],
+                        "attributes":
+                        {
+                            "mouseSpeed":
+                            {
+                                "type": "number",
+                                "default": 1.4,
+                                "description": "Mouse Sensitivity"
+                            }
+                        }
+                    }
+                },
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462412"
+        },
+        "104462417":
+        {
+            "name": "360sky.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "360sky.png",
+                "hash": "0a37a5cdbef3cebcc6299623223c2a22",
+                "size": 1385048,
+                "variants":
+                {},
+                "url": "files/assets/104462417/1/360sky.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": true,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462417"
+        },
+        "104462419":
+        {
+            "name": "OtherPlayerController.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "otherPlayerMovement":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462419"
+        },
+        "104462422":
+        {
+            "name": "PlayerAction.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "playerAction":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462422"
+        },
+        "104462423":
+        {
+            "name": "Main.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "main":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462423"
+        },
+        "104462424":
+        {
+            "name": "PlayerMovement.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {
+                    "playerMovement":
+                    {
+                        "attributesOrder":
+                        [
+                            "speed"
+                        ],
+                        "attributes":
+                        {
+                            "speed":
+                            {
+                                "type": "number",
+                                "default": 0.03
+                            }
+                        }
+                    }
+                },
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462424"
+        },
+        "104462426":
+        {
+            "name": "RoleManager.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "roleManager":
+                    {
+                        "attributesOrder":
+                        [
+                            "config"
+                        ],
+                        "attributes":
+                        {
+                            "config":
+                            {
+                                "type": "asset"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462426"
+        },
+        "104462427":
+        {
+            "name": "GameScene.json",
+            "type": "json",
+            "file":
+            {
+                "filename": "GameScene.json",
+                "size": 665,
+                "hash": "f13971cbaed31fe439c0576be137f2f4",
+                "url": "files/assets/104462427/1/GameScene.json"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462427"
+        },
+        "104462430":
+        {
+            "name": "mouse-input.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "OrbitMouseInput":
+                    {
+                        "attributesOrder":
+                        [
+                            "orbitSensitivity",
+                            "distanceSensitivity"
+                        ],
+                        "attributes":
+                        {
+                            "orbitSensitivity":
+                            {
+                                "type": "number",
+                                "default": 0.3,
+                                "title": "Orbit Sensitivity",
+                                "description": "How fast the camera moves around the orbit. Higher is faster"
+                            },
+                            "distanceSensitivity":
+                            {
+                                "type": "number",
+                                "default": 0.15,
+                                "title": "Distance Sensitivity",
+                                "description": "How fast the camera moves in and out. Higher is faster"
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462430"
+        },
+        "104462431":
+        {
+            "name": "orbit-camera.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "orbitCamera":
+                    {
+                        "attributesOrder":
+                        [
+                            "distanceMax",
+                            "distanceMin",
+                            "pitchAngleMax",
+                            "pitchAngleMin",
+                            "inertiaFactor",
+                            "focusEntity",
+                            "frameOnStart"
+                        ],
+                        "attributes":
+                        {
+                            "distanceMax":
+                            {
+                                "type": "number",
+                                "default": 0,
+                                "title": "Distance Max",
+                                "description": "Setting this at 0 will give an infinite distance limit"
+                            },
+                            "distanceMin":
+                            {
+                                "type": "number",
+                                "default": 0,
+                                "title": "Distance Min"
+                            },
+                            "pitchAngleMax":
+                            {
+                                "type": "number",
+                                "default": 90,
+                                "title": "Pitch Angle Max (degrees)"
+                            },
+                            "pitchAngleMin":
+                            {
+                                "type": "number",
+                                "default": -90,
+                                "title": "Pitch Angle Min (degrees)"
+                            },
+                            "inertiaFactor":
+                            {
+                                "type": "number",
+                                "default": 0,
+                                "title": "Inertia Factor",
+                                "description": "Higher value means that the camera will continue moving after the user has stopped dragging. 0 is fully responsive."
+                            },
+                            "focusEntity":
+                            {
+                                "type": "entity",
+                                "title": "Focus Entity",
+                                "description": "Entity for the camera to focus on. If blank, then the camera will use the whole scene"
+                            },
+                            "frameOnStart":
+                            {
+                                "type": "boolean",
+                                "default": true,
+                                "title": "Frame on Start",
+                                "description": "Frames the entity or scene at the start of the application.\""
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462431"
+        },
+        "104462432":
+        {
+            "name": "VirtualStickTouchController.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "touchInput":
+                    {
+                        "attributesOrder":
+                        [
+                            "deadZone",
+                            "turnSpeed",
+                            "radius",
+                            "doubleTapInterval"
+                        ],
+                        "attributes":
+                        {
+                            "deadZone":
+                            {
+                                "title": "Dead Zone",
+                                "description": "Radial thickness of inner dead zone of the virtual joysticks. This dead zone ensures the virtual joysticks report a value of 0 even if a touch deviates a small amount from the initial touch.",
+                                "type": "number",
+                                "min": 0,
+                                "max": 0.4,
+                                "default": 0.3
+                            },
+                            "turnSpeed":
+                            {
+                                "title": "Turn Speed",
+                                "description": "Maximum turn speed in degrees per second",
+                                "type": "number",
+                                "default": 150
+                            },
+                            "radius":
+                            {
+                                "title": "Radius",
+                                "description": "The radius of the virtual joystick in CSS pixels.",
+                                "type": "number",
+                                "default": 50
+                            },
+                            "doubleTapInterval":
+                            {
+                                "title": "Double Tap Interval",
+                                "description": "The time in milliseconds between two taps of the right virtual joystick for a double tap to register. A double tap will trigger a jump.",
+                                "type": "number",
+                                "default": 300
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462432"
+        },
+        "104462433":
+        {
+            "name": "RoleConfig",
+            "type": "json",
+            "file":
+            {
+                "filename": "RoleConfig.json",
+                "size": 7061,
+                "hash": "bd1200c0608dedb0d9ada77161fd798f",
+                "url": "files/assets/104462433/1/RoleConfig.json"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462433"
+        },
+        "104462436":
+        {
+            "name": "PlayerControllor.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "playerControllor":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104462436"
+        },
+        "104499897":
+        {
+            "name": "CaptureController.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "ballController":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104499897"
+        },
+        "104528850":
+        {
+            "name": "TextureMoving.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "textureMoving":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104528850"
+        },
+        "104537279":
+        {
+            "name": "WallpaperController.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "wallpaperController":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104537279"
+        },
+        "104703960":
+        {
+            "name": "MedalController.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "medalController":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104703960"
+        },
+        "104860476":
+        {
+            "name": "ScreenController.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "screenController":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104860476"
+        },
+        "104872122":
+        {
+            "name": "LoadingScreen.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {},
+                "loading": true,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "104872122"
+        },
+        "105196726":
+        {
+            "name": "BaiWeiScene.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "BaiWeiScene.glb",
+                "size": 15705572,
+                "hash": "f7192a5368981771134788631a0a4fd2",
+                "url": "files/assets/105196726/1/BaiWeiScene.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "105196726"
+        },
+        "105199597":
+        {
+            "name": "BaiWeiScene_pz.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "BaiWeiScene_pz.glb",
+                "size": 17160,
+                "hash": "5066d29b2dd33d2da2af932643007ead",
+                "url": "files/assets/105199597/1/BaiWeiScene_pz.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "105199597"
+        },
+        "105402714":
+        {
+            "name": "btnbackground.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "btnbackground.png",
+                "size": 20417,
+                "hash": "a0ec38dd56c3485388edca8671ed102c",
+                "variants":
+                {},
+                "url": "files/assets/105402714/1/btnbackground.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "105402714"
+        },
+        "105402715":
+        {
+            "name": "jumpBtn.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "jumpBtn.png",
+                "size": 2650,
+                "hash": "f8d98259712f73ef02fbcd8e53377c4e",
+                "variants":
+                {},
+                "url": "files/assets/105402715/1/jumpBtn.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "105402715"
+        },
+        "105407728":
+        {
+            "name": "man1.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "man1.glb",
+                "size": 1834916,
+                "hash": "93b12f6b0cc73b4dfc62671726e6c943",
+                "url": "files/assets/105407728/1/man1.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "105407728"
+        },
+        "105912700":
+        {
+            "name": "DJtai.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "djtai":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "105912700"
+        },
+        "106106947":
+        {
+            "name": "Pedestal.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "pedestal":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "106106947"
+        },
+        "106106994":
+        {
+            "name": "Cup.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "cup":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "106106994"
+        },
+        "106115635":
+        {
+            "name": "Seat.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "seat":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "106115635"
+        },
+        "106139494":
+        {
+            "name": "ZuQiu.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "zuQiu":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "106139494"
+        },
+        "106921483":
+        {
+            "name": "GameManager.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "gameManager":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "106921483"
+        },
+        "107438743":
+        {
+            "name": "GameScene.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "GameScene.glb",
+                "size": 1213984,
+                "hash": "2d276c0c56b8a03f22ebaffd11d8fe26",
+                "url": "files/assets/107438743/1/GameScene.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107438743"
+        },
+        "107438932":
+        {
+            "name": "BaiWeiScene.json",
+            "type": "json",
+            "file":
+            {
+                "filename": "BaiWeiScene.json",
+                "size": 991,
+                "hash": "c0aa0b3b690557546f747390d8a45512",
+                "url": "files/assets/107438932/1/BaiWeiScene.json"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107438932"
+        },
+        "107461849":
+        {
+            "name": "GameData.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "gameData":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107461849"
+        },
+        "107474773":
+        {
+            "name": "daisy.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "daisy.glb",
+                "size": 2476284,
+                "hash": "33b209033eabf475df0cd742e6a35519",
+                "url": "files/assets/107474773/1/daisy.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107474773"
+        },
+        "107474774":
+        {
+            "name": "bell.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "bell.glb",
+                "size": 1445300,
+                "hash": "e8cc0596ccae23d49ef778828cfc61f2",
+                "url": "files/assets/107474774/1/bell.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107474774"
+        },
+        "107474776":
+        {
+            "name": "amy.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "amy.glb",
+                "size": 2011948,
+                "hash": "350b9c3851dc2d9993d7c1858c30df70",
+                "url": "files/assets/107474776/1/amy.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107474776"
+        },
+        "107474777":
+        {
+            "name": "bill.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "bill.glb",
+                "size": 2096644,
+                "hash": "9210ba2589bc06294b808dc2d0f260fa",
+                "url": "files/assets/107474777/1/bill.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107474777"
+        },
+        "107474778":
+        {
+            "name": "cathy.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "cathy.glb",
+                "size": 1947556,
+                "hash": "2174c99706dfba4126e22f33045b4a59",
+                "url": "files/assets/107474778/1/cathy.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107474778"
+        },
+        "107474779":
+        {
+            "name": "eric.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "eric.glb",
+                "size": 1956512,
+                "hash": "93d2c915250f2d92c5f5f11aec65b21c",
+                "url": "files/assets/107474779/1/eric.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107474779"
+        },
+        "107474780":
+        {
+            "name": "ella.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "ella.glb",
+                "size": 2401552,
+                "hash": "7e1de1ad02e92aa75f410b2e4e0a0e72",
+                "url": "files/assets/107474780/1/ella.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107474780"
+        },
+        "107474781":
+        {
+            "name": "cody.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "cody.glb",
+                "size": 2083860,
+                "hash": "a7c8950bb6aa0784f2f3f545a175d8fe",
+                "url": "files/assets/107474781/1/cody.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107474781"
+        },
+        "107474782":
+        {
+            "name": "dan.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "dan.glb",
+                "size": 2184324,
+                "hash": "2295bf185b761afdabcab730683a1def",
+                "url": "files/assets/107474782/1/dan.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107474782"
+        },
+        "107694521":
+        {
+            "name": "playcanvas-extras.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "order": 100,
+                "scripts":
+                {},
+                "loadingType": 0,
+                "loading": false
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107694521"
+        },
+        "107810015":
+        {
+            "name": "VConsole.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "vconsole":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "107810015"
+        },
+        "108171702":
+        {
+            "name": "dj_2.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "dj_2.mp3",
+                "size": 28047,
+                "hash": "29ffbf5a2c1f94c01eb6c220c003e353",
+                "url": "files/assets/108171702/1/dj_2.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108171702"
+        },
+        "108171703":
+        {
+            "name": "npc1_1.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "npc1_1.mp3",
+                "size": 66081,
+                "hash": "c6678bbbd04ec36d427a331a313187af",
+                "url": "files/assets/108171703/1/npc1_1.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108171703"
+        },
+        "108171704":
+        {
+            "name": "dj_1.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "dj_1.mp3",
+                "size": 41839,
+                "hash": "1713e23c9aaeafd1a679bb95703f592e",
+                "url": "files/assets/108171704/1/dj_1.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108171704"
+        },
+        "108171705":
+        {
+            "name": "npc1_3.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "npc1_3.mp3",
+                "size": 55841,
+                "hash": "7dbc5c7606fb8c2a4e77b550b5518e23",
+                "url": "files/assets/108171705/1/npc1_3.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108171705"
+        },
+        "108171706":
+        {
+            "name": "npc1_2.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "npc1_2.mp3",
+                "size": 87397,
+                "hash": "cb0c954368eea43ec0f71834fc01076b",
+                "url": "files/assets/108171706/1/npc1_2.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108171706"
+        },
+        "108171707":
+        {
+            "name": "dj_3.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "dj_3.mp3",
+                "size": 35152,
+                "hash": "9a6feb9e3349e97d0a47cd877e9e21ab",
+                "url": "files/assets/108171707/1/dj_3.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108171707"
+        },
+        "108172880":
+        {
+            "name": "NPCManager.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "npcmanager":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108172880"
+        },
+        "108173504":
+        {
+            "name": "DJNPCControllor.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "jiuBaoNpccontrollor":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108173504"
+        },
+        "108182455":
+        {
+            "name": "DJ.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "DJ.glb",
+                "size": 1601368,
+                "hash": "29c2269aeb7700e0c9df3b571fd8f293",
+                "url": "files/assets/108182455/1/DJ.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108182455"
+        },
+        "108182456":
+        {
+            "name": "npc_1.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "npc_1.glb",
+                "size": 850976,
+                "hash": "ca0a187369ef6cb344b298557c3b7ba6",
+                "url": "files/assets/108182456/1/npc_1.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108182456"
+        },
+        "108182457":
+        {
+            "name": "npc_2.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "npc_2.glb",
+                "size": 1252692,
+                "hash": "ccba6c2302161da136e4b236f2698195",
+                "url": "files/assets/108182457/1/npc_2.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108182457"
+        },
+        "108183161":
+        {
+            "name": "JiuBaoNPCControllor.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "jiuBaoNpccontrollor":
+                    {
+                        "attributesOrder":
+                        [],
+                        "attributes":
+                        {}
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108183161"
+        },
+        "108203941":
+        {
+            "name": "npc2_3.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "npc2_3.mp3",
+                "size": 4176,
+                "hash": "e237ccbb302993847873bd5f49c22d1a",
+                "url": "files/assets/108203941/1/npc2_3.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108203941"
+        },
+        "108203942":
+        {
+            "name": "npc2_2.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "npc2_2.mp3",
+                "size": 9216,
+                "hash": "e661eef0ccfea27afbbdb6e5e68a6bc7",
+                "url": "files/assets/108203942/1/npc2_2.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108203942"
+        },
+        "108203943":
+        {
+            "name": "npc2_1.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "npc2_1.mp3",
+                "size": 7560,
+                "hash": "d8ebb2b5af19d2cb2514821946e1c659",
+                "url": "files/assets/108203943/1/npc2_1.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108203943"
+        },
+        "108392193":
+        {
+            "name": "qiu_2.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "qiu_2.mp3",
+                "size": 21138,
+                "hash": "48c1c4d70d4815f49d52f818f5823bbb",
+                "url": "files/assets/108392193/1/qiu_2.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108392193"
+        },
+        "108392194":
+        {
+            "name": "qiu_1.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "qiu_1.mp3",
+                "size": 21138,
+                "hash": "48c1c4d70d4815f49d52f818f5823bbb",
+                "url": "files/assets/108392194/1/qiu_1.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108392194"
+        },
+        "108393996":
+        {
+            "name": "xunzhangdian.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "xunzhangdian.glb",
+                "size": 2832,
+                "hash": "fb55b60427d62b6bfe230ec092dc053d",
+                "url": "files/assets/108393996/1/xunzhangdian.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108393996"
+        },
+        "108396167":
+        {
+            "name": "background.mp3",
+            "type": "audio",
+            "file":
+            {
+                "filename": "background.mp3",
+                "size": 3683936,
+                "hash": "d99739615f8e5153d77042092f07fd77",
+                "url": "files/assets/108396167/1/background.mp3"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108396167"
+        },
+        "108459649":
+        {
+            "name": "gameProgressbg.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "gameProgressbg.png",
+                "size": 3223,
+                "hash": "d2e4487c1eab9de894a20043ebc807b1",
+                "variants":
+                {},
+                "url": "files/assets/108459649/1/gameProgressbg.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459649"
+        },
+        "108459650":
+        {
+            "name": "gameProgressBar.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "gameProgressBar.png",
+                "size": 4430,
+                "hash": "39822a9e012513915ec1ac9e3307a6c2",
+                "variants":
+                {},
+                "url": "files/assets/108459650/1/gameProgressBar.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459650"
+        },
+        "108459653":
+        {
+            "name": "game_tips.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "game_tips.png",
+                "size": 4955,
+                "hash": "e12dcc1a72e8dabacb5ad03f379fb18b",
+                "variants":
+                {},
+                "url": "files/assets/108459653/1/game_tips.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459653"
+        },
+        "108459760":
+        {
+            "name": "claps.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "claps.png",
+                "size": 4173,
+                "hash": "97c7c46be3ccf38ce96ea99128f7476e",
+                "variants":
+                {},
+                "url": "files/assets/108459760/1/claps.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459760"
+        },
+        "108459761":
+        {
+            "name": "celebrate.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "celebrate.png",
+                "size": 3983,
+                "hash": "7cd16b7640b19c8e8704182ecc78e987",
+                "variants":
+                {},
+                "url": "files/assets/108459761/1/celebrate.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459761"
+        },
+        "108459762":
+        {
+            "name": "action.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "action.png",
+                "size": 5404,
+                "hash": "9dd12d67377f3bd6d535141533d75b2b",
+                "variants":
+                {},
+                "url": "files/assets/108459762/1/action.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459762"
+        },
+        "108459763":
+        {
+            "name": "RAP.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "RAP.png",
+                "size": 3442,
+                "hash": "4d14ea5b3bdb2b3dc97af695b42b99da",
+                "variants":
+                {},
+                "url": "files/assets/108459763/1/RAP.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459763"
+        },
+        "108459764":
+        {
+            "name": "wave.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "wave.png",
+                "size": 3940,
+                "hash": "6473e5f9576483ddf68b5eb0e5a237c1",
+                "variants":
+                {},
+                "url": "files/assets/108459764/1/wave.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459764"
+        },
+        "108459765":
+        {
+            "name": "dance.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "dance.png",
+                "size": 4563,
+                "hash": "50ed045efa44a4c856381df2907e8504",
+                "variants":
+                {},
+                "url": "files/assets/108459765/1/dance.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459765"
+        },
+        "108459801":
+        {
+            "name": "leftHandTip.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "leftHandTip.png",
+                "size": 11078,
+                "hash": "ec30f997f49f11d42e1fa1480578185c",
+                "variants":
+                {},
+                "url": "files/assets/108459801/1/leftHandTip.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459801"
+        },
+        "108459802":
+        {
+            "name": "rightHandTip.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "rightHandTip.png",
+                "size": 10176,
+                "hash": "0c14ff89928ecb0b36e7311916382331",
+                "variants":
+                {},
+                "url": "files/assets/108459802/1/rightHandTip.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108459802"
+        },
+        "108965064":
+        {
+            "name": "LimitFrameRate.js",
+            "type": "script",
+            "file":
+            {
+                "filename": "__game-scripts.js",
+                "size": 372352,
+                "hash": "f90f5be946e7febd7e2b4794b5e0979d",
+                "url": "__game-scripts.js"
+            },
+            "data":
+            {
+                "scripts":
+                {
+                    "limitFps":
+                    {
+                        "attributesOrder":
+                        [
+                            "targetFps"
+                        ],
+                        "attributes":
+                        {
+                            "targetFps":
+                            {
+                                "type": "number",
+                                "default": 30
+                            }
+                        }
+                    }
+                },
+                "loading": false,
+                "loadingType": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "108965064"
+        },
+        "109672905":
+        {
+            "name": "speak9.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak9.png",
+                "size": 18195,
+                "hash": "18ae6117a345c86a57a116668017d0b2",
+                "variants":
+                {},
+                "url": "files/assets/109672905/1/speak9.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672905"
+        },
+        "109672906":
+        {
+            "name": "speak3.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak3.png",
+                "size": 15119,
+                "hash": "d3563866318e866b2c03927754b9fa19",
+                "variants":
+                {},
+                "url": "files/assets/109672906/1/speak3.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672906"
+        },
+        "109672907":
+        {
+            "name": "speak10.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak10.png",
+                "size": 12984,
+                "hash": "379d1ddf7027b99c0bdf40f006613fea",
+                "variants":
+                {},
+                "url": "files/assets/109672907/1/speak10.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672907"
+        },
+        "109672908":
+        {
+            "name": "speak2.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak2.png",
+                "size": 18508,
+                "hash": "28b217cc8f4b9e0749d004c6b1bf71f3",
+                "variants":
+                {},
+                "url": "files/assets/109672908/1/speak2.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672908"
+        },
+        "109672909":
+        {
+            "name": "speak1.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak1.png",
+                "size": 11372,
+                "hash": "b0546a185deaabbf79619854689ef19f",
+                "variants":
+                {},
+                "url": "files/assets/109672909/1/speak1.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672909"
+        },
+        "109672910":
+        {
+            "name": "speak8.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak8.png",
+                "size": 8114,
+                "hash": "d824b330ce2e2c7f2735d56412f3c919",
+                "variants":
+                {},
+                "url": "files/assets/109672910/1/speak8.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672910"
+        },
+        "109672911":
+        {
+            "name": "speak6.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak6.png",
+                "size": 19082,
+                "hash": "a288c248fe756e7b3a552c56d5fbecdc",
+                "variants":
+                {},
+                "url": "files/assets/109672911/1/speak6.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672911"
+        },
+        "109672912":
+        {
+            "name": "speak4.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak4.png",
+                "size": 16937,
+                "hash": "727a023257dde15b13bac6221de1d7b5",
+                "variants":
+                {},
+                "url": "files/assets/109672912/1/speak4.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672912"
+        },
+        "109672913":
+        {
+            "name": "speak5.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak5.png",
+                "size": 10651,
+                "hash": "35e9709da4e6cf24f0c0d2332315bb9e",
+                "variants":
+                {},
+                "url": "files/assets/109672913/1/speak5.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672913"
+        },
+        "109672914":
+        {
+            "name": "speak7.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "speak7.png",
+                "size": 10322,
+                "hash": "f379bd8f589659bee7c7f32fb3123664",
+                "variants":
+                {},
+                "url": "files/assets/109672914/1/speak7.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109672914"
+        },
+        "109856461":
+        {
+            "name": "npc1_speak2.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "npc1_speak2.png",
+                "size": 46997,
+                "hash": "0067a17040e3121915015fc1fa3026e8",
+                "variants":
+                {},
+                "url": "files/assets/109856461/1/npc1_speak2.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109856461"
+        },
+        "109856462":
+        {
+            "name": "npc1_speak3.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "npc1_speak3.png",
+                "size": 23465,
+                "hash": "817816c1fedd5e000596ac8de45d5c78",
+                "variants":
+                {},
+                "url": "files/assets/109856462/1/npc1_speak3.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109856462"
+        },
+        "109856463":
+        {
+            "name": "npc1_speak1.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "npc1_speak1.png",
+                "size": 38600,
+                "hash": "4023201941053ddeeeed0e517c15fed5",
+                "variants":
+                {},
+                "url": "files/assets/109856463/1/npc1_speak1.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109856463"
+        },
+        "109859307":
+        {
+            "name": "pengzhuang.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "pengzhuang.glb",
+                "size": 87068,
+                "hash": "f45af7cf1ac180b86d38718c6b8428d4",
+                "url": "files/assets/109859307/1/pengzhuang.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109859307"
+        },
+        "109862039":
+        {
+            "name": "dj_speak3.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "dj_speak3.png",
+                "size": 16501,
+                "hash": "386ef7dff680e77e62a79f8aa3b54f27",
+                "variants":
+                {},
+                "url": "files/assets/109862039/1/dj_speak3.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109862039"
+        },
+        "109862040":
+        {
+            "name": "dj_speak2.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "dj_speak2.png",
+                "size": 21983,
+                "hash": "c73420b583562b5466a4712906efb444",
+                "variants":
+                {},
+                "url": "files/assets/109862040/1/dj_speak2.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109862040"
+        },
+        "109862041":
+        {
+            "name": "dj_speak1.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "dj_speak1.png",
+                "size": 26275,
+                "hash": "1be5525cd21ebd0dd2493797c5bc1a38",
+                "variants":
+                {},
+                "url": "files/assets/109862041/1/dj_speak1.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "109862041"
+        },
+        "110090381":
+        {
+            "name": "xunzhang.glb",
+            "type": "binary",
+            "file":
+            {
+                "filename": "xunzhang.glb",
+                "size": 109272,
+                "hash": "ef07ccdb3abad14b1e5dd5d4833296bf",
+                "url": "files/assets/110090381/1/xunzhang.glb"
+            },
+            "data": null,
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "110090381"
+        },
+        "110433725":
+        {
+            "name": "GameLoading.jpg",
+            "type": "texture",
+            "file":
+            {
+                "filename": "GameLoading.jpg",
+                "size": 415744,
+                "hash": "bac725ffe44471a2676bc8c58ca1bd85",
+                "variants":
+                {},
+                "url": "files/assets/110433725/1/GameLoading.jpg"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "110433725"
+        },
+        "111362615":
+        {
+            "name": "pengzhuang",
+            "type": "material",
+            "file": null,
+            "data":
+            {
+                "shader": "blinn",
+                "ambient":
+                [
+                    0,
+                    0,
+                    0
+                ],
+                "diffuse":
+                [
+                    0.588235,
+                    0.588235,
+                    0.588235
+                ],
+                "specular":
+                [
+                    0,
+                    0,
+                    0
+                ],
+                "shininess": 0,
+                "emissive":
+                [
+                    0,
+                    0,
+                    0
+                ],
+                "opacity": 1,
+                "ambientTint": false,
+                "aoMap": null,
+                "aoMapChannel": "r",
+                "aoMapUv": 0,
+                "aoMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "aoMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "aoMapRotation": 0,
+                "diffuseMap": null,
+                "diffuseMapChannel": "rgb",
+                "diffuseMapUv": 0,
+                "diffuseMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "diffuseMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "diffuseMapRotation": 0,
+                "specularMap": null,
+                "specularMapChannel": "rgb",
+                "specularMapUv": 0,
+                "specularMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "specularMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "specularMapRotation": 0,
+                "specularAntialias": true,
+                "occludeSpecular": 1,
+                "specularityFactor": 1,
+                "specularityFactorMap": null,
+                "specularityFactorMapChannel": "r",
+                "specularityFactorMapUv": 0,
+                "specularityFactorMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "specularityFactorMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "specularityFactorMapRotation": 0,
+                "enableGGXSpecular": false,
+                "anisotropy": 0,
+                "useMetalness": false,
+                "metalness": 1,
+                "metalnessMap": null,
+                "metalnessMapChannel": "r",
+                "metalnessMapUv": 0,
+                "metalnessMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "metalnessMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "metalnessMapRotation": 0,
+                "useMetalnessSpecularColor": false,
+                "conserveEnergy": true,
+                "glossMap": null,
+                "glossMapChannel": "r",
+                "glossMapUv": 0,
+                "glossMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "glossMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "glossMapRotation": 0,
+                "clearCoat": 0,
+                "clearCoatMap": null,
+                "clearCoatMapChannel": "r",
+                "clearCoatMapUv": 0,
+                "clearCoatMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "clearCoatMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "clearCoatMapRotation": 0,
+                "clearCoatVertexColor": false,
+                "clearCoatVertexColorChannel": "r",
+                "clearCoatGlossiness": 1,
+                "clearCoatGlossMap": null,
+                "clearCoatGlossMapChannel": "r",
+                "clearCoatGlossMapUv": 0,
+                "clearCoatGlossMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "clearCoatGlossMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "clearCoatGlossMapRotation": 0,
+                "clearCoatGlossVertexColor": false,
+                "clearCoatGlossVertexColorChannel": "r",
+                "clearCoatBumpiness": 1,
+                "clearCoatNormalMap": null,
+                "clearCoatNormalMapUv": 0,
+                "clearCoatNormalMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "clearCoatNormalMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "clearCoatNormalMapRotation": 0,
+                "useSheen": false,
+                "sheen":
+                [
+                    0,
+                    0,
+                    0
+                ],
+                "sheenMap": null,
+                "sheenMapChannel": "rgb",
+                "sheenMapUv": 0,
+                "sheenMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "sheenMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "sheenMapRotation": 0,
+                "sheenGloss": 0,
+                "sheenGlossMap": null,
+                "sheenGlossMapChannel": "r",
+                "sheenGlossMapUv": 0,
+                "sheenGlossMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "sheenGlossMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "sheenGlossMapRotation": 0,
+                "fresnelModel": 0,
+                "emissiveMap": null,
+                "emissiveMapChannel": "rgb",
+                "emissiveMapUv": 0,
+                "emissiveMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "emissiveMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "emissiveMapRotation": 0,
+                "emissiveIntensity": 1,
+                "normalMap": null,
+                "normalMapUv": 0,
+                "normalMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "normalMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "normalMapRotation": 0,
+                "bumpMapFactor": 1,
+                "useDynamicRefraction": false,
+                "refraction": 0,
+                "refractionMap": null,
+                "refractionMapChannel": "r",
+                "refractionMapUv": 0,
+                "refractionMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "refractionMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "refractionMapRotation": 0,
+                "refractionVertexColor": false,
+                "refractionVertexColorChannel": "r",
+                "refractionIndex": 0.6666666666666666,
+                "thickness": 0,
+                "thicknessMap": null,
+                "thicknessMapChannel": "r",
+                "thicknessMapUv": 0,
+                "thicknessMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "thicknessMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "thicknessMapRotation": 0,
+                "thicknessVertexColor": false,
+                "thicknessVertexColorChannel": "r",
+                "attenuation":
+                [
+                    1,
+                    1,
+                    1
+                ],
+                "attenuationDistance": 0,
+                "useIridescence": false,
+                "iridescence": 0,
+                "iridescenceMap": null,
+                "iridescenceMapChannel": "r",
+                "iridescenceMapUv": 0,
+                "iridescenceMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "iridescenceMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "iridescenceMapRotation": 0,
+                "iridescenceRefractionIndex": 0.667,
+                "iridescenceThicknessMap": null,
+                "iridescenceThicknessMapChannel": "r",
+                "iridescenceThicknessMapUv": 0,
+                "iridescenceThicknessMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "iridescenceThicknessMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "iridescenceThicknessMapRotation": 0,
+                "iridescenceThicknessMin": 0,
+                "iridescenceThicknessMax": 0,
+                "heightMap": null,
+                "heightMapChannel": "r",
+                "heightMapUv": 0,
+                "heightMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "heightMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "heightMapRotation": 0,
+                "heightMapFactor": 1,
+                "alphaToCoverage": false,
+                "alphaTest": 0,
+                "alphaFade": 1,
+                "opacityMap": null,
+                "opacityMapChannel": "r",
+                "opacityMapUv": 0,
+                "opacityMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "opacityMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "opacityMapRotation": 0,
+                "opacityFadesSpecular": true,
+                "reflectivity": 1,
+                "sphereMap": null,
+                "cubeMap": null,
+                "cubeMapProjection": 0,
+                "cubeMapProjectionBox":
+                {
+                    "center":
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    "halfExtents":
+                    [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                },
+                "lightMap": null,
+                "lightMapChannel": "rgb",
+                "lightMapUv": 0,
+                "lightMapTiling":
+                [
+                    1,
+                    1
+                ],
+                "lightMapOffset":
+                [
+                    0,
+                    0
+                ],
+                "lightMapRotation": 0,
+                "depthTest": true,
+                "depthWrite": true,
+                "cull": 1,
+                "blendType": 3,
+                "useFog": true,
+                "useLighting": true,
+                "useSkybox": true,
+                "useGammaTonemap": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "111362615"
+        },
+        "111362616":
+        {
+            "name": "11.glb",
+            "type": "container",
+            "file":
+            {
+                "hash": "046563d8b04469a623bcf5213dba930c",
+                "size": 104012,
+                "filename": "11.glb",
+                "url": "files/assets/111362616/1/11.glb"
+            },
+            "data":
+            {},
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "111362616"
+        },
+        "111362617":
+        {
+            "name": "网格.075",
+            "type": "render",
+            "file": null,
+            "data":
+            {
+                "containerAsset": 111362616,
+                "renderIndex": 0
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "111362617"
+        },
+        "111362618":
+        {
+            "name": "网格.040",
+            "type": "render",
+            "file": null,
+            "data":
+            {
+                "containerAsset": 111362616,
+                "renderIndex": 1
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "111362618"
+        },
+        "111362619":
+        {
+            "name": "网格.067",
+            "type": "render",
+            "file": null,
+            "data":
+            {
+                "containerAsset": 111362616,
+                "renderIndex": 2
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "111362619"
+        },
+        "111362620":
+        {
+            "name": "11",
+            "type": "template",
+            "file": null,
+            "data":
+            {
+                "entities":
+                {
+                    "22b1f143-e1a4-4678-945a-18b63bd03055":
+                    {
+                        "enabled": true,
+                        "tags":
+                        [],
+                        "children":
+                        [
+                            "ee4b5083-980d-4641-89ac-f137bf5d79e4",
+                            "09b4e7d8-264f-4fee-9997-b119cd25ac09",
+                            "18a7bdc6-eadb-4f1a-b9b4-4760e0083f55"
+                        ],
+                        "position":
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation":
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale":
+                        [
+                            0.01,
+                            0.01,
+                            0.01
+                        ],
+                        "resource_id": "22b1f143-e1a4-4678-945a-18b63bd03055",
+                        "name": "RootNode",
+                        "components":
+                        {},
+                        "parent": null
+                    },
+                    "ee4b5083-980d-4641-89ac-f137bf5d79e4":
+                    {
+                        "enabled": true,
+                        "tags":
+                        [],
+                        "children":
+                        [],
+                        "position":
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation":
+                        [
+                            -90,
+                            0,
+                            0
+                        ],
+                        "scale":
+                        [
+                            100,
+                            100,
+                            100
+                        ],
+                        "resource_id": "ee4b5083-980d-4641-89ac-f137bf5d79e4",
+                        "name": "pengzhuang",
+                        "components":
+                        {
+                            "render":
+                            {
+                                "enabled": true,
+                                "type": "asset",
+                                "asset": 111362617,
+                                "materialAssets":
+                                [
+                                    111362615
+                                ],
+                                "layers":
+                                [
+                                    0
+                                ],
+                                "batchGroupId": null,
+                                "castShadows": true,
+                                "castShadowsLightmap": true,
+                                "receiveShadows": true,
+                                "lightmapped": false,
+                                "lightmapSizeMultiplier": 1,
+                                "castShadowsLightMap": true,
+                                "lightMapped": false,
+                                "lightMapSizeMultiplier": 1,
+                                "isStatic": false,
+                                "rootBone": null
+                            }
+                        },
+                        "parent": "22b1f143-e1a4-4678-945a-18b63bd03055"
+                    },
+                    "09b4e7d8-264f-4fee-9997-b119cd25ac09":
+                    {
+                        "enabled": true,
+                        "tags":
+                        [],
+                        "children":
+                        [],
+                        "position":
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation":
+                        [
+                            -90,
+                            0,
+                            0
+                        ],
+                        "scale":
+                        [
+                            100,
+                            100,
+                            100
+                        ],
+                        "resource_id": "09b4e7d8-264f-4fee-9997-b119cd25ac09",
+                        "name": "pengzhuang_1",
+                        "components":
+                        {
+                            "render":
+                            {
+                                "enabled": true,
+                                "type": "asset",
+                                "asset": 111362618,
+                                "materialAssets":
+                                [
+                                    111362615
+                                ],
+                                "layers":
+                                [
+                                    0
+                                ],
+                                "batchGroupId": null,
+                                "castShadows": true,
+                                "castShadowsLightmap": true,
+                                "receiveShadows": true,
+                                "lightmapped": false,
+                                "lightmapSizeMultiplier": 1,
+                                "castShadowsLightMap": true,
+                                "lightMapped": false,
+                                "lightMapSizeMultiplier": 1,
+                                "isStatic": false,
+                                "rootBone": null
+                            }
+                        },
+                        "parent": "22b1f143-e1a4-4678-945a-18b63bd03055"
+                    },
+                    "18a7bdc6-eadb-4f1a-b9b4-4760e0083f55":
+                    {
+                        "enabled": true,
+                        "tags":
+                        [],
+                        "children":
+                        [],
+                        "position":
+                        [
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation":
+                        [
+                            -90,
+                            0,
+                            0
+                        ],
+                        "scale":
+                        [
+                            100,
+                            100,
+                            100
+                        ],
+                        "resource_id": "18a7bdc6-eadb-4f1a-b9b4-4760e0083f55",
+                        "name": "pengzhuang_game",
+                        "components":
+                        {
+                            "render":
+                            {
+                                "enabled": true,
+                                "type": "asset",
+                                "asset": 111362619,
+                                "materialAssets":
+                                [
+                                    111362615
+                                ],
+                                "layers":
+                                [
+                                    0
+                                ],
+                                "batchGroupId": null,
+                                "castShadows": true,
+                                "castShadowsLightmap": true,
+                                "receiveShadows": true,
+                                "lightmapped": false,
+                                "lightmapSizeMultiplier": 1,
+                                "castShadowsLightMap": true,
+                                "lightMapped": false,
+                                "lightMapSizeMultiplier": 1,
+                                "isStatic": false,
+                                "rootBone": null
+                            }
+                        },
+                        "parent": "22b1f143-e1a4-4678-945a-18b63bd03055"
+                    }
+                }
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "111362620"
+        },
+        "111362674":
+        {
+            "name": "seat.png",
+            "type": "texture",
+            "file":
+            {
+                "filename": "seat.png",
+                "size": 22071,
+                "hash": "8cffb47aebd51a01b5d1ef05d7016225",
+                "variants":
+                {},
+                "url": "files/assets/111362674/1/seat.png"
+            },
+            "data":
+            {
+                "addressu": "repeat",
+                "addressv": "repeat",
+                "minfilter": "linear_mip_linear",
+                "magfilter": "linear",
+                "anisotropy": 1,
+                "rgbm": false,
+                "mipmaps": true
+            },
+            "preload": true,
+            "tags":
+            [],
+            "i18n":
+            {},
+            "id": "111362674"
+        }
+    }
+}

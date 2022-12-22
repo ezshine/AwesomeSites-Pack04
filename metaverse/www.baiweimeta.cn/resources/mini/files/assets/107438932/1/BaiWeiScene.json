@@ -1,0 +1,44 @@
+{
+    "glbFiles": [
+        "BaiWeiScene.glb",
+        "BaiWeiScene_pz.glb",
+        "xunzhangdian.glb"
+    ],
+    "setting": {
+        "rendering": {
+            "skybox": "360sky.hdr",
+            "exposure": 0.6
+        }
+    },
+    "entityConfig": {
+        "BaiWeiScene_pz.glb/Scene/pengzhuang": {
+            "castShadows": false,
+            "collision": "mesh"
+        },
+        "BaiWeiScene_pz.glb/Scene/pengzhuang_1": {
+            "castShadows": false,
+            "collision": "mesh"
+        },
+        "BaiWeiScene_pz.glb/Scene/pengzhuang_game": {
+            "castShadows": false,
+            "collision": "mesh"
+        }
+    },
+    "playerConfig": {
+        "position": {
+            "x": 8.1898698806762695,
+            "y": 1.61,
+            "z": 19.931535720825195
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "cameraPos": {
+            "x": 542,
+            "y": 361,
+            "z": 0
+        }
+    }
+}
