@@ -1,0 +1,474 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v2.1.7",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 24,
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6,
+      "bufferView": 0,
+      "byteOffset": 48
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 24,
+      "bufferView": 0,
+      "byteOffset": 60
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 16,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5123,
+      "count": 16,
+      "normalized": true,
+      "bufferView": 1,
+      "byteOffset": 8
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 16,
+      "normalized": true,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 16,
+      "max": [
+        32767,
+        11433,
+        24442
+      ],
+      "min": [
+        -32767,
+        -11433,
+        -32499
+      ],
+      "normalized": true,
+      "bufferView": 1,
+      "byteOffset": 20
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 4,
+      "normalized": true,
+      "bufferView": 2,
+      "byteOffset": 8
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5123,
+      "count": 4,
+      "normalized": true,
+      "bufferView": 2,
+      "byteOffset": 16
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 4,
+      "max": [
+        26331,
+        11433,
+        24442
+      ],
+      "min": [
+        -26571,
+        -11237,
+        24442
+      ],
+      "normalized": true,
+      "bufferView": 2,
+      "byteOffset": 20
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 8,
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5123,
+      "count": 8,
+      "normalized": true,
+      "bufferView": 3,
+      "byteOffset": 8
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 8,
+      "normalized": true,
+      "bufferView": 3,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 8,
+      "max": [
+        32767,
+        -11433,
+        32499
+      ],
+      "min": [
+        -32767,
+        -11433,
+        -32499
+      ],
+      "normalized": true,
+      "bufferView": 3,
+      "byteOffset": 20
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 4,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5123,
+      "count": 4,
+      "normalized": true,
+      "bufferView": 4,
+      "byteOffset": 8
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 4,
+      "normalized": true,
+      "bufferView": 4,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5122,
+      "count": 4,
+      "max": [
+        26331,
+        11433,
+        24442
+      ],
+      "min": [
+        -26571,
+        11433,
+        -32499
+      ],
+      "normalized": true,
+      "bufferView": 4,
+      "byteOffset": 20
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 108,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 108,
+      "byteLength": 448,
+      "byteStride": 28,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 556,
+      "byteLength": 112,
+      "byteStride": 28,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 668,
+      "byteLength": 224,
+      "byteStride": 28,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 892,
+      "byteLength": 112,
+      "byteStride": 28,
+      "target": 34962
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 3
+        }
+      }
+    },
+    {
+      "source": 5,
+      "sampler": 0
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 4
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/ktx2",
+      "uri": "wall_1_BaseColor.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "wall_1_Roughness.ktx2"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "uri": "wall_1_Normal.jpg"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "floor_1_BaseColor.ktx2"
+    },
+    {
+      "mimeType": "image/ktx2",
+      "uri": "floor_1_Roughness.ktx2"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "uri": "floor_1_Normal.jpg"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "main_buffer",
+      "uri": "room_data.bin",
+      "byteLength": 1004
+    }
+  ],
+  "materials": [
+    {
+      "name": "wall",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    },
+    {
+      "name": "screen",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.300000012,
+        "metallicFactor": 0
+      }
+    },
+    {
+      "name": "floor",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "normalTexture": {
+        "index": 4
+      }
+    },
+    {
+      "name": "ceiling",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.300000012,
+          0.300000012,
+          0.300000012,
+          1
+        ],
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "output",
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "NORMAL": 5,
+            "POSITION": 6
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0
+        },
+        {
+          "attributes": {
+            "TEXCOORD_1": 7,
+            "NORMAL": 8,
+            "TEXCOORD_0": 9,
+            "POSITION": 10
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 1
+        },
+        {
+          "attributes": {
+            "TEXCOORD_0": 11,
+            "TEXCOORD_1": 12,
+            "NORMAL": 13,
+            "POSITION": 14
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 2
+        },
+        {
+          "attributes": {
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16,
+            "NORMAL": 17,
+            "POSITION": 18
+          },
+          "mode": 4,
+          "material": 3,
+          "indices": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Root",
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "room_export",
+      "translation": [
+        0.014695167541503906,
+        1.404860100118583,
+        3.997324953088537
+      ],
+      "scale": [
+        4.02589225769043,
+        4.02589225769043,
+        4.02589225769043
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "chara_root",
+      "translation": [
+        0,
+        0,
+        3.27592993
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu",
+    "KHR_mesh_quantization"
+  ]
+}
