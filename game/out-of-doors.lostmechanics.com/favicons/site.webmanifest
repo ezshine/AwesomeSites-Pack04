@@ -1,0 +1,15 @@
+{
+  "name": "carte-de-voeux",
+  "short_name": "carte-de-voeux",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "1080x1080",
+      "type": "image/svg"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
