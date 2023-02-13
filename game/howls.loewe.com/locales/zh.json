@@ -1,0 +1,116 @@
+{
+    "desktop-redirect": {
+        "title": "您最喜爱《哈尔的移动城堡》中的哪个角色？",
+        "copy": "扫描卡西法，一探究竟"
+    },
+    "navigation": {
+        "back": "返回",
+        "skip": "跳过",
+        "play-again": "再玩一次",
+        "share": "分享",
+        "rewards": "奖励",
+        "try-again": "重试",
+        "exit-url": "https://www.loewe.com.cn/?utm_source=HMC_experience&utm_medium=referral&utm_campaign=Experience_HMC",
+        "exit-name": "loewe.com.cn",
+        "discover-the-collection": "探索该系列"
+    },
+    "menu": {
+        "instructions": "显示说明",
+        "back-to-start": "回到开始",
+        "menu": "菜单",
+        "close": "关闭"
+    },
+    "experience-landing": {
+        "title": "倾情呈现LOEWE罗意威 x 《哈尔的移动城堡》",
+        "game-copy": "您是影片中的哪个角色？",
+        "game-cta": "让我们一探究竟……",
+        "collection-copy": "近期，品牌与<br />著名的吉卜力工作室<br />推出合作项目，其灵感源自动画电影<br />《哈尔的移动城堡》",
+        "collection-cta": "查看此系列",
+        "collection-url": "https://www.loewe.com/int/zh_CN/loewe-x-howls-moving-castle/%E6%8E%A2%E7%B4%A2%E8%AF%A5%E7%B3%BB%E5%88%97"
+    },
+    "misc": {
+        "rotate-device": "旋转您的设备"
+    },
+    "home": {
+        "title": "跟随<br/>心的方向",
+        "copy": "您所做的决定<br />将决定您的角色。",
+        "cta": "开始"
+    },
+    "door-dial": {
+        "copy": "您的心将会指引您去往何处？",
+        "cta": "确认",
+        "instructions": "旋转任意门​<br/>\n选择您要去的世界​",
+        "location-market-chipping": "马克奇平镇",
+        "location-the-waste": "荒野",
+        "location-kingsbury": "金贝利",
+        "location-howls-garden": "哈尔的花园"
+    },
+    "rune": {
+        "one": "善良",
+        "two": "快乐",
+        "three": "爱",
+        "four": "自由"
+    },
+    "character-reveal": {
+        "main-byline-large": "您的心<br/>指引您去往……",
+        "main-byline": "您的心指引您去往……",
+        "cta": "点击开门一探究竟",
+        "rune-byline": "您跳过了太多场景......",
+        "rune-name": "重试",
+        "rune-copy": "试图隐藏欲望就是试图隐藏您的内心。",
+        "howl-name": "哈尔",
+        "howl-copy": "自由奔放，魅力四射，渴望做善事。",
+        "sophie-name": "苏菲",
+        "sophie-copy": "意志坚强，有爱心，<br/>\n热爱快乐的生活。",
+        "turnip-head-name": "稻草人",
+        "turnip-head-copy": "顽皮却害羞，为人忠诚。",
+        "calcifer-name": "卡西法",
+        "calcifer-copy": "聪明，有点爱挖苦，燃烧着自信。",
+        "castle-name": "移动城堡",
+        "castle-copy": "冷静，呵护，可靠，<br/>\n对旅行充满热情。",
+        "witch-name": "荒野女巫",
+        "witch-copy": "时尚，敏锐，精明，<br/>\n渴望生活中的美好的事物。",
+        "heen-name": "因因",
+        "heen-copy": "温柔而忠诚。<br/>\n是所有人的朋友，<br/>\n但不属于任何人。",
+        "markl-name": "马鲁克",
+        "markl-copy": "善良，机灵，可靠，<br/>\n不喜愚笨者。",
+        "exit-url": "https://www.loewe.com.cn/?utm_source={{name}}_HMC_experience&utm_medium=referral&utm_campaign=Experience_HMC",
+        "collection-url": "https://www.loewe.com/int/zh_CN/loewe-x-howls-moving-castle/%E6%8E%A2%E7%B4%A2%E8%AF%A5%E7%B3%BB%E5%88%97?utm_source={{name}}_HMC_experience&utm_medium=referral&utm_campaign=Experience_HMC"
+    },
+    "quotes": {
+        "door-dial-line": "真不可思议，我以前好像来过。",
+        "door-dial-by": "苏菲",
+        "which-hat-line": "要戴那顶帽子吗？幸亏我用魔法把你的裙子变漂亮了……",
+        "which-hat-by": "哈尔",
+        "choose-a-spell-line": "桌子坏掉了。",
+        "choose-a-spell-by": "哈尔",
+        "hide-among-things-line": "其实我根本就是一个胆小鬼，这些破烂全都是用来避开荒野女巫的魔法。",
+        "hide-among-things-by": "哈尔",
+        "feed-calcifer-line": "……越是恶劣的环境，<br/>\n火焰迸发得越明亮",
+        "feed-calcifer-by": "苏菲",
+        "your-star-demon-line": "你，吞噬流星的人，失心\n男人，你的心脏是我的。",
+        "your-star-demon-by": "荒野女巫"
+    },
+    "instructions": {
+        "which-hat-title": "点击并长按以选择一顶帽子",
+        "choose-a-spell-title": "点击并长按以选择一条咒语",
+        "hide-among-things-title": "点击并移动以选择一件饰品",
+        "feed-calcifer-title": "喂养卡西法",
+        "your-star-demon-title": "点击摘下一颗星星",
+        "spin": "滑动旋转",
+        "tap-to-hold": "点击按住",
+        "drag-to-feed": "拖动喂食"
+    },
+    "share": {
+        "text": "我的心指引我成为{{name}}",
+        "url": "https://hmc.loewe.com.cn"
+    },
+    "rewards": {
+        "title": "墙纸",
+        "instructions": "点击并长按下载"
+    },
+    "holding": {
+        "heading": "The castle is coming to town...",
+        "copy": "LOEWE x Howl's Moving Castle launches on February 2, stay tuned!"
+    }
+}

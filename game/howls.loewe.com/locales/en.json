@@ -1,0 +1,116 @@
+{
+    "desktop-redirect": {
+        "title": "Which Howl’s Moving <br/>Castle character are <br/>you most like?",
+        "copy": "Scan Calcifer to find out"
+    },
+    "navigation": {
+        "back": "Back",
+        "skip": "Skip",
+        "play-again": "Play again",
+        "share": "Share",
+        "rewards": "Rewards",
+        "try-again": "Try again",
+        "exit-url": "https://www.loewe.com/eur/en/home?utm_source=HMC_experience&utm_medium=referral&utm_campaign=Experience_HMC",
+        "exit-name": "loewe.com",
+        "discover-the-collection": "Discover the collection"
+    },
+    "menu": {
+        "instructions": "Show instructions",
+        "back-to-start": "Back to start",
+        "menu": "MENU",
+        "close": "CLOSE"
+    },
+    "experience-landing": {
+        "title": "Introducing LOEWE x Howl's Moving Castle",
+        "game-copy": "Which character are you most like?",
+        "game-cta": "Let's find out . . .",
+        "collection-copy": "Let's find out . . .",
+        "collection-cta": "See collection",
+        "collection-url": "https://www.loewe.com/eur/en/loewe-x-howls-moving-castle/discover-the-collection"
+    },
+    "misc": {
+        "rotate-device": "Rotate your device"
+    },
+    "home": {
+        "title": "Let your heart <br/>guide you",
+        "copy": "The decisions you make <br /> define your character.",
+        "cta": "Begin"
+    },
+    "door-dial": {
+        "copy": "Where will your heart lead you?",
+        "cta": "Go",
+        "instructions": "Choose your <br/>world.",
+        "location-market-chipping": "Market Chipping",
+        "location-the-waste": "The Waste",
+        "location-kingsbury": "Kingsbury",
+        "location-howls-garden": "Howl's Garden"
+    },
+    "rune": {
+        "one": "KINDNESS",
+        "two": "HAPPINESS",
+        "three": "LOVE",
+        "four": "FREEDOM"
+    },
+    "character-reveal": {
+        "main-byline-large": "Your heart <br/> guided you to . . .",
+        "main-byline": "Your heart guided you to . . .",
+        "cta": "Open door to <br/> reveal",
+        "rune-byline": "You skipped too many scenes...",
+        "rune-name": "Try again.",
+        "rune-copy": "To hide your desires is to hide your heart.",
+        "howl-name": "Howl",
+        "howl-copy": "Free spirited and charming, with a burning desire to do good.",
+        "sophie-name": "Sophie",
+        "sophie-copy": "Strong willed, loving and happy just being happy.",
+        "turnip-head-name": "Turnip Head",
+        "turnip-head-copy": "Playful and shy, with more loyalty than you can shake a stick at.",
+        "calcifer-name": "Calcifer",
+        "calcifer-copy": "Wise, witty and sarcastic with a burning confidence.",
+        "castle-name": "The Moving Castle",
+        "castle-copy": "Calm, protective, and dependable, with a passion for travelling.",
+        "witch-name": "Witch of the Waste",
+        "witch-copy": "Stylish, sharp, and shrewd, with a hunger for the finer things in life.",
+        "heen-name": "Heen",
+        "heen-copy": "Gentle and faithfully loyal. Friends with everyone, belongs to no one.",
+        "markl-name": "Markl",
+        "markl-copy": "Kind, cunning and dependable, won't suffer fools or time-wasters.",
+        "exit-url": "https://www.loewe.com/eur/en/home?utm_source={{name}}_HMC_experience&utm_medium=referral&utm_campaign=Experience_HMC_HMC",
+        "collection-url": "https://www.loewe.com/eur/en/loewe-x-howls-moving-castle/discover-the-collection?utm_source={{name}}_HMC_experience&utm_medium=referral&utm_campaign=Experience_HMC"
+    },
+    "quotes": {
+        "door-dial-line": "It's all so familiar yet I know I've never been here before.",
+        "door-dial-by": "- Sophie",
+        "which-hat-line": "You're wearing that hat? After all the magic I used to make your dress pretty?",
+        "which-hat-by": "- Howl",
+        "choose-a-spell-line": "It can't be good for the table.",
+        "choose-a-spell-by": "- Howl",
+        "hide-among-things-line": "All I do is hide. All of this magic is to keep everybody away.",
+        "hide-among-things-by": "- Howl",
+        "feed-calcifer-line": "... the best blaze brightest when circumstances are at their worst",
+        "feed-calcifer-by": "- Sophie",
+        "your-star-demon-line": "You who swallowed a falling star, ‘O heartless man, your heart shall soon belong to me.",
+        "your-star-demon-by": "- Witch of the Waste"
+    },
+    "instructions": {
+        "which-hat-title": "Tap and hold to pick a hat",
+        "choose-a-spell-title": "Tap and hold to choose a spell",
+        "hide-among-things-title": "Touch & move to find a trinket",
+        "feed-calcifer-title": "Feed Calcifer",
+        "your-star-demon-title": "Catch a star",
+        "spin": "Spin",
+        "tap-to-hold": "Tap to hold",
+        "drag-to-feed": "Drag to feed"
+    },
+    "share": {
+        "text": "My heart aligns with {{name}}",
+        "url": "https://howls.loewe.com/"
+    },
+    "rewards": {
+        "title": "Wallpaper",
+        "instructions": "Tap and hold to download"
+    },
+    "holding": {
+        "heading": "The castle is coming to town...",
+        "copy": "LOEWE x Howl's Moving Castle launches on February 2, stay tuned!"
+    }
+}
