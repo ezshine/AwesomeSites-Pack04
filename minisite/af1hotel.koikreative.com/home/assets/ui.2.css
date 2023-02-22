@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+[data-ui="logo"] {
+    right: 8.533vmin;
+    top: 22.267vmin;
+    width: 15.333vmin;
+}
+[data-ui="360"] {
+    left: 8.8vmin;
+    top: 88.4vmin;
+    width: 10.667vmin;
+}
+[data-ui="dragText"] {
+    left: 9.6vmin;
+    bottom: 19.467vmin;
+    width: 36.933vmin;
+}
+[data-ui="dragBg"] {
+    left: 9.6vmin;
+    bottom: 24vmin;
+    width: 37.333vmin;
+}
+[data-ui="dragTips"] {
+    left: 9.6vmin;
+    bottom: 24vmin;
+    width: 6.4vmin;
+}
+[data-ui="btnStart"] {
+    right: 9.6vmin;
+    bottom: 24vmin;
+    width: 32vmin;
+}
+[data-mu] {
+    left: 9.333vmin;
+    top: 24vmin;
+    width: 6.8vmin;
+}
+body {
+    background: url(ui/v.jpg) no-repeat;
+    background-size: cover;
+}
+/* 横屏 */
+@media screen and (orientation: landscape) {
+    [data-ui="logo"] {
+        right: 21.067vmin;
+        top: 9.2vmin;
+    }
+    [data-ui="360"] {
+        left: 21.733vmin;
+        top: 36.533vmin;
+    }
+    [data-ui="dragText"] {
+        left: 81.6vmin;
+        bottom: 6.533vmin;
+    }
+    [data-ui="dragBg"] {
+        left: 81.333vmin;
+        bottom: 11.067vmin;
+    }
+    [data-ui="dragTips"] {
+        left: 81.333vmin;
+        bottom: 11.067vmin;
+    }
+    [data-ui="btnStart"] {
+        right: 21.733vmin;
+        bottom: 11.867vmin;
+    }
+    [data-mu] {
+        left: 21.867vmin;
+        top: 11.2vmin;
+    }
+    body {
+        background: url(ui/h.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+/* 大屏设备 */
+@media screen and (min-width: 1024px) {
+    [data-ui="logo"] {
+        max-width: 115px;
+    }
+    [data-ui="360"] {
+        max-width: 80px;
+    }
+    [data-ui="dragText"] {
+        max-width: 277px;
+    }
+    [data-ui="dragBg"] {
+        max-width: 280px;
+    }
+    [data-ui="dragTips"] {
+        max-width: 48px;
+    }
+    [data-ui="btnStart"] {
+        max-width: 240px;
+        max-height: 48px;
+        cursor: pointer;
+    }
+    [data-mu] {
+        max-width: 51px;
+        cursor: pointer;
+    }
+}

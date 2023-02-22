@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+[data-loader="con"] {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #e0e0e0;
+    overflow: hidden;
+}
+[data-loader="bgv"] {
+    left: calc(50% - 44.267vmin);
+    top: calc(50% - 59.867vmin);
+    width: 85.2vmin;
+}
+[data-loader="bgh"] {
+    display: none;
+    left: calc(50% - 69.534vmin);
+    top: calc(50% - 37.6vmin);
+    width: 138.933vmin;
+}
+[data-loader="base"] {
+    left: calc(50% - 51.333vmin);
+    top: calc(50% - 45.2vmin);
+    width: 100vmin;
+}
+[data-loader="pointer"] {
+    left: calc(50% - 53.067vmin);
+    top: calc(50% - 48.133vmin);
+    width: 105.867vmin;
+}
+[data-loader="rect"] {
+    left: calc(50% - 20.05vmin);
+    top: calc(50% + 14.667vmin);
+    width: 40vmin;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #2d2d2d;
+}
+/* 横屏 */
+@media screen and (orientation: landscape) {
+    [data-loader="bgv"] {
+        display: none;
+    }
+    [data-loader="bgh"] {
+        display: block;
+    }
+    [data-loader="base"] {
+        left: calc(50% - 51.2vmin);
+        top: calc(50% - 37.867vmin);
+    }
+    [data-loader="pointer"] {
+        left: calc(50% - 52.933vmin);
+        top: calc(50% - 40.8vmin);
+    }
+    [data-loader="rect"] {
+        left: calc(50% - 20vmin);
+        top: calc(50% + 22vmin);
+    }
+}
+/* 大屏设备 */
+@media screen and (min-width: 1024px) {
+    [data-loader="bgh"] {
+        max-width: 1042px;
+        left: calc(50% - 521px);
+        top: calc(50% - 282px);
+    }
+    [data-loader="base"] {
+        max-width: 750px;
+        left: calc(50% - 384px);
+        top: calc(50% - 284px);
+    }
+    [data-loader="pointer"] {
+        max-width: 794px;
+        left: calc(50% - 397px);
+        top: calc(50% - 306px);
+    }
+    [data-loader="rect"] {
+        max-width: 300px;
+        height: 3px;
+        left: calc(50% - 150px);
+        top: calc(50% + 165px);
+    }
+}

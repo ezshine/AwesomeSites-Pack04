@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+[data-ui="logo"] {
+    right: 8.533vmin;
+    top: 22.267vmin;
+    width: 15.333vmin;
+}
+[data-ui="slideBg"] {
+    right: 11vmin;
+    bottom: 21.6vmin;
+    width: 9.067vmin;
+}
+[data-ui="pointer2"] {
+    right: 12.15vmin;
+    bottom: 30.534vmin;
+    width: 6.667vmin;
+}
+[data-ui="btnCam"] {
+    right: 9.4vmin;
+    top: 90vmin;
+    width: 11.867vmin;
+}
+[data-ui="pad"],
+[data-ui="padBg"] {
+    left: 9.733vmin;
+    bottom: 21.733vmin;
+    width: 25.6vmin;
+}
+[data-ui="padBg"] {
+    transition: .2s;
+}
+[data-ui="pointer"] {
+    left: 19.333vmin;
+    bottom: 31.2vmin;
+    width: 6.667vmin;
+}
+[data-ui="hello"] {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: auto;
+}
+[data-ui="cardv"] {
+    left: calc(50% - 39.134vmin);
+    top: calc(50% - 48.4vmin);
+    width: 78.267vmin;
+}
+[data-ui="cardh"] {
+    display: none;
+    left: calc(50% - 45.2vmin);
+    top: calc(50% - 31.6vmin);
+    width: 90.4vmin;
+}
+[data-ui="btnStart"] {
+    left: calc(50% - 22.2vmin);
+    top: calc(50% + 4.267vmin);
+    width: 44.4vmin;
+}
+[data-ui="btnBack"] {
+    left: 9.467vmin;
+    top: 24vmin;
+    width: 6vmin;
+}
+[data-mu] {
+    left: 28.667vmin;
+    top: 24.133vmin;
+    width: 6.8vmin;
+    pointer-events: all;
+}
+
+/* 横屏 */
+@media screen and (orientation: landscape) {
+    [data-ui="logo"] {
+        right: 18vmin;
+        top: 9.2vmin;
+    }
+    [data-ui="slideBg"] {
+        right: 20.267vmin;
+        bottom: 8vmin;
+    }
+    [data-ui="pointer2"] {
+        right: 21.467vmin;
+        bottom: 16.8vmin;
+    }
+    [data-ui="btnCam"] {
+        right: 18.8vmin;
+        top: 39.867vmin;
+    }
+    [data-ui="pad"],
+    [data-ui="padBg"] {
+        left: 22.267vmin;
+        bottom: 9.867vmin;
+    }
+    [data-ui="pointer"] {
+        left: 31.733vmin;
+        bottom: 18.933vmin;
+    }
+    [data-ui="cardv"] {
+        display: none;
+    }
+    [data-ui="cardh"] {
+        display: block;
+    }
+    [data-ui="btnStart"] {
+        top: calc(50% + 10vmin);
+    }
+    [data-ui="btnBack"] {
+        left: 21.867vmin;
+        top: 11.067vmin;
+    }
+    [data-mu] {
+        left: 43.733vmin;
+        top: 11.333vmin;
+    }
+}
+
+/* 大屏设备 */
+@media screen and (min-width: 1024px) {
+    [data-ui="btnBack"] {
+        max-width: 45px;
+    }
+    [data-ui="logo"] {
+        max-width: 115px;
+    }
+    [data-ui="slideBg"] {
+        max-width: 68px;
+    }
+    [data-ui="pointer2"] {
+        max-width: 50px;
+        /* Fixed */
+        right: 21.167vmin;
+        bottom: 15.2vmin;
+    }
+    [data-ui="btnCam"] {
+        max-width: 89px;
+    }
+    [data-ui="pad"],
+    [data-ui="padBg"] {
+        max-width: 192px;
+    }
+    [data-ui="pointer"] {
+        max-width: 50px;
+        /* Fixed */
+        left: 30.133vmin;
+        bottom: 17.533vmin;
+    }
+    [data-ui="cardh"] {
+        max-width: 678px;
+    }
+    [data-ui="btnStart"] {
+        max-width: 276px;
+        left: calc(50% - 138px);
+    }
+    [data-mu] {
+        max-width: 51px;
+    }
+}

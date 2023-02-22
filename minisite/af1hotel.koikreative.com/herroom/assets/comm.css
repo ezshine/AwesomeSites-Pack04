@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* Common */
+html,
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: 100%;
+    overscroll-behavior: none;
+}
+.hide {
+    display: none !important;
+}
+.imgBase {
+    display: block;
+    position: absolute;
+    user-select: none;
+    touch-action: none;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+}
+canvas[data-main],
+aside {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+canvas:focus {
+    outline: none;
+}
+#ui {
+    pointer-events: none;
+}
+[data-touch] {
+    pointer-events: auto;
+}
+/* Debug Helper */
+#scene-explorer-host {
+    z-index: 1;
+}
+#scene-explorer-host+div {
+    width: calc(100% - 600px) !important;
+}

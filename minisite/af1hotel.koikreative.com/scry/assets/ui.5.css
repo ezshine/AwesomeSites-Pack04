@@ -1,0 +1,369 @@
+@charset "utf-8";
+
+[data-modal="hello"] {
+    pointer-events: auto;
+}
+[data-ui="logo"] {
+    right: 8.533vmin;
+    top: 22.267vmin;
+    width: 15.333vmin;
+}
+[data-ui="pad"],
+[data-ui="padBg"] {
+    left: 9.733vmin;
+    bottom: 21.733vmin;
+    width: 25.6vmin;
+}
+[data-ui="pointer"] {
+    left: 19.333vmin;
+    bottom: 31.2vmin;
+    width: 6.667vmin;
+}
+[data-ui="pointer2"] {
+    right: 12.15vmin;
+    bottom: 30.534vmin;
+    width: 6.667vmin;
+}
+[data-ui="slideBg"] {
+    right: 11vmin;
+    bottom: 21.6vmin;
+    width: 9.067vmin;
+}
+[data-ui="cardv"] {
+    right: calc(50% - 32.667vmin);
+    top: 45.6vmin;
+    width: 65.333vmin;
+}
+[data-ui="cardh"] {
+    display: none;
+    right: calc(50% - 59.067vmin);
+    top: 21.6vmin;
+    width: 118.133vmin;
+}
+[data-ui="btnClose"] {
+    right: calc(50% - 32.667vmin);
+    top: 38.133vmin;
+    width: 6.4vmin;
+}
+[data-ui="btnBack"] {
+    left: 9.333vmin;
+    top: 24vmin;
+    width: 6.133vmin;
+}
+[data-ui="btnInfo"] {
+    right: 12.27vmin;
+    bottom: 57.733vmin;
+    width: 6.8vmin;
+}
+[data-mu] {
+    left: 28.667vmin;
+    top: 24.133vmin;
+    width: 6.8vmin;
+    pointer-events: all;
+}
+[data-ui="btnMat"] {
+    right: 7.867vmin;
+    bottom: calc(50% - 8.4vmin);
+    width: 18vmin;
+}
+[data-mat] {
+    width: 8.533vmin;
+    height: 8.533vmin;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+[data-con] {
+    width: 8.533vmin;
+    height: 98.667vmin;
+    right: 12.533vmin;
+    bottom: 61.6vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+[data-ui="ll"] {
+    width: 3px;
+    height: 97.067vmin;
+    right: 9.333vmin;
+    bottom: 62.4vmin;
+    background-color: white;
+}
+[data-ui="sl"] {
+    width: 2.4vmin;
+    height: 2px;
+    right: 22.133vmin;
+    background-color: white;
+}
+[data-ui="sl"][data-pos="1"] {
+    bottom: 155.733vmin;
+}
+[data-ui="sl"][data-pos="2"] {
+    bottom: 142.933vmin;
+}
+[data-ui="sl"][data-pos="3"] {
+    bottom: 130.133vmin;
+}
+[data-ui="sl"][data-pos="4"] {
+    bottom: 116.8vmin;
+}
+[data-ui="sl"][data-pos="5"] {
+    bottom: 104.533vmin;
+}
+[data-ui="sl"][data-pos="6"] {
+    bottom: 91.467vmin;
+}
+[data-ui="sl"][data-pos="7"] {
+    bottom: 78.133vmin;
+}
+[data-ui="sl"][data-pos="8"] {
+    bottom: 65.6vmin;
+}
+[data-mat="1"] {
+    background-image: url(ui/mat1.png);
+}
+[data-mat="2"] {
+    background-image: url(ui/mat2.png);
+}
+[data-mat="3"] {
+    background-image: url(ui/mat3.png);
+}
+[data-mat="4"] {
+    background-image: url(ui/mat4.png);
+}
+[data-mat="5"] {
+    background-image: url(ui/mat5.png);
+}
+[data-mat="6"] {
+    background-image: url(ui/mat6.png);
+}
+[data-mat="7"] {
+    background-image: url(ui/mat7.png);
+}
+[data-ui="selector"] {
+    width: 48vmin;
+    height: 29.067vmin;
+    box-sizing: border-box;
+    padding: 3.6vmin 6.933vmin;
+    right: 26vmin;
+    background: url(ui/rect.png) no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+[data-ui="selector"] > [data-mat] {
+    margin-right: 1%;
+}
+[data-ui="selector"] > [data-mat]:nth-child(3n) {
+    margin-right: 0;
+}
+[data-ui="selector"][data-pos="1"] {
+    bottom: 134.133vmin;
+}
+[data-ui="selector"][data-pos="2"] {
+    bottom: 121.333vmin;
+}
+[data-ui="selector"][data-pos="3"] {
+    bottom: 108.533vmin;
+}
+[data-ui="selector"][data-pos="4"] {
+    bottom: 102.4vmin;
+}
+[data-ui="selector"][data-pos="5"] {
+    bottom: 90.133vmin;
+}
+[data-ui="selector"][data-pos="6"] {
+    bottom: 77.067vmin;
+}
+[data-ui="selector"][data-pos="7"] { 
+    bottom: 63.733vmin;
+}
+[data-ui="selector"][data-pos="8"] {
+    bottom: 57.733vmin;
+}
+
+/* 横屏 */
+@media screen and (orientation: landscape) {
+    [data-ui="logo"] {
+        right: 18vmin;
+        top: 9.2vmin;
+    }
+    [data-ui="pad"],
+    [data-ui="padBg"] {
+        left: 22.267vmin;
+        bottom: 9.867vmin;
+    }
+    [data-ui="pointer"] {
+        left: 31.733vmin;
+        bottom: 18.933vmin;
+    }
+    [data-ui="slideBg"] {
+        right: 22.133vmin;
+        bottom: 10vmin;
+    }
+    [data-ui="pointer2"] {
+        right: 23.2vmin;
+        bottom: 18.8vmin;
+    }
+    [data-ui="cardv"] {
+        display: none;
+    }
+    [data-ui="cardh"] {
+        display: block;
+    }
+    [data-ui="btnClose"] {
+        right: calc(50% - 59.067vmin);
+        top: 14.5vmin;
+    }
+    [data-ui="btnBack"] {
+        left: 21.867vmin;
+        top: 11.2vmin;
+    }
+    [data-ui="btnInfo"] {
+        right: 23.067vmin;
+        bottom: 38.267vmin;
+    }
+    [data-mu] {
+        left: 43.733vmin;
+        top: 11.333vmin;
+    }
+    [data-ui="btnMat"] {
+        right: calc(50% - 9vmin);
+        bottom: 9.467vmin;
+    }
+    [data-con] {
+        width: 98.667vmin;
+        height: 8.533vmin;
+        right: calc(50% - 55.6vmin);
+        bottom: 17.6vmin;
+        flex-direction: row;
+    }
+    [data-ui="ll"] {
+        width: 97.067vmin;
+        height: 3px;
+        right: calc(50% - 54.667vmin);
+        bottom: 14.4vmin;
+    }
+    [data-ui="sl"][data-pos="1"] {
+        right: calc(50% + 38.533vmin);
+        width: 2px;
+        height: 2.4vmin;
+        bottom: 27.733vmin;
+    }
+    [data-ui="sl"][data-pos="2"] {
+        right: calc(50% + 25.6vmin);
+        width: 2px;
+        height: 2.4vmin;
+        bottom: 27.733vmin;
+    }
+    [data-ui="sl"][data-pos="3"] {
+        right: calc(50% + 12.8vmin);
+        width: 2px;
+        height: 2.4vmin;
+        bottom: 27.733vmin;
+    }
+    [data-ui="sl"][data-pos="4"] {
+        right: 50%;
+        width: 2px;
+        height: 2.4vmin;
+        bottom: 27.733vmin;
+    }
+    [data-ui="sl"][data-pos="5"] {
+        right: calc(50% - 13.067vmin);
+        width: 2px;
+        height: 2.4vmin;
+        bottom: 27.733vmin;
+    }
+    [data-ui="sl"][data-pos="6"] {
+        right: calc(50% - 25.867vmin);
+        width: 2px;
+        height: 2.4vmin;
+        bottom: 27.733vmin;
+    }
+    [data-ui="sl"][data-pos="7"] {
+        right: calc(50% - 38.267vmin);
+        width: 2px;
+        height: 2.4vmin;
+        bottom: 27.733vmin;
+    }
+    [data-ui="sl"][data-pos="8"] {
+        right: calc(50% - 51.467vmin);
+        width: 2px;
+        height: 2.4vmin;
+        bottom: 27.733vmin;
+    }
+    [data-ui="selector"][data-pos="1"] {
+        right: calc(50% + 1.867vmin);
+        bottom: 32.933vmin;
+    }
+    [data-ui="selector"][data-pos="2"] {
+        right: calc(50% - 10.933vmin);
+        bottom: 32.933vmin;
+    }
+    [data-ui="selector"][data-pos="3"] {
+        right: calc(50% - 23.733vmin);
+        bottom: 32.933vmin;
+    }
+    [data-ui="selector"][data-pos="4"] {
+        right: calc(50% - 24vmin);
+        bottom: 32.933vmin;
+    }
+    [data-ui="selector"][data-pos="5"] {
+        right: calc(50% - 36.8vmin);
+        bottom: 32.933vmin;
+    }
+    [data-ui="selector"][data-pos="6"] {
+        right: calc(50% - 49.6vmin);
+        bottom: 32.933vmin;
+    }
+    [data-ui="selector"][data-pos="7"] {
+        right: calc(50% - 49.2vmin);
+        bottom: 32.933vmin;
+    }
+    [data-ui="selector"][data-pos="8"] {
+        right: calc(50% - 62.4vmin);
+        bottom: 32.933vmin;
+    }
+}
+
+/* 大屏设备 */
+@media screen and (min-width: 1024px) {
+    [data-ui="logo"] {
+        max-width: 115px;
+    }
+    [data-ui="pad"],
+    [data-ui="padBg"] {
+        max-width: 192px;
+    }
+    [data-ui="pointer"] {
+        max-width: 50px;
+        /* Fixed */
+        left: 30.133vmin;
+        bottom: 17.533vmin;
+    }
+    [data-ui="cardv"] {
+        max-width: 409px;
+    }
+    [data-ui="cardh"] {
+        max-width: 739px;
+        right: calc(50% - 369px);
+    }
+    [data-ui="btnClose"] {
+        max-width: 43px;
+        right: calc(50% - 369px);
+    }
+    [data-ui="btnBack"] {
+        max-width: 46px;
+    }
+    [data-ui="btnInfo"] {
+        max-width: 48px;
+    }
+    [data-mu] {
+        max-width: 51px;
+    }
+    [data-ui="btnMat"] {
+        max-width: 135px;
+    }
+}

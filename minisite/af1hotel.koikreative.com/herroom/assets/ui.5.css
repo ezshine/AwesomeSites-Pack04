@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+[data-ui="hello"] {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: auto;
+}
+[data-ui="logo"] {
+    right: 8.533vmin;
+    top: 22.267vmin;
+    width: 15.333vmin;
+}
+[data-ui="pad"],
+[data-ui="padBg"] {
+    left: 9.733vmin;
+    bottom: 21.733vmin;
+    width: 25.6vmin;
+}
+[data-ui="pointer"] {
+    left: 19.333vmin;
+    bottom: 31.2vmin;
+    width: 6.667vmin;
+}
+[data-ui="cardv"] {
+    right: calc(50% - 32.667vmin);
+    top: 45.6vmin;
+    width: 65.333vmin;
+}
+[data-ui="cardh"] {
+    display: none;
+    right: calc(50% - 59.067vmin);
+    top: 21.6vmin;
+    width: 118.133vmin;
+}
+[data-ui="btnClose"] {
+    right: calc(50% - 32.667vmin);
+    top: 38.133vmin;
+    width: 6.4vmin;
+}
+[data-ui="btnBack"] {
+    left: 9.333vmin;
+    top: 24vmin;
+    width: 6.133vmin;
+}
+[data-ui="pointer2"] {
+    right: 8.933vmin;
+    bottom: 30.533vmin;
+    width: 6.667vmin;
+}
+[data-ui="btnBack"] {
+    left: 9.333vmin;
+    top: 24vmin;
+    width: 6.133vmin;
+}
+[data-ui="pointer2"] {
+    right: 12.15vmin;
+    bottom: 30.534vmin;
+    width: 6.667vmin;
+}
+[data-ui="slideBg"] {
+    right: 11vmin;
+    bottom: 21.6vmin;
+    width: 9.067vmin;
+}
+[data-ui="btnInfo"] {
+    right: 12.27vmin;
+    bottom: 57.733vmin;
+    width: 6.8vmin;
+}
+[data-ui="btnPlay"] {
+    right: 7.867vmin;
+    bottom: calc(50% - 8.4vmin);
+    width: 18vmin;
+}
+[data-mu] {
+    left: 28.667vmin;
+    top: 24.133vmin;
+    width: 6.8vmin;
+    pointer-events: all;
+}
+
+/* 横屏 */
+@media screen and (orientation: landscape) {
+    [data-ui="logo"] {
+        right: 18vmin;
+        top: 9.2vmin;
+    }
+    [data-ui="pad"],
+    [data-ui="padBg"] {
+        left: 22.267vmin;
+        bottom: 9.867vmin;
+    }
+    [data-ui="pointer"] {
+        left: 31.733vmin;
+        bottom: 18.933vmin;
+    }
+    [data-ui="cardv"] {
+        display: none;
+    }
+    [data-ui="cardh"] {
+        display: block;
+    }
+    [data-ui="btnClose"] {
+        right: calc(50% - 59.067vmin);
+        top: 14.267vmin;
+    }
+    [data-ui="btnBack"] {
+        left: 21.867vmin;
+        top: 11.2vmin;
+    }
+    [data-ui="slideBg"] {
+        right: 20.267vmin;
+        bottom: 8vmin;
+    }
+    [data-ui="pointer2"] {
+        right: 21.467vmin;
+        bottom: 16.8vmin;
+    }
+    [data-ui="btnInfo"] {
+        right: 21.7vmin;
+        bottom: 38.267vmin;
+    }
+    [data-ui="btnPlay"] {
+        right: 16vmin;
+        bottom: 45vmin;
+    }
+    [data-mu] {
+        left: 43.733vmin;
+        top: 11.333vmin;
+    }
+}
+
+/* 大屏设备 */
+@media screen and (min-width: 1024px) {
+    [data-ui="logo"] {
+        max-width: 115px;
+    }
+    [data-ui="pad"],
+    [data-ui="padBg"] {
+        max-width: 192px;
+    }
+    [data-ui="pointer"] {
+        max-width: 50px;
+        /* Fixed */
+        left: 30.133vmin;
+        bottom: 17.533vmin;
+    }
+    [data-ui="cardh"] {
+        max-width: 739px;
+        right: calc(50% - 369px);
+    }
+    [data-ui="btnClose"] {
+        max-width: 48px;
+        right: calc(50% - 369px);
+    }
+    [data-ui="btnBack"] {
+        max-width: 46px;
+    }
+    [data-ui="slideBg"] {
+        max-width: 68px;
+    }
+    [data-ui="pointer2"] {
+        max-width: 50px;
+        /* Fixed */
+        right: 21.167vmin;
+        bottom: 15.2vmin;
+    }
+    [data-ui="btnInfo"] {
+        max-width: 51px;
+    }
+    [data-ui="btnPlay"] {
+        max-width: 135px;
+    }
+    [data-mu] {
+        max-width: 51px;
+    }
+}

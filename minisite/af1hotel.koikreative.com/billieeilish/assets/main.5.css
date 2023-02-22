@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: url('bgv.1.jpg') no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-text-size-adjust: 100%;
+    overscroll-behavior: none;
+}
+.hide {
+    display: none !important;
+}
+.imgBase {
+    display: block;
+    position: absolute;
+    user-select: none;
+    touch-action: none;
+    pointer-events: none;
+}
+[data-touch] {
+    pointer-events: all !important;
+}
+[data-modal] {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+[data-ui='infov'] {
+    width: 43.067vmin;
+    right: calc(50% - 21.534vmin);
+    top: 58vmin;
+}
+[data-ui='infoh'] {
+    display: none;
+    width: 86.4vmin;
+    right: calc(50% - 43.2vmin);
+    top: 28vmin;
+}
+[data-ui='infoClose'] {
+    width: 5.467vmin;
+    right: calc(50% - 21.534vmin);
+    top: 51.733vmin;
+}
+[data-ui="tipsCon"] {
+    width: 31.067vmin;
+    height: 3px;
+    position: absolute;
+    left: calc(50% - 15.534vmin);
+    top: calc(50% + 40.4vmin);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.tips {
+    width: 6.667vmin;
+    height: 100%;
+    background-image: linear-gradient(to right, white 50%, #747474 50%);
+    background-size: 200%;
+    background-position-x: 100%;
+}
+[data-ui="modalBgV"] {
+    left: calc(50% - 43.067vmin);
+    top: calc(50% - 64.734vmin);
+    width: 86.133vmin;
+}
+[data-ui="modalBgH"] {
+    display: none;
+    left: calc(50% - 70.2vmin);
+    top: calc(50% - 34.534vmin);
+    width: 140.4vmin;
+}
+[data-ui="shoe"] {
+    left: calc(50% - 21.8vmin);
+    top: 50%;
+    width: 43.6vmin;
+}
+[data-ui="btnJump"] {
+    left: calc(50% - 22.667vmin);
+    top: calc(50% + 48.533vmin);
+    width: 45.333vmin;
+}
+[data-ui="btnClose"] {
+    left: calc(50% + 35.333vmin);
+    bottom: calc(50% + 58.933vmin);
+    width: 2.933vmin;
+}
+[data-ui="tips"] {
+    left: calc(50% - 25vmin);
+    top: calc(50% - 19.867vmin);
+    width: 50vmin;
+}
+/* 横屏 */
+@media screen and (orientation: landscape) {
+    body {
+        background: url('bgh.1.jpg') no-repeat;
+        background-size: cover;
+    }
+    [data-ui='infov'] {
+        display: none;
+    }
+    [data-ui='infoh'] {
+        display: block;
+    }
+    [data-ui="infoClose"] {
+        right: calc(50% - 43.2vmin);
+        top: 21.867vmin;
+    }
+    [data-ui="tipsCon"] {
+        left: calc(50% + 13.067vmin);
+        top: calc(50% + 13.533vmin);
+    }
+    [data-ui="modalBgV"] {
+        display: none;
+    }
+    [data-ui="modalBgH"] {
+        display: block;
+    }
+    [data-ui="shoe"] {
+        left: calc(50% + 6.667vmin);
+        top: calc(50% - 28.467vmin);
+    }
+    [data-ui="btnJump"] {
+        left: calc(50% + 5.867vmin);
+        top: calc(50% + 20.533vmin);
+    }
+    [data-ui="btnClose"] {
+        left: calc(50% + 63.733vmin);
+        bottom: calc(50% + 28.533vmin);
+    }
+    [data-ui="tips"] {
+        top: calc(50% - 16.133vmin);
+    }
+}
+/* 大屏设备 */
+@media screen and (min-width: 1024px) {
+    [data-ui='infoh'] {
+        max-width: 540px;
+    }
+    [data-ui='infoClose'] {
+        max-width: 34px;
+    }
+    [data-ui="modalBgH"] {
+        max-width: 1053px;
+        top: calc(50% - 259px);
+    }
+    [data-ui="btnClose"] {
+        max-width: 22px;
+        left: calc(50% + 478px);
+        bottom: calc(50% + 214px);
+    }
+    [data-ui="shoe"] {
+        max-width: 327px;
+    }
+    [data-ui="btnJump"] {
+        max-width: 340px;
+    }
+    [data-ui="tips"] {
+        max-width: 375px;
+        left: calc(50% - 188px);
+    }
+}

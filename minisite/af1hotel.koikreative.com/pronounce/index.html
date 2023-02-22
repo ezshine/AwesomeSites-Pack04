@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <!-- <base href='/'> -->
+    <!-- <base href='https://af1hotel.koikreative.com/pronounce/'> -->
+    <meta charset='UTF-8'>
+    <meta http-equiv='Pragma' content='no-cache'>
+    <meta http-equiv='Cache-Control' content='max-age=0'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <title>AF1 HOTEL · Pronounce</title>
+    <link rel='stylesheet' href='assets/comm.css'>
+    <link rel='stylesheet' href='assets/ui.4.css'>
+    <link rel='stylesheet' href='loader/main.2.css'>
+    <script src='libs/tongji.js'></script>
+    <style>
+        [data-ui="btnGo"] {
+            width: 16.667vmin;
+            height: 14.533vmin;
+            left: 50vw;
+            bottom: 24.267vmin;
+            background: url(assets/ui/btnGo.png) no-repeat;
+            background-size: 100%;
+        }
+        /* 横屏 */
+        @media screen and (orientation: landscape) {
+            [data-ui="btnGo"] {
+                left: calc(50% - 8.334vmin);
+                bottom: 11.867vmin;
+            }
+        }
+        /* 大屏设备 */
+        @media screen and (min-width: 1024px) {
+            [data-ui="btnGo"] {
+                max-width: 125px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <canvas data-main style='touch-action:none;'></canvas>
+    <aside id='ui'>
+        <img class='imgBase' src='assets/ui/logo.wh.png' data-ui='logo'>
+        <img class='imgBase' src='assets/ui/slideBg.wh.png' data-ui='slideBg' data-touch style='display:none;'>
+        <img class='imgBase' src='assets/ui/pointer.wh.png' data-ui='pointer2' style='display:none;'>
+        <img class='imgBase' src='assets/ui/padBg.wh.png' data-ui='padBg' style='display:none;'>
+        <img class='imgBase' src='assets/ui/pad.wh.png' data-ui='pad' data-touch style='display:none;'>
+        <img class='imgBase' src='assets/ui/pointer.wh.png' data-ui='pointer' style='display:none;'>
+        <img class='imgBase' src='assets/ui/btnBack.wh.png' data-ui='btnBack' data-touch>
+        <img class='imgBase hide' src='assets/ui/btnInfo.wh.png' data-ui='btnInfo' data-touch style='display:none;'>
+        <div class='imgBase' data-ui='btnGo' data-touch style='display:none;'></div>
+        <div data-ui='hello' style='display:none;'>
+            <img class='imgBase' src='assets/ui/pro.v.png' data-ui='cardv'>
+            <img class='imgBase' src='assets/ui/pro.h.png' data-ui='cardh'>
+            <img class='imgBase' src='assets/ui/btnClose.1.png' data-ui='btnClose' data-touch>
+        </div>
+        <img class='imgBase' src='assets/ui/on.wh.1.png' data-mu='on'>
+        <img class='imgBase hide' src='assets/ui/off.wh.1.png' data-mu='off'>
+    </aside>
+    <div data-loader='con'>
+        <img class='imgBase' src='loader/bgv.3.png' data-loader='bgv'>
+        <img class='imgBase' src='loader/bgh.3.png' data-loader='bgh'>
+        <img class='imgBase' src='loader/base.png' data-loader='base'>
+        <img class='imgBase' src='loader/pointer.png' data-loader='pointer'>
+        <div class='imgBase' data-loader='rect' style='transform:scaleX(0);'></div>
+    </div>
+    <script src='https://res.wx.qq.com/open/js/jweixin-1.6.0.js'></script>
+    <script src='libs/share.3.js'></script>
+    <script src='libs/howler.core.min.js'></script>
+    <script src='libs/jquery.min.js'></script>
+    <script src='libs/jquery.tap.js'></script>
+    <script>
+        const bgm = new Howl({
+            src: 'assets/bgm.mp3',
+            autoplay: true,
+            loop: true,
+        })
+        const eff = new Howl({
+            src: 'assets/eff.mp3',
+        })
+        const btn = new Howl({
+            src: 'assets/btn.mp3',
+        })
+        $(`[data-ui='btnBack']`).on('tap', () => {
+            location.replace('/lobby/?from=pronounce')
+        })
+        $(`[data-ui='btnClose']`).on('tap', () => {
+            $(`[data-ui='hello']`).fadeOut(400, () => {
+                $(`[data-ui='btnInfo']`).removeClass('hide')
+            })
+            $(`[data-ui='slideBg']`)
+                .add(`[data-ui='pointer2']`)
+                .add(`[data-ui='padBg']`)
+                .add(`[data-ui='pad']`)
+                .add(`[data-ui='pointer']`)
+                .add(`[data-ui='btnInfo']`)
+                .add(`[data-ui='btnGo']`)
+                .fadeIn(320)
+            if (!bgm.playing()) {
+                bgm.play()
+            }
+        })
+        $(`[data-ui='btnInfo']`).on('tap', () => {
+            eff.play() // 音效
+            $(`[data-ui='btnInfo']`).fadeOut(190)
+            $(`[data-ui='hello']`).fadeIn(200)
+        })
+        const btnGo = document.querySelector(`[data-ui='btnGo']`)
+        btnGo.addEventListener('contextmenu', e => {
+            e.preventDefault()
+        })
+        $(`[data-mu='on']`).on('tap', () => {
+            bgm.mute(true)
+            $(`[data-mu='on']`).add(`[data-mu='off']`).toggleClass('hide')
+        })
+        $(`[data-mu='off']`).on('tap', () => {
+            bgm.mute(false)
+            if (!bgm.playing()) {
+                bgm.play()
+            }
+            $(`[data-mu='on']`).add(`[data-mu='off']`).toggleClass('hide')
+        })
+    </script>
+    <script src='libs/ismobile.min.js'></script>
+    <script src='libs/gsap.min.js'></script>
+    <script src='libs/hammer.min.js'></script>
+    <script src='3d/babylon.js'></script>
+    <script src='3d/babylonjs.loaders.min.js'></script>
+    <script src='main.10.js'></script>
+</body>
+</html>

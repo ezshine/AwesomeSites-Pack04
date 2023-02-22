@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <!-- <base href='/'> -->
+    <!-- <base href='https://af1hotel.koikreative.com/lobby/'> -->
+    <meta charset='UTF-8'>
+    <meta http-equiv='Pragma' content='no-cache'>
+    <meta http-equiv='Cache-Control' content='max-age=0'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <title>AF1 HOTEL · Lobby</title>
+    <link rel='stylesheet' href='assets/comm.1.css'>
+    <link rel='stylesheet' href='assets/ui.4.css'>
+    <link rel='stylesheet' href='loader/main.2.css'>
+    <link rel='stylesheet' href='assets/tips.2.css'>
+    <script>
+        const getSearch = param => {
+            const pageSearch = new URLSearchParams(document.location.search)
+            return pageSearch.has(param) ? pageSearch.get(param) : null
+        }
+        const $From = getSearch('from') || ''
+    </script>
+    <script src='libs/tongji.js'></script>
+</head>
+<body>
+    <canvas style='touch-action:none;'></canvas>
+    <main style='pointer-events:none;'>
+        <img class='imgBase' src='assets/ui/logo.bk.png' data-ui='logo'>
+        <img class='imgBase' src='assets/ui/slideBg.bk.png' data-ui='slideBg' data-touch style='display:none;'>
+        <img class='imgBase' src='assets/ui/pointer.bk.png' data-ui='pointer2' style='display:none;'>
+        <img class='imgBase' src='assets/ui/btnCam.png' data-ui='btnCam' data-touch style='display:none;'>
+        <img class='imgBase' src='assets/ui/padBg.bk.png' data-ui='padBg' style='display:none;'>
+        <img class='imgBase' src='assets/ui/pad.bk.png' data-ui='pad' data-touch style='display:none;'>
+        <img class='imgBase' src='assets/ui/pointer.bk.png' data-ui='pointer' style='display:none;'>
+        <img class='imgBase' src='assets/ui/btnBack.bk.png' data-ui='btnBack' data-touch>
+        <div data-ui='hello' style='display:none;transform-origin:center;'>
+            <img class='imgBase' src='assets/ui/lobby.v.png' data-ui='cardv'>
+            <img class='imgBase' src='assets/ui/lobby.h.png' data-ui='cardh'>
+            <img class='imgBase' src='assets/ui/btnStart.lobby.png' data-ui='btnStart' data-touch>
+        </div>
+        <img class='imgBase' src='assets/ui/on.bk.1.png' data-mu='on'>
+        <img class='imgBase hide' src='assets/ui/off.bk.1.png' data-mu='off'>
+    </main>
+    <aside style='display:none;'>
+        <img class='imgBase' src='assets/ui/phone.png' data-tips='ani'>
+        <img class='imgBase' src='assets/ui/tips0.png' data-tips='0'>
+        <img class='imgBase' src='assets/ui/tips1.png' data-tips='1'>
+        <img class='imgBase' src='assets/ui/tips2.png' data-tips='2'>
+        <img class='imgBase' src='assets/ui/tips3.png' data-tips='3'>
+    </aside>
+    <div data-loader='con'>
+        <img class='imgBase' src='loader/bgv.3.png' data-loader='bgv'>
+        <img class='imgBase' src='loader/bgh.3.png' data-loader='bgh'>
+        <img class='imgBase' src='loader/base.png' data-loader='base'>
+        <img class='imgBase' src='loader/pointer.png' data-loader='pointer'>
+        <div class='imgBase' data-loader='rect' style='transform:scaleX(0);'></div>
+    </div>
+    <script src='https://res.wx.qq.com/open/js/jweixin-1.6.0.js'></script>
+    <script src='libs/share.3.js'></script>
+    <script src='libs/howler.core.min.js'></script>
+    <script src='libs/jquery.min.js'></script>
+    <script src='libs/jquery.tap.js'></script>
+    <script>
+        const bgm = new Howl({
+            src: 'assets/bgm.mp3',
+            autoplay: true,
+            loop: true,
+        })
+        const btn = new Howl({
+            src: 'assets/btn.mp3',
+        })
+        const door = new Howl({
+            src: 'assets/door.mp3',
+        })
+        const ring = new Howl({
+            src: 'assets/ring.mp3',
+        })
+        $(`[data-ui='btnBack']`).on('tap', () => {
+            location.replace('/home/')
+        })
+        $(`[data-mu='on']`).on('tap', () => {
+            bgm.mute(true)
+            $(`[data-mu='on']`).add(`[data-mu='off']`).toggleClass('hide')
+        })
+        $(`[data-mu='off']`).on('tap', () => {
+            bgm.mute(false)
+            if (!bgm.playing()) {
+                bgm.play()
+            }
+            $(`[data-mu='on']`).add(`[data-mu='off']`).toggleClass('hide')
+        })
+        if ($From == '') {
+            $(`[data-ui='btnStart']`).on('pointerdown', () => {
+                ring.play()
+                $(`[data-ui='hello']`).fadeOut(600, () => {
+                    $(`[data-ui='hello']`).remove()
+                    $('aside').fadeIn(350)
+                    gsap.delayedCall(4.3, () => {
+                        $('aside').fadeOut(350).remove()
+                        $(`[data-ui='slideBg']`)
+                            .add(`[data-ui='pointer2']`)
+                            .add(`[data-ui='btnCam']`)
+                            .add(`[data-ui='padBg']`)
+                            .add(`[data-ui='pad']`)
+                            .add(`[data-ui='pointer']`)
+                            .fadeIn(350)
+                    })
+                })
+            })
+        } else {
+            $(`[data-ui='slideBg']`)
+                .add(`[data-ui='pointer2']`)
+                .add(`[data-ui='btnCam']`)
+                .add(`[data-ui='padBg']`)
+                .add(`[data-ui='pad']`)
+                .add(`[data-ui='pointer']`)
+                .show()
+        }
+    </script>
+    <script src='libs/ismobile.min.js'></script>
+    <script src='libs/gsap.min.js'></script>
+    <script src='libs/hammer.min.js'></script>
+    <script src='3d/babylon.js'></script>
+    <script src='3d/babylonjs.loaders.min.js'></script>
+    <script src='main.15.js'></script>
+</body>
+</html>

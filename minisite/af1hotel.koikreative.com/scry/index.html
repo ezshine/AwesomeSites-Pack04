@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <!-- <base href='/'> -->
+    <!-- <base href='https://af1hotel.koikreative.com/scry/'> -->
+    <meta charset='UTF-8'>
+    <meta http-equiv='Pragma' content='no-cache'>
+    <meta http-equiv='Cache-Control' content='max-age=0'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <title>AF1 HOTEL · SCRY</title>
+    <link rel='stylesheet' href='assets/comm.1.css'>
+    <link rel='stylesheet' href='assets/ui.5.css'>
+    <link rel='stylesheet' href='loader/main.2.css'>
+    <script src='libs/tongji.js'></script>
+</head>
+<body>
+    <canvas></canvas>
+    <main class='ui' style='display:none;'>
+        <img class='imgBase' src='assets/ui/slideBg.wh.png' data-ui='slideBg' data-touch>
+        <img class='imgBase' src='assets/ui/pointer.wh.png' data-ui='pointer2'>
+        <img class='imgBase' src='assets/ui/padBg.wh.png' data-ui='padBg'>
+        <img class='imgBase' src='assets/ui/pad.wh.png' data-ui='pad' data-touch>
+        <img class='imgBase' src='assets/ui/pointer.wh.png' data-ui='pointer'>
+        <img class='imgBase' src='assets/ui/btnInfo.wh.png' data-ui='btnInfo' data-touch>
+        <img class='imgBase' src='assets/ui/btnMat.png' data-ui='btnMat' data-touch>
+        <div class='imgBase hide' data-ui='ll'></div>
+        <div class='imgBase hide' data-ui='sl' data-pos='5'></div>
+        <div class='imgBase hide' data-con>
+            <div data-mat='6' data-touch></div>
+            <div data-mat='2' data-touch></div>
+            <div data-mat='7' data-touch></div>
+            <div data-mat='3' data-touch></div>
+            <div data-mat='2' data-touch></div>
+            <div data-mat='5' data-touch></div>
+            <div data-mat='1' data-touch></div>
+            <div data-mat='4' data-touch></div>
+        </div>
+    </main>
+    <div class='imgBase hide' data-ui='selector' data-pos='5'>
+        <div data-mat='1' data-touch></div>
+        <div data-mat='2' data-touch></div>
+        <div data-mat='3' data-touch></div>
+        <div data-mat='4' data-touch></div>
+        <div data-mat='5' data-touch></div>
+        <div data-mat='6' data-touch></div>
+    </div>
+    <div data-modal='hello' style='display:none;'>
+        <img class='imgBase' src='assets/ui/scry.v.1.png' data-ui='cardv'>
+        <img class='imgBase' src='assets/ui/scry.h.1.png' data-ui='cardh'>
+        <img class='imgBase' src='assets/ui/btnClose.2.png' data-ui='btnClose' data-touch>
+    </div>
+    <aside class='ui'>
+        <img class='imgBase' src='assets/ui/btnBack.wh.png' data-ui='btnBack' data-touch>
+        <img class='imgBase' src='assets/ui/logo.wh.png' data-ui='logo'>
+        <img class='imgBase' src='assets/ui/on.wh.1.png' data-mu='on'>
+        <img class='imgBase hide' src='assets/ui/off.wh.1.png' data-mu='off'>
+    </aside>
+    <div data-loader='con'>
+        <img class='imgBase' src='loader/bgv.3.png' data-loader='bgv'>
+        <img class='imgBase' src='loader/bgh.3.png' data-loader='bgh'>
+        <img class='imgBase' src='loader/base.png' data-loader='base'>
+        <img class='imgBase' src='loader/pointer.png' data-loader='pointer'>
+        <div class='imgBase' data-loader='rect' style='transform:scaleX(0);'></div>
+    </div>
+    <script src='https://res.wx.qq.com/open/js/jweixin-1.6.0.js'></script>
+    <script src='libs/share.3.js'></script>
+    <script src='libs/howler.core.min.js'></script>
+    <script src='libs/jquery.min.js'></script>
+    <script src='libs/jquery.tap.js'></script>
+    <script>
+        let locked = false
+        const bgm = new Howl({
+            src: 'assets/bgm.mp3',
+            autoplay: true,
+            loop: true,
+        })
+        const eff = new Howl({
+            src: 'assets/eff.mp3',
+        })
+        const btn = new Howl({
+            src: 'assets/btn.mp3',
+        })
+        $(`[data-ui='btnBack']`).on('tap', () => {
+            location.replace('/lobby/?from=scry')
+        })
+        $(`[data-ui='btnClose']`)
+            .on('tap', () => {
+                if (!locked) {
+                    locked = true
+                    if (!bgm.playing()) {
+                        bgm.play()
+                    }
+                    $('main').fadeIn(350, () => {
+                        $(`[data-ui='btnInfo']`).removeClass('hide')
+                    })
+                    $(`[data-modal='hello']`).fadeOut(400, () => {
+                        $(`[data-ui='btnInfo']`).removeClass('hide')
+                        locked = false
+                    })
+                }
+            })
+        $(`[data-ui='btnInfo']`).on('tap', () => {
+            if (!locked) {
+                locked = true
+                eff.play() // 音效
+                $(`[data-ui='btnInfo']`).addClass('hide')
+                $(`[data-modal='hello']`).fadeIn(200, () => {
+                    locked = false
+                })
+            }
+        })
+        $(`[data-mu='on']`).on('tap', () => {
+            bgm.mute(true)
+            $(`[data-mu='on']`).add(`[data-mu='off']`).toggleClass('hide')
+        })
+        $(`[data-mu='off']`).on('tap', () => {
+            bgm.mute(false)
+            if (!bgm.playing()) {
+                bgm.play()
+            }
+            $(`[data-mu='on']`).add(`[data-mu='off']`).toggleClass('hide')
+        })
+    </script>
+    <script src='libs/ismobile.min.js'></script>
+    <script src='libs/gsap.min.js'></script>
+    <script src='libs/hammer.min.js'></script>
+    <script src='3d/babylon.js'></script>
+    <script src='3d/babylonjs.loaders.min.js'></script>
+    <script src='main.6.js'></script>
+</body>
+</html>

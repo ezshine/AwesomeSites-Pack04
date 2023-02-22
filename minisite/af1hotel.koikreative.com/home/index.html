@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <!-- <base href='/'> -->
+    <!-- <base href='https://af1hotel.koikreative.com/home/'> -->
+    <meta charset='UTF-8'>
+    <meta http-equiv='Pragma' content='no-cache'>
+    <meta http-equiv='Cache-Control' content='max-age=0'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <title>AF1 HOTEL · Home</title>
+    <link rel='stylesheet' href='assets/comm.1.css'>
+    <link rel='stylesheet' href='assets/ui.2.css'>
+    <link rel='stylesheet' href='loader/main.2.css'>
+    <script src='libs/tongji.js'></script>
+</head>
+<body>
+    <canvas></canvas>
+    <aside id='ui'>
+        <img class='imgBase' src='assets/ui/logo.bk.png' data-ui='logo'>
+        <img class='imgBase' src='assets/ui/360.1.png' data-ui='360'>
+        <img class='imgBase' src='assets/ui/dragText.png' data-ui='dragText'>
+        <img class='imgBase' src='assets/ui/dragBg.1.png' data-ui='dragBg'>
+        <img class='imgBase' src='assets/ui/dragTips.1.png' data-touch data-ui='dragTips'>
+        <img class='imgBase' src='assets/ui/btnStart.png' data-touch data-ui='btnStart'>
+        <img class='imgBase hide' src='assets/ui/off.bk.1.png' data-touch data-mu='off'>
+        <img class='imgBase' src='assets/ui/on.bk.1.png' data-touch data-mu='on'>
+    </aside>
+    <div data-mask style='width:100vw;height:100vh;position:absolute;top:0;left:0;'></div>
+    <div data-loader='con'>
+        <img class='imgBase' src='loader/bgv.3.png' data-loader='bgv'>
+        <img class='imgBase' src='loader/bgh.3.png' data-loader='bgh'>
+        <img class='imgBase' src='loader/base.png' data-loader='base'>
+        <img class='imgBase' src='loader/pointer.png' data-loader='pointer'>
+        <div class='imgBase' data-loader='rect' style='transform:scaleX(0);'></div>
+    </div>
+    <script src='https://res.wx.qq.com/open/js/jweixin-1.6.0.js'></script>
+    <script src='libs/share.3.js'></script>
+    <script src='libs/howler.core.min.js'></script>
+    <script src='libs/jquery.min.js'></script>
+    <script src='libs/jquery.tap.js'></script>
+    <script>
+        const bgm = new Howl({
+            src: 'assets/bgm.mp3',
+            autoplay: true,
+            loop: true,
+            onplay: () => {
+                if (!bgm._muted) {
+                    $(`[data-mu='on']`).removeClass('hide')
+                    $(`[data-mu='off']`).addClass('hide')
+                }
+            },
+            onload: () => {
+                if (bgm._muted || bgm._playLock) {
+                    $('[data-mu]').toggleClass('hide')
+                }
+            }
+        })
+        const eff = new Howl({
+            src: 'assets/eff.mp3',
+        })
+        $(`[data-mu='on']`).on('tap', () => {
+            bgm.mute(true)
+            $(`[data-mu='on']`).addClass('hide')
+            $(`[data-mu='off']`).removeClass('hide')
+        })
+        $(`[data-mu='off']`).on('tap', () => {
+            bgm.mute(false)
+            $(`[data-mu='off']`).addClass('hide')
+            $(`[data-mu='on']`).removeClass('hide')
+        })
+        $(`[data-ui='btnStart']`).on('tap', () => {
+            location.replace('/lobby/')
+        })
+        $(`[data-ui='dragTips']`).on('pointerdown', () => {
+            eff.play()
+        })
+    </script>
+    <script src='libs/gsap.min.js'></script>
+    <script src='libs/Draggable.min.js'></script>
+    <script src='3d/babylon.js'></script>
+    <script src='3d/babylonjs.loaders.min.js'></script>
+    <script src='main.6.js'></script>
+</body>
+</html>

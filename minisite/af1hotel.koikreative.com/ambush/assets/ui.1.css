@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+[data-ui="tipsCon"] {
+    width: 31.067vmin;
+    height: 3px;
+    position: absolute;
+    left: calc(50% - 15.534vmin);
+    top: calc(50% + 32.4vmin);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.tips {
+    width: 6.667vmin;
+    height: 100%;
+    background-image: linear-gradient(to right, white 50%, #747474 50%);
+    background-size: 200%;
+    background-position-x: 100%;
+}
+[data-ui="logo"] {
+    right: 8.533vmin;
+    top: 22.267vmin;
+    width: 15.333vmin;
+}
+[data-ui="360"] {
+    left: 8.8vmin;
+    top: 88.4vmin;
+    width: 10.667vmin;
+}
+[data-ui="btnBack"] {
+    left: 9.333vmin;
+    top: 24vmin;
+    width: 6.133vmin;
+}
+[data-ui="btnPop"] {
+    left: 9.6vmin;
+    bottom: 21.733vmin;
+    width: 24vmin;
+}
+[data-ui="headV"] {
+    right: 7.6vmin;
+    top: 46.4vmin;
+    width: 16.667vmin;
+}
+[data-ui="headH"] {
+    display: none;
+    right: 18.267vmin;
+    top: 31.2vmin;
+    width: 18.4vmin;
+}
+[data-ui="modalBgV"] {
+    left: calc(50% - 43.6vmin);
+    top: calc(50% - 64.734vmin);
+    width: 87.2vmin;
+}
+[data-ui="modalBgH"] {
+    display: none;
+    left: calc(50% - 70.2vmin);
+    top: calc(50% - 34.534vmin);
+    width: 140.4vmin;
+}
+[data-ui="shoe"] {
+    left: calc(50% - 21.8vmin);
+    top: 50%;
+    width: 43.6vmin;
+}
+[data-ui="btnJump"] {
+    left: calc(50% - 22.667vmin);
+    top: calc(50% + 40.533vmin);
+    width: 45.333vmin;
+}
+[data-ui="btnClose"] {
+    left: calc(50% + 35.333vmin);
+    bottom: calc(50% + 58.933vmin);
+    width: 2.933vmin;
+}
+[data-ui="infoClose"] {
+    right: calc(50% - 21.534vmin);
+    top: 51.6vmin;
+    width: 5.733vmin;
+}
+[data-ui="infov"] {
+    right: calc(50% - 21.534vmin);
+    top: 58vmin;
+    width: 43.067vmin;
+}
+[data-ui="infoh"] {
+    display: none;
+    right: calc(50% - 43.2vmin);
+    top: 28.4vmin;
+    width: 86.4vmin;
+}
+[data-mu] {
+    left: 28.667vmin;
+    top: 24.133vmin;
+    width: 6.8vmin;
+    pointer-events: all;
+}
+body {
+    background: url(ui/bgv.jpg) no-repeat;
+    background-size: cover;
+}
+/* 横屏 */
+@media screen and (orientation: landscape) {
+    [data-ui="tipsCon"] {
+        left: calc(50% + 13.067vmin);
+        top: calc(50% + 10.533vmin);
+    }
+    [data-ui="logo"] {
+        right: 21.067vmin;
+        top: 9.2vmin;
+    }
+    [data-ui="360"] {
+        left: 21.733vmin;
+        top: 36.533vmin;
+    }
+    [data-ui="btnBack"] {
+        left: 21.867vmin;
+        top: 11.2vmin;
+    }
+    [data-ui="btnPop"] {
+        left: 22.267vmin;
+        bottom: 9.467vmin;
+    }
+    [data-ui="headV"] {
+        display: none;
+    }
+    [data-ui="headH"] {
+        display: block;
+    }
+    [data-ui="modalBgV"] {
+        display: none;
+    }
+    [data-ui="modalBgH"] {
+        display: block;
+    }
+    [data-ui="shoe"] {
+        left: calc(50% + 6.667vmin);
+        top: calc(50% - 19.467vmin);
+    }
+    [data-ui="btnJump"] {
+        left: calc(50% + 5.867vmin);
+        top: calc(50% + 20.533vmin);
+    }
+    [data-ui="btnClose"] {
+        left: calc(50% + 63.733vmin);
+        bottom: calc(50% + 28.533vmin);
+    }
+    [data-ui="infoClose"] {
+        right: calc(50% - 43.2vmin);
+        top: 21.867vmin;
+    }
+    [data-ui="infov"] {
+        display: none;
+    }
+    [data-ui="infoh"] {
+        display: block;
+    }
+    [data-mu] {
+        left: 43.733vmin;
+        top: 11.333vmin;
+    }
+    body {
+        background: url(ui/bgh.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+/* 大屏设备 */
+@media screen and (min-width: 1024px) {
+    [data-ui="logo"] {
+        max-width: 115px;
+    }
+    [data-ui="360"] {
+        max-width: 80px;
+    }
+    [data-ui="btnBack"] {
+        max-width: 45px;
+        cursor: pointer;
+    }
+    [data-ui="btnPop"] {
+        max-width: 180px;
+        cursor: pointer;
+    }
+    [data-ui="headV"] {
+        max-width: 125px;
+    }
+    [data-ui="headH"] {
+        max-width: 138px;
+    }
+    [data-ui="modalBgH"] {
+        max-width: 1053px;
+        top: calc(50% - 259px);
+    }
+    [data-ui="btnClose"] {
+        max-width: 22px;
+        left: calc(50% + 478px);
+        bottom: calc(50% + 214px);
+    }
+    [data-ui="shoe"] {
+        max-width: 327px;
+    }
+    [data-ui="btnJump"] {
+        max-width: 340px;
+    }
+    [data-ui="infoClose"] {
+        max-width: 34px;
+    }
+    [data-ui="infoh"] {
+        max-width: 540px;
+    }
+    [data-mu] {
+        max-width: 51px;
+    }
+}

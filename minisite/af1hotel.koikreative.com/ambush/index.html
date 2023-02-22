@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+    <!-- <base href='/'> -->
+    <!-- <base href='https://af1hotel.koikreative.com/ambush/'> -->
+    <meta charset='UTF-8'>
+    <meta http-equiv='Pragma' content='no-cache'>
+    <meta http-equiv='Cache-Control' content='max-age=0'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+    <title>AF1 HOTEL · AMBUSH AF1</title>
+    <link rel='stylesheet' href='assets/comm.css'>
+    <link rel='stylesheet' href='assets/ui.1.css'>
+    <link rel='stylesheet' href='loader/main.2.css'>
+    <script src='libs/tongji.js'></script>
+</head>
+<body>
+    <canvas data-main style='touch-action:none;'></canvas>
+    <aside id='ui'>
+        <img class='imgBase' src='assets/ui/btnBack.wh.png' data-ui='btnBack' data-touch>
+        <img class='imgBase' src='assets/ui/btnPop.png' data-ui='btnPop' data-touch>
+        <img class='imgBase' src='assets/ui/logo.png' data-ui='logo'>
+        <img class='imgBase' src='assets/ui/360.wh.png' data-ui='360'>
+        <img class='imgBase' src='assets/ui/headV.png' data-ui='headV'>
+        <img class='imgBase' src='assets/ui/headH.png' data-ui='headH'>
+        <img class='imgBase' src='assets/ui/on.wh.1.png' data-mu='on'>
+        <img class='imgBase hide' src='assets/ui/off.wh.1.png' data-mu='off'>
+    </aside>
+    <div data-modal='info' style='display:none;'>
+        <img class='imgBase hide' src='assets/ui/info3h.1.png' data-ui='infoh' data-info='3'>
+        <img class='imgBase hide' src='assets/ui/info2h.1.png' data-ui='infoh' data-info='2'>
+        <img class='imgBase hide' src='assets/ui/info1h.1.png' data-ui='infoh' data-info='1'>
+        <img class='imgBase hide' src='assets/ui/info3v.1.png' data-ui='infov' data-info='3'>
+        <img class='imgBase hide' src='assets/ui/info2v.1.png' data-ui='infov' data-info='2'>
+        <img class='imgBase hide' src='assets/ui/info1v.1.png' data-ui='infov' data-info='1'>
+        <img class='imgBase' src='assets/ui/infoClose.1.png' data-ui='infoClose' data-touch>
+    </div>
+    <div data-modal='story' style='display:none;'>
+        <img class='imgBase' src='assets/ui/modalBgV.1.png' data-ui='modalBgV'>
+        <img class='imgBase' src='assets/ui/modalBgH.1.png' data-ui='modalBgH'>
+        <div data-ui='tipsCon'>
+            <div class='tips'></div>
+            <div class='tips'></div>
+            <div class='tips'></div>
+            <div class='tips'></div>
+        </div>
+        <img class='imgBase' src='assets/ui/shoe4.png' data-ui='shoe' data-shoe='4' style='opacity:0;'>
+        <img class='imgBase' src='assets/ui/shoe3.png' data-ui='shoe' data-shoe='3' style='opacity:0;'>
+        <img class='imgBase' src='assets/ui/shoe2.png' data-ui='shoe' data-shoe='2' style='opacity:0;'>
+        <img class='imgBase' src='assets/ui/shoe1.png' data-ui='shoe' data-shoe='1'>
+        <img class='imgBase' src='assets/ui/btnJump.png' data-ui='btnJump' data-touch>
+        <img class='imgBase' src='assets/ui/btnClose.png' data-ui='btnClose' data-touch>
+    </div>
+    <div data-loader='con'>
+        <img class='imgBase' src='loader/bgv.3.png' data-loader='bgv'>
+        <img class='imgBase' src='loader/bgh.3.png' data-loader='bgh'>
+        <img class='imgBase' src='loader/base.png' data-loader='base'>
+        <img class='imgBase' src='loader/pointer.png' data-loader='pointer'>
+        <div class='imgBase' data-loader='rect' style='transform:scaleX(0);'></div>
+    </div>
+    <script src='https://res.wx.qq.com/open/js/jweixin-1.6.0.js'></script>
+    <script src='libs/share.3.js'></script>
+    <script src='libs/howler.core.min.js'></script>
+    <script src='libs/jquery.min.js'></script>
+    <script src='libs/jquery.tap.js'></script>
+    <script src='libs/gsap.min.js'></script>
+    <script>
+        const bgm = new Howl({
+            src: 'assets/bgm.mp3',
+            autoplay: true,
+            loop: true,
+        })
+        const eff = new Howl({
+            src: 'assets/eff.mp3',
+        })
+        const shoesAni = gsap.timeline({
+            paused: true,
+            repeat: -1,
+            defaults: {
+                duration: .4,
+                ease: 'power2.inOut',
+            },
+        })
+        shoesAni
+            .call(() => { gsap.to($('.tips')[0], { backgroundPositionX: '0%', duration: 2.6, ease: 'none', }) })
+            .to($(`[data-shoe='1']`)[0], { opacity: 0, }, 3)
+            .call(() => { gsap.set($('.tips')[0], { backgroundPositionX: '100%', }) })
+            .to($(`[data-shoe='2']`)[0], { opacity: 1, })
+            .call(() => { gsap.to($('.tips')[1], { backgroundPositionX: '0%', duration: 2.6, ease: 'none', }) })
+            .to($(`[data-shoe='2']`)[0], { opacity: 0, }, '<3')
+            .call(() => { gsap.set($('.tips')[1], { backgroundPositionX: '100%', }) })
+            .to($(`[data-shoe='3']`)[0], { opacity: 1, })
+            .call(() => { gsap.to($('.tips')[2], { backgroundPositionX: '0%', duration: 2.6, ease: 'none', }) })
+            .to($(`[data-shoe='3']`)[0], { opacity: 0, }, '<3')
+            .call(() => { gsap.set($('.tips')[2], { backgroundPositionX: '100%', }) })
+            .to($(`[data-shoe='4']`)[0], { opacity: 1, })
+            .call(() => { gsap.to($('.tips')[3], { backgroundPositionX: '0%', duration: 2.6, ease: 'none', }) })
+            .to($(`[data-shoe='4']`)[0], { opacity: 0, }, '<3')
+            .call(() => { gsap.set($('.tips')[3], { backgroundPositionX: '100%', }) })
+            .to($(`[data-shoe='1']`)[0], { opacity: 1, })
+        let locked = false
+        $(`[data-ui='btnBack']`).on('tap', () => {
+            location.replace('/lobby/?from=ambush')
+        })
+        $(`[data-ui='btnJump']`).on('tap', () => {
+            location.replace('https://snkrs.onelnk.com/MZfc/6my7ag7q')
+        })
+        $(`[data-ui='btnClose']`).on('tap', () => {
+            if (!locked) {
+                locked = true
+                $(`[data-modal='story']`).fadeOut(400, () => {
+                    locked = false
+                    shoesAni.pause()
+                })
+            }
+        })
+        $(`[data-ui='btnPop']`).on('tap', () => {
+            if (!locked) {
+                locked = true
+                eff.play() // 音效
+                $(`[data-modal='story']`).fadeIn(200, () => {
+                    locked = false
+                    shoesAni.play()
+                })
+            }
+        })
+        $(`[data-ui='infoClose']`).on('tap', () => {
+            if (!locked) {
+                locked = true
+                $(`[data-modal='info']`).fadeOut(400, () => {
+                    $('[data-info]').addClass('hide')
+                    locked = false
+                })
+            }
+        })
+        $(`[data-mu='on']`).on('tap', () => {
+            bgm.mute(true)
+            $(`[data-mu='on']`).add(`[data-mu='off']`).toggleClass('hide')
+        })
+        $(`[data-mu='off']`).on('tap', () => {
+            bgm.mute(false)
+            if (!bgm.playing()) {
+                bgm.play()
+            }
+            $(`[data-mu='on']`).add(`[data-mu='off']`).toggleClass('hide')
+        })
+    </script>
+    <script src='libs/ismobile.min.js'></script>
+    <script src='3d/babylon.js'></script>
+    <script src='3d/babylonjs.loaders.min.js'></script>
+    <script src='main.6.js'></script>
+</body>
+</html>

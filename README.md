@@ -12,3 +12,4 @@
 - hle.io
 - www.spaceforce.com
 - www.theperfumeshop.com
+- af1hotel.koikreative.com
