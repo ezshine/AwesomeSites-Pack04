@@ -14,3 +14,4 @@
 - www.theperfumeshop.com
 - af1hotel.koikreative.com
 - http://www.heyzxz.me/pcol
+- haunted.thedigitalpanda.com
