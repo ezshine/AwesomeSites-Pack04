@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Haunted by Nostalgia | The Digital Panda</title>
+  <meta content="Step insde a nightmare of nostalgic proportions." name="description">
+  <meta content="Haunted by Nostalgia | The Digital Panda" property="og:title">
+  <meta content="Step insde a nightmare of nostalgic proportions." property="og:description">
+  <meta content="https://d2my2wpsc41l6t.cloudfront.net/3D/halloween/haunted-og.jpg" property="og:image">
+  <meta content="Haunted by Nostalgia | The Digital Panda" property="twitter:title">
+  <meta content="Step insde a nightmare of nostalgic proportions." property="twitter:description">
+  <meta content="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/haunted-og.jpg" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+
+
+  <link href="./assets.website-files.com/62e4a30040ecc14181f62b0d/62e4a30040ecc14e66f62b52_favicon.png"
+    rel="shortcut icon" type="image/x-icon">
+  <link href="./assets.website-files.com/62e4a30040ecc14181f62b0d/62e4a30040ecc11f2ff62b48_favicon%401x.png"
+    rel="apple-touch-icon">
+  <link href="https://www.thedigitalpanda.com/" rel="canonical">
+
+  <meta name="theme-color" content="#22272a">
+
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#22272a">
+  <!-- iOS Safari -->
+  <link rel="apple-touch-startup-image" href="./launch.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#22272a">
+  <link rel="icon" sizes="192x192"
+    href="./assets.website-files.com/5836527b3e8b8e776f7f6d51/5999ffb73f1ad60001ce6de3_favicon%401x.png">
+  <link rel="dns-prefetch" href="https://s3-us-west-2.amazonaws.com">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a href="https://www.thedigitalpanda.com" target="_blank" class="tdp-logo">
+    <img class=""
+      src="./assets.website-files.com/62e4a30040ecc14181f62b0d/62e4a30040ecc1ed61f62b53_Logo-light.svg" /></a>
+  <canvas id="glcanvas" width="100vw" height="100vh" tabindex="1"></canvas>
+
+  <img data-game="start" class="logo"
+    src="./assets.website-files.com/62e4a30040ecc14181f62b0d/62e4a30040ecc1ed61f62b53_Logo-light.svg" />
+  <img data-game="start" class="title-img" src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/images/title.webp">
+  <img data-game="start" class="title-img" src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/images/title.webp">
+  <img data-game="start" class="title-img" src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/images/title.webp">
+  <img data-game="start" class="title-img" src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/images/title.webp">
+
+  <div data-game="start" class="overlay">
+    <div class="overlay__content">
+      <p>This experience is best enjoyed with headphones or surround sound. Please dim your lights to really get into
+        it.</p>
+      <div class="button--start" id="startButton">Start the Experience</div>
+      <p class="subscript">*Although this project works on all browsers, it may be laggy on mobile devices and older
+        computers. Don't blame us if your device melts</p>
+    </div>
+  </div>
+  <div data-game="end" class="overlay">
+    <div class="overlay__content">
+      <img class="title-img" src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/images/cut-image.png">
+      <img class="end-panda"
+        src="./dl.dropbox.com/scl/fi/fqmlbkw4qwek9df15ncps/panda-_video-anim_shadow-v1-1.webp?rlkey=sxfnzmmwajanvm47675wc313k&dl=0" />
+
+      <p>Thank you for playing!
+        <br /><br />See more of our work at <a href="https://www.thedigitalpanda.com"
+          target="_blank">www.thedigitalpanda.com</a>
+      </p>
+      <div class="button--start" id="restart">Start Over</div>
+      <div class="overlay__bkg">
+      </div>
+    </div>
+  </div>
+  <main class="overlay--gui">
+    <div class="score top">
+      <div class="current">0</div>
+      <div class="total"> OF 13</div>
+    </div>
+    <div class="button audio">
+    </div>
+    <div class="life-wrapper">
+      <div class="life">
+        <img class="candle" src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/images/skull.webp" />
+        <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.6"
+            d="M1.41421 24.0858L24.0858 1.41421C24.8668 0.633165 26.1332 0.633163 26.9142 1.41421L49.5858 24.0858C50.3668 24.8668 50.3668 26.1332 49.5858 26.9142L26.9142 49.5858C26.1332 50.3668 24.8668 50.3668 24.0858 49.5858L1.41421 26.9142C0.633165 26.1332 0.633163 24.8668 1.41421 24.0858Z"
+            stroke="url(#paint0_linear_47_618)" />
+          <defs>
+            <linearGradient id="paint0_linear_47_618" x1="0.906904" y1="15.9376" x2="52.0103" y2="16.018"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#9880DE" />
+              <stop offset="1" stop-color="#967EDF" stop-opacity="0.44" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+      </div>
+      <div class="life">
+        <img class="candle" src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/images/skull.webp" />
+        <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.6"
+            d="M1.41421 24.0858L24.0858 1.41421C24.8668 0.633165 26.1332 0.633163 26.9142 1.41421L49.5858 24.0858C50.3668 24.8668 50.3668 26.1332 49.5858 26.9142L26.9142 49.5858C26.1332 50.3668 24.8668 50.3668 24.0858 49.5858L1.41421 26.9142C0.633165 26.1332 0.633163 24.8668 1.41421 24.0858Z"
+            stroke="url(#paint0_linear_47_618)" />
+          <defs>
+            <linearGradient id="paint0_linear_47_618" x1="0.906904" y1="15.9376" x2="52.0103" y2="16.018"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#9880DE" />
+              <stop offset="1" stop-color="#967EDF" stop-opacity="0.44" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+      </div>
+      <div class="life">
+        <img class="candle" src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/images/skull.webp" />
+        <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.6"
+            d="M1.41421 24.0858L24.0858 1.41421C24.8668 0.633165 26.1332 0.633163 26.9142 1.41421L49.5858 24.0858C50.3668 24.8668 50.3668 26.1332 49.5858 26.9142L26.9142 49.5858C26.1332 50.3668 24.8668 50.3668 24.0858 49.5858L1.41421 26.9142C0.633165 26.1332 0.633163 24.8668 1.41421 24.0858Z"
+            stroke="url(#paint0_linear_47_618)" />
+          <defs>
+            <linearGradient id="paint0_linear_47_618" x1="0.906904" y1="15.9376" x2="52.0103" y2="16.018"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#9880DE" />
+              <stop offset="1" stop-color="#967EDF" stop-opacity="0.44" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+      </div>
+    </div>
+
+    <div class="tooltip">
+      <div class="tooltip__result">
+        <div class="score">
+          <div class="current" id="currentScore">0</div>
+          <div class="total"> OF 13</div>
+        </div>
+        <h4>That's Correct!</h4>
+        <div class="button--start" id="closeButton" onClick=" closeTooltip();">Keep searching</div>
+        <div class="button--start" id="completeButton">Leave the house</div>
+      </div>
+      <div class="tooltip__content">
+        <div class="tooltip__heading">Where have I seen this before?</div>
+        <div class="tooltip__body">
+          <div class="movie-poster"></div>
+          <div class="movie-poster"></div>
+          <div class="movie-poster"></div>
+          <div class="movie-poster"></div>
+        </div>
+      </div>
+
+      <svg class="tooltip__bkg" width="616" height="304" viewBox="0 0 616 304" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M614.623 142.516V300.195C614.623 301.575 613.504 302.694 612.124 302.694H329.212H304.262H3.62235C2.24219 302.694 1.12335 301.576 1.12335 300.195V176.403V162.597V150.047L1.00207 3.50107C1.00093 2.12009 2.1201 1 3.50107 1H311.624H612.003C613.382 1 614.5 2.11749 614.502 3.4968L614.623 142.516Z"
+          fill="#02000D" fill-opacity="0.8" stroke="url(#paint0_linear_290_104)" />
+        <defs>
+          <linearGradient id="paint0_linear_290_104" x1="4.95161" y1="194.282" x2="642.452" y2="191.97"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9880DE" />
+            <stop offset="1" stop-color="#967EDF" stop-opacity="0.44" />
+          </linearGradient>
+        </defs>
+      </svg>
+      <svg width="863" class="tooltip__results-bkg" height="600" viewBox="0 0 863 600" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0.948272 359.747L0.948297 72.6474C0.948297 71.2672 2.06713 70.1484 3.44726 70.1484L353.65 70.1484C354.268 70.1484 354.865 69.9188 355.325 69.504L430.441 1.66119C431.392 0.801948 432.84 0.801949 433.791 1.66119L508.908 69.504C509.367 69.9188 509.964 70.1484 510.583 70.1484L859.328 70.1484C860.708 70.1484 861.827 71.2673 861.827 72.6474L861.827 303.342L861.827 326.322L861.827 347.213L861.998 596.183C861.999 597.564 860.88 598.684 859.499 598.684L426.125 598.684L3.61878 598.684C2.23933 598.684 1.1208 597.566 1.11976 596.187L0.948272 359.747Z"
+          fill="#02000D" fill-opacity="0.8" stroke="url(#paint0_linear_350_288)" />
+        <defs>
+          <linearGradient id="paint0_linear_350_288" x1="856.455" y1="273.581" x2="-38.105" y2="276.316"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#9880DE" />
+            <stop offset="1" stop-color="#967EDF" stop-opacity="0.44" />
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <div class="tooltip__close">
+        <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M34.5858 1.41421C35.3668 0.633162 36.6332 0.633173 37.4142 1.41423L70.5858 34.5865C71.3668 35.3675 71.3668 36.6338 70.5858 37.4149L37.4142 70.5858C36.6332 71.3668 35.3668 71.3668 34.5858 70.5858L1.4142 37.4137C0.633161 36.6327 0.633169 35.3664 1.41422 34.5853L34.5858 1.41421Z"
+            stroke="url(#paint0_linear_54_97)" />
+          <path
+            d="M28.2929 43.435C27.9024 43.0445 27.9024 42.4113 28.2929 42.0208L41.0208 29.2929C41.4113 28.9024 42.0445 28.9024 42.435 29.2929C42.8256 29.6834 42.8256 30.3166 42.435 30.7071L29.7071 43.435C29.3166 43.8256 28.6834 43.8256 28.2929 43.435Z"
+            fill="#9880DE" />
+          <path
+            d="M42.435 43.435C42.0445 43.8256 41.4113 43.8256 41.0208 43.435L28.2929 30.7071C27.9024 30.3166 27.9024 29.6834 28.2929 29.2929C28.6834 28.9024 29.3166 28.9024 29.7071 29.2929L42.435 42.0208C42.8256 42.4113 42.8256 43.0445 42.435 43.435Z"
+            fill="#9880DE" />
+          <defs>
+            <linearGradient id="paint0_linear_54_97" x1="1.28033" y1="22.5001" x2="73.4263" y2="22.6137"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#9880DE" />
+              <stop offset="1" stop-color="#967EDF" stop-opacity="0.44" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+      </div>
+    </div>
+
+    <div class="narrator-wrapper">
+      <div class="panda"><img src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/loader-panda.webp" /></div>
+      <div class="message">
+      </div>
+    </div>
+  </main>
+  <video id="video-ending" preload="metadata" data-game="end"
+    src="./dl.dropbox.com/scl/fi/5bplxad2vznvftkkvfh0a/TDP_halloween-ending_wip-01.mp4?rlkey=z3kkunc6wazw5v8ay909gq5t6&dl=0" /></video>
+  <script src="./d2my2wpsc41l6t.cloudfront.net/3D/halloween/patch.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
