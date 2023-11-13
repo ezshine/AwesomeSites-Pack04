@@ -16,3 +16,4 @@
 - http://www.heyzxz.me/pcol
 - haunted.thedigitalpanda.com
 - fragrance.hermes.com
+- veecon2023game.veefriends.com

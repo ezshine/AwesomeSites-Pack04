@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game | VEECON VIPER</title>
+	<meta name="google" content="notranslate">
+	<meta name="pinterest" content="nohover">
+	<meta name="application-name" content="VEECON VIPER">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#000000">
+	<meta name="apple-mobile-web-app-title" content="VEECON VIPER">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="msapplication-tap-highlight" content="no">
+	<link rel="icon" href="/favicon.ico" sizes="any">
+	<link rel="icon" href="/icons/favicon_dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)" />
+	<link rel="icon" href="/icons/favicon_light.svg" type="image/svg+xml" media="(prefers-color-scheme: light)" />
+	<link rel="apple-touch-icon" href="/icons/icon_180.png">
+	<link rel="modulepreload" crossorigin href="/assets/vendor-ae99e4cc.js?v=EW0KrJwVBuwv0X_wD2-VcMP5gtnckbcQZopWilpYOaI">
+	<script type="module" crossorigin src="/assets/game.mjs"></script>
+	<link rel="stylesheet" href="/assets/game.css">
+</head>
+<body>
+	<aside b-wiegd0zcj4 class="preloader" data-component="preloader">
+		<figure b-wiegd0zcj4 class="spinner"></figure>
+		<figure b-wiegd0zcj4 class="panel panel-top"></figure>
+		<figure b-wiegd0zcj4 class="panel panel-bottom"></figure>
+		<figure b-wiegd0zcj4 class="overlay"></figure>
+	</aside>
+	
+
+<main id="app" data-ref="app">
+	<section class="view view-auth" data-component="viewAuth">
+		<figure class="qrcode" data-ref="authQrContainer"></figure>
+	</section>
+
+	<section class="view view-home" data-component="viewHome">
+		<button class="btn-start" data-ref="homeBtnStart"></button>
+		<button class="btn-leaderboard" data-ref="homeBtnLeaderboard"></button>
+	</section>
+
+	<section class="view view-game" data-component="viewGame">
+		<div class="pad" data-ref="gamePad">
+			<button class="btn-pad btn-up" data-ref="gameBtnUp"></button>
+			<button class="btn-pad btn-down" data-ref="gameBtnDown"></button>
+			<button class="btn-pad btn-left" data-ref="gameBtnLeft"></button>
+			<button class="btn-pad btn-right" data-ref="gameBtnRight"></button>
+		</div>
+	</section>
+
+	<section class="view view-gameOver" data-component="viewGameOver">
+		<button class="btn-share" data-ref="endBtnShare"></button>
+		<button class="btn-home" data-ref="endBtnHome"></button>
+		<button class="btn-replay" data-ref="endBtnReplay"></button>
+		<button class="btn-leaderboard" data-ref="endBtnLeaderboard"></button>
+		<button class="btn-register" data-ref="endBtnRegister"></button>
+	</section>
+
+	<section class="view view-leaderboard" data-component="viewLeaderboard">
+		<button class="btn-closeLeaderboard" data-ref="leaderboardBtnClose"></button>
+	</section>
+
+
+	<aside class="webgl-wrapper" data-ref="webglWrapper"></aside>
+</main>
+	
+</body>
+</html>
