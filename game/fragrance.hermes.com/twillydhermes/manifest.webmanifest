@@ -1,0 +1,22 @@
+{
+	"short_name": "Hermès - Tutti Twilly",
+	"name": "Hermès - Tutti Twilly",
+	"description": "Follow the silk ribbon in its mad dash around the streets of New York",
+	"start_url": "/twillydhermes/",
+	"background_color": "#000000",
+	"theme_color": "#000000",
+	"orientation": "portrait",
+	"icons": [
+		{
+			"src": "/twillydhermes/icons/icon_192.png?v=195ff8cf",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/twillydhermes/icons/icon_512.png?v=195ff8cf",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"display": "fullscreen"
+}
