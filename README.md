@@ -17,3 +17,4 @@
 - haunted.thedigitalpanda.com
 - fragrance.hermes.com
 - veecon2023game.veefriends.com
+- impossible-box.web.app
