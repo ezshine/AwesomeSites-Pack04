@@ -19,3 +19,4 @@
 - veecon2023game.veefriends.com
 - impossible-box.web.app
 - thewebshowcase.withgoogle.com
+- thefabulouscartierjourney.cartier.com

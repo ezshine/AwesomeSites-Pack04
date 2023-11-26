@@ -1,0 +1,20 @@
+<main id="mainContent" aria-label="The Cartier Fabulous Journey">
+<link rel="stylesheet" href="experience.css" />
+<section id="mm-experience-wrapper"></section>
+<script>
+   function getURLParameter(name) {
+    var value = new RegExp('[?&]' + name + '=([^&]*)', 'i').exec(window.location.search);
+    return value && decodeURIComponent(value[1].replace(/\+/g, ' '));
+}
+
+// Utilisation :
+var local = getURLParameter('lang'); // Si l'URL est "https://exemple.com?page=home&lang=en_us", paramValue sera "en_us"
+
+//console.log(langValue);
+    window.MM_EXPERIENCE_CONFIG = {
+        lang: local, // Remplacer dynamiquement la locale ici selon la locale en cours sur le site cartier.
+        assetsPath: "/"
+    }
+</script>
+<script crossorigin type="module" src="experience.js"></script>
+</main>

@@ -1,0 +1,48 @@
+{"frames": {
+
+"circle.png":
+{
+	"frame": {"x":11,"y":897,"w":374,"h":374},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":374,"h":374},
+	"sourceSize": {"w":374,"h":374},
+	"anchor": {"x":0.5,"y":0.5}
+},
+"frozen_lake.png":
+{
+	"frame": {"x":11,"y":307,"w":862,"h":282},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":48,"y":24,"w":862,"h":282},
+	"sourceSize": {"w":950,"h":360},
+	"anchor": {"x":0,"y":0.5}
+},
+"sea_of_clouds.png":
+{
+	"frame": {"x":11,"y":11,"w":868,"h":284},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":25,"w":868,"h":284},
+	"sourceSize": {"w":950,"h":360},
+	"anchor": {"x":0,"y":0.5}
+},
+"starry_night.png":
+{
+	"frame": {"x":11,"y":601,"w":681,"h":284},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":126,"y":24,"w":681,"h":284},
+	"sourceSize": {"w":950,"h":360},
+	"anchor": {"x":0,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "sprites-titles-alt.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c356b5291afb735f54323c43af9474e9:d390a909f3a466fba73a06ef42f04812:be78f5d5dba14f783884abfe1c9a1592$"
+}
+}
