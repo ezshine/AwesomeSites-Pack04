@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.png">
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap"
+          rel="stylesheet">
+    <link href="/fonts/Gridular-Regular.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Night</title>
+  <script type="module" crossorigin src="/assets/index.js"></script>
+  <link rel="stylesheet" href="/assets/index.css">
+</head>
+<body>
+<div id="app"></div>
+<!-- Google tag (gtag.js) -->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNNXRQJTKJ"></script>-->
+
+<script> window.dataLayer = window.dataLayer || [];
+//
+// function gtag() {
+//   dataLayer.push(arguments);
+// }
+//
+// gtag('js', new Date());
+// gtag('config', 'G-VNNXRQJTKJ'); </script>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LfL70AoAAAAAL-UEqAb0m5_KqbQlJ4HlZGSWSiq"></script>
+</body>
+</html>
