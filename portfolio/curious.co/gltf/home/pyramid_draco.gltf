@@ -1,0 +1,1681 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2019 v20220628.14"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        4,
+        10
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3
+      ],
+      "translation": [
+        0,
+        -0.0238731839,
+        -0.0192514174
+      ],
+      "name": "pyramid",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        -4.58506122e-10,
+        0.0239553414,
+        4.76837148e-9
+      ],
+      "rotation": [
+        5.40297265e-8,
+        0.3826833,
+        -3.19740572e-8,
+        0.9238796
+      ],
+      "scale": [
+        0.691125631,
+        0.6911257,
+        0.691125631
+      ],
+      "name": "top"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        3.50586532e-10,
+        -0.00284408079,
+        -7.152557e-9
+      ],
+      "scale": [
+        1,
+        1.00000012,
+        1.00000012
+      ],
+      "name": "middle",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        2.73537356e-12,
+        -0.02975587,
+        0
+      ],
+      "rotation": [
+        6.70552254e-8,
+        2.98023224e-8,
+        -1.86264715e-9,
+        1
+      ],
+      "scale": [
+        1.037459,
+        1.037459,
+        1.037459
+      ],
+      "name": "bottom"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "translation": [
+        0,
+        -0.029731879,
+        -0.00497387163
+      ],
+      "name": "eye",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        0,
+        0.00000755786868,
+        0.0009132194
+      ],
+      "rotation": [
+        0.675590634,
+        2.61386468e-8,
+        -7.468182e-9,
+        0.7372769
+      ],
+      "scale": [
+        1.353145,
+        1.35314465,
+        1.35314488
+      ],
+      "name": "eyeball"
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        0,
+        0.00000755786868,
+        0.000913220632
+      ],
+      "name": "shutter_top",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        0,
+        0.00000755786868,
+        0.000913220632
+      ],
+      "name": "lid_top",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 6,
+      "translation": [
+        0,
+        0.00000755786868,
+        0.000913220632
+      ],
+      "name": "shutter_bottom",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 7,
+      "translation": [
+        0,
+        0.00000755786868,
+        0.000913220632
+      ],
+      "name": "lid_bottom",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "children": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "translation": [
+        0.001205964,
+        -0.0363115333,
+        -0.0188392233
+      ],
+      "name": "ring",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 8,
+      "translation": [
+        0.0311065931,
+        -0.00126926415,
+        -0.05054548
+      ],
+      "name": "head",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 9,
+      "translation": [
+        0.0570120029,
+        0.000138683317,
+        0.0150619363
+      ],
+      "rotation": [
+        0,
+        8.742278e-8,
+        0,
+        1
+      ],
+      "name": "hand",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 10,
+      "translation": [
+        -0.03875618,
+        0.000138673786,
+        -0.04699476
+      ],
+      "name": "sphere",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 11,
+      "translation": [
+        -0.05541964,
+        0.000138692849,
+        0.0247330572
+      ],
+      "rotation": [
+        -2.93966878e-8,
+        0.842575,
+        -3.55787336e-7,
+        0.5385791
+      ],
+      "scale": [
+        1,
+        1,
+        0.9999997
+      ],
+      "name": "ouija"
+    },
+    {
+      "mesh": 12,
+      "translation": [
+        -0.0009582567,
+        0.000138683317,
+        -0.000412189955
+      ],
+      "rotation": [
+        -1.49818433e-7,
+        -0.1300557,
+        -1.97253076e-8,
+        0.991506755
+      ],
+      "scale": [
+        0.999999762,
+        0.9999999,
+        0.999999762
+      ],
+      "name": "torus"
+    },
+    {
+      "mesh": 13,
+      "translation": [
+        0.00223732949,
+        0.000138697622,
+        0.059510868
+      ],
+      "name": "card",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "top"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "middle"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "bottom"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "indices": 12,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 3,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "eyeball"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "COLOR_0": 19,
+            "TEXCOORD_0": 20
+          },
+          "indices": 16,
+          "material": 4,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "shutter_top"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 22,
+            "NORMAL": 23,
+            "COLOR_0": 24,
+            "TEXCOORD_0": 25
+          },
+          "indices": 21,
+          "material": 4,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 5,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "lid_top"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 27,
+            "NORMAL": 28,
+            "COLOR_0": 29,
+            "TEXCOORD_0": 30
+          },
+          "indices": 26,
+          "material": 4,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 6,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "shutter_bottom"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 32,
+            "NORMAL": 33,
+            "COLOR_0": 34,
+            "TEXCOORD_0": 35
+          },
+          "indices": 31,
+          "material": 4,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 7,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "lid_bottom"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 37,
+            "NORMAL": 38,
+            "COLOR_0": 39,
+            "TEXCOORD_0": 40
+          },
+          "indices": 36,
+          "material": 5,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 8,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "head"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 42,
+            "NORMAL": 43,
+            "TEXCOORD_0": 44
+          },
+          "indices": 41,
+          "material": 5,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 9,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "hand"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 46,
+            "NORMAL": 47,
+            "TEXCOORD_0": 48
+          },
+          "indices": 45,
+          "material": 5,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 10,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "sphere"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 50,
+            "NORMAL": 51,
+            "TEXCOORD_0": 52
+          },
+          "indices": 49,
+          "material": 5,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 11,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "ouija"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 54,
+            "NORMAL": 55,
+            "TEXCOORD_0": 56
+          },
+          "indices": 53,
+          "material": 5,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 12,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "torus"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 58,
+            "NORMAL": 59,
+            "TEXCOORD_0": 60
+          },
+          "indices": 57,
+          "material": 5,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 13,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "card"
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 9690,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 1848,
+      "max": [
+        0.011764681830739183,
+        0.00951341326340719,
+        0.011764681830739183
+      ],
+      "min": [
+        -0.011764681830739181,
+        -0.009513994030739182,
+        -0.011764681830739181
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 1848,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 1848,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 45207,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 9264,
+      "max": [
+        0.033019740484038336,
+        0.018124600556723432,
+        0.03301975048403833
+      ],
+      "min": [
+        -0.03301974048403833,
+        -0.01812557288403833,
+        -0.033019730484038334
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 9264,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 9264,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 12096,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 2262,
+      "max": [
+        0.03675448255734603,
+        0.006858484201519868,
+        0.03675448255734603
+      ],
+      "min": [
+        -0.036754482557346035,
+        -0.0007503778573460294,
+        -0.036754482557346035
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 2262,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 2262,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 10806,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 2484,
+      "max": [
+        0.00981860595718,
+        0.009320241726218637,
+        0.00981860648718
+      ],
+      "min": [
+        -0.009818606487180003,
+        -0.009871133487180004,
+        -0.009818605957180003
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 2484,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 2484,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 8100,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 1393,
+      "max": [
+        0.015135918533540868,
+        0.01516422322301166,
+        0.010562605823011662
+      ],
+      "min": [
+        -0.015135918533540866,
+        -0.010562681333540866,
+        -0.015164298733540865
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 1393,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 1393,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 1393,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 13140,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 2221,
+      "max": [
+        0.01664514425395227,
+        0.01667069231272051,
+        0.006656212503650127
+      ],
+      "min": [
+        -0.01664514425395227,
+        -0.014799144653952268,
+        -0.01668660865395227
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 2221,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 2221,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 2221,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 8100,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 1393,
+      "max": [
+        0.015135918533540868,
+        0.0025404675575230445,
+        0.014860526472605752
+      ],
+      "min": [
+        -0.015135918533540866,
+        -0.015184769233540864,
+        -0.015165588633540865
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 1393,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 1393,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 1393,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 13500,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 2281,
+      "max": [
+        0.01664514425395227,
+        0.006656212503650127,
+        0.014798341812720509
+      ],
+      "min": [
+        -0.01664514425395227,
+        -0.01668660865395227,
+        -0.01667149515395227
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 2281,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 2281,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 2281,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 16920,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 2949,
+      "max": [
+        0.004814942881201857,
+        0.008256834852896296,
+        0.005067585162245622
+      ],
+      "min": [
+        -0.004815091542896295,
+        -0.008256834852896295,
+        -0.0050673835628962955
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 2949,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 2949,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 2949,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 6150,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 1170,
+      "max": [
+        0.004330577852224868,
+        0.009387422307819082,
+        0.0043740930466892505
+      ],
+      "min": [
+        -0.0037199833078190806,
+        -0.007232011307819081,
+        -0.002148920537819081
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 1170,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 1170,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 2880,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 559,
+      "max": [
+        0.006000732466581213,
+        0.006000732466581213,
+        0.006000732466581213
+      ],
+      "min": [
+        -0.006000732466581212,
+        -0.006000732466581212,
+        -0.006000732466581212
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 559,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 559,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 48060,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 14688,
+      "max": [
+        0.005946636819039249,
+        0.0070265635476866265,
+        0.0009897401087078069
+      ],
+      "min": [
+        -0.005946751937686626,
+        -0.008243235447686627,
+        -0.0009896955376866262
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 14688,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 14688,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 9216,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 1677,
+      "max": [
+        0.060382487259232134,
+        0.0003841573009094794,
+        0.060382487259232134
+      ],
+      "min": [
+        -0.060382487259232134,
+        -0.0003823704592321309,
+        -0.060382487259232134
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 1677,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 1677,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 372,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 222,
+      "max": [
+        0.004187054110648233,
+        0.007489381905819446,
+        0.0012856009564090826
+      ],
+      "min": [
+        -0.004164856175819447,
+        -0.007489388895819447,
+        -0.000981555075819447
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 222,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 222,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 7288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7288,
+      "byteLength": 29462
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36752,
+      "byteLength": 7881
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 44640,
+      "byteLength": 10486
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 55128,
+      "byteLength": 7710
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 62840,
+      "byteLength": 9844
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 72688,
+      "byteLength": 7851
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80544,
+      "byteLength": 10261
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 90808,
+      "byteLength": 14542
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 105352,
+      "byteLength": 6584
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 111936,
+      "byteLength": 3110
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 115048,
+      "byteLength": 57383
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 172432,
+      "byteLength": 4271
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 176704,
+      "byteLength": 983
+    }
+  ],
+  "buffers": [
+    {
+      "name": "pyramid_draco",
+      "byteLength": 177688,
+      "uri": "pyramid_draco.bin"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.5,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "Material #3090",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 5,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "normalTexture": {
+        "index": 3,
+        "scale": 0.5,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "midle",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 7,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 8,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "normalTexture": {
+        "index": 6,
+        "scale": 0.5,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "Material #3090",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 10,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 11,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "normalTexture": {
+        "index": 9,
+        "scale": 0.5,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "yeux",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 13,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 14,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "normalTexture": {
+        "index": 12,
+        "scale": 0.5,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "paupieres",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.721568644,
+          0.4901961,
+          0.21960786,
+          1
+        ],
+        "roughnessFactor": 0.25,
+        "metallicFactor": 1
+      },
+      "normalTexture": {
+        "index": 15,
+        "scale": 0.2,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "gold_physical_pyramid",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "pyramid_export_top_Normal.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "pyramid_export_top_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "pyramid_export_top_Roughnesspyramid_export_top_Metallic.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "pyramid_export_midle_Normal.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "pyramid_export_midle_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "pyramid_export_midle_Roughnesspyramid_export_midle_Metallic.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 6,
+      "name": "pyramid_export_bas_Normal.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 7,
+      "name": "pyramid_export_bas_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 8,
+      "name": "pyramid_export_bas_Roughnesspyramid_export_bas_Metallic.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 9,
+      "name": "pyramid_export_oeil_Normal.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 10,
+      "name": "pyramid_export_oeil_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 11,
+      "name": "pyramid_export_oeil_Roughnesspyramid_export_oeil_Metallic.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 12,
+      "name": "pyramid_export_paupiere_Normal.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 13,
+      "name": "pyramid_export_paupiere_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 14,
+      "name": "pyramid_export_paupiere_Roughnesspyramid_export_paupiere_Metallic.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 15,
+      "name": "NormalMap2.jpg"
+    }
+  ],
+  "images": [
+    {
+      "name": "pyramid_export_top_Normal",
+      "uri": "pyramid_export_top_Normal.jpg"
+    },
+    {
+      "name": "pyramid_export_top_BaseColor",
+      "uri": "pyramid_export_top_BaseColor.jpg"
+    },
+    {
+      "name": "pyramid_export_top_Roughnesspyramid_export_top_Metallic",
+      "uri": "pyramid_export_top_Roughnesspyramid_export_top_Metallic.jpg"
+    },
+    {
+      "name": "pyramid_export_midle_Normal",
+      "uri": "pyramid_export_midle_Normal.jpg"
+    },
+    {
+      "name": "pyramid_export_midle_BaseColor",
+      "uri": "pyramid_export_midle_BaseColor.jpg"
+    },
+    {
+      "name": "pyramid_export_midle_Roughnesspyramid_export_midle_Metallic",
+      "uri": "pyramid_export_midle_Roughnesspyramid_export_midle_Metallic.jpg"
+    },
+    {
+      "name": "pyramid_export_bas_Normal",
+      "uri": "pyramid_export_bas_Normal.jpg"
+    },
+    {
+      "name": "pyramid_export_bas_BaseColor",
+      "uri": "pyramid_export_bas_BaseColor.jpg"
+    },
+    {
+      "name": "pyramid_export_bas_Roughnesspyramid_export_bas_Metallic",
+      "uri": "pyramid_export_bas_Roughnesspyramid_export_bas_Metallic.jpg"
+    },
+    {
+      "name": "pyramid_export_oeil_Normal",
+      "uri": "pyramid_export_oeil_Normal.jpg"
+    },
+    {
+      "name": "pyramid_export_oeil_BaseColor",
+      "uri": "pyramid_export_oeil_BaseColor.jpg"
+    },
+    {
+      "name": "pyramid_export_oeil_Roughnesspyramid_export_oeil_Metallic",
+      "uri": "pyramid_export_oeil_Roughnesspyramid_export_oeil_Metallic.jpg"
+    },
+    {
+      "name": "pyramid_export_paupiere_Normal",
+      "uri": "pyramid_export_paupiere_Normal.jpg"
+    },
+    {
+      "name": "pyramid_export_paupiere_BaseColor",
+      "uri": "pyramid_export_paupiere_BaseColor.jpg"
+    },
+    {
+      "name": "pyramid_export_paupiere_Roughnesspyramid_export_paupiere_Metallic",
+      "uri": "pyramid_export_paupiere_Roughnesspyramid_export_paupiere_Metallic.jpg"
+    },
+    {
+      "name": "NormalMap2",
+      "uri": "NormalMap2.jpg"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

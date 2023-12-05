@@ -1,0 +1,59 @@
+.footer_cursor {
+	width: 80px;
+	height: 112px;
+	position: fixed;
+	bottom: 0;
+	right: 50px;
+	z-index: 9999999;
+	pointer-events: none;
+	transform: translate(-15px,-2px);
+}
+
+.footer_cursor img {
+	width: 80px;
+	height: 112px;
+}
+
+.footer_cursor_image {
+    position: absolute;
+	top: -106px;    
+	left: -22px;
+    width: 80px;
+    height: 112px;
+    transform: rotate(202deg);
+    z-index: 3000;
+	pointer-events: none;
+	transition: all 300ms ease-in-out;	
+}
+
+.footer_cursor_shadow {
+	position: absolute;
+	top: -106px;    
+	left: -22px;
+	width: 80px;
+	height: 112px;
+	transform: translate(-25px, 20px) rotate(202deg);
+	transition: all 300ms ease-in-out;	
+	filter: blur(4px) brightness(0) opacity(0.2);
+
+
+	z-index: 2000;    
+	pointer-events: none;    
+}
+
+.closeButtonHandler {
+	opacity: 0;
+	z-index: -1 !important;
+}
+
+.flip_image {
+	top: 0;
+	left: 0;
+	transform: rotate(0deg);
+}
+
+.flip_shadow {
+	top: 0;
+	left: 0;	
+	transform: 	translate(-25px, 20px) rotate(0deg);
+}

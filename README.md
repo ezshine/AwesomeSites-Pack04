@@ -22,3 +22,4 @@
 - thefabulouscartierjourney.cartier.com
 - colorfulnight.pha5e.com
 - quentinhocde.com
+- curious.co

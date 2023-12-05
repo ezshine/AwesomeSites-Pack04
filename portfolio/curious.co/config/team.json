@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Gabe Rubin",
+        "texture": "GabeRubin.jpg"
+    },
+    {
+        "name": "Michelle Hemmer",
+        "texture": "MichelleHemmer.jpg"
+    },
+    {
+        "name": "Christine Benway",
+        "texture": "ChristineBenway.jpg"
+    },
+    {
+        "name": "Amanda Horne",
+        "texture": "AmandaHorne.jpg"
+    },
+    {
+        "name": "Garrett Stiger",
+        "texture": "GarrettStiger.jpg"
+    },
+    {
+        "name": "Kristina Spencer",
+        "texture": "KristinaSpencer.jpg"
+    },
+    {
+        "name": "Jason Yapp",
+        "texture": "JasonYapp.jpg"
+    },
+    {
+        "name": "Ethan Walden",
+        "texture": "EthanWalden.jpg"
+    },
+    {
+        "name": "Megan Yoon",
+        "texture": "MeganYoon.jpg"
+    }
+]

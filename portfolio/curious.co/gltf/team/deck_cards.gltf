@@ -1,0 +1,646 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2019 v20220628.14"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        0,
+        0,
+        -1.19209231e-9
+      ],
+      "name": "deck_cards",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        0.07770843,
+        0.142151237,
+        -1.19209276e-9
+      ],
+      "rotation": [
+        -7.10651449e-9,
+        -1.62765659e-7,
+        0.0436194763,
+        0.999048233
+      ],
+      "scale": [
+        0.99999994,
+        -0.99999994,
+        1
+      ],
+      "name": "flap_right"
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -0.0778080747,
+        0.142151237,
+        -1.19209276e-9
+      ],
+      "rotation": [
+        0,
+        0,
+        0.999048233,
+        0.0436192974
+      ],
+      "scale": [
+        1.00000012,
+        1,
+        1
+      ],
+      "name": "flap_left"
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        0,
+        -0.1442715,
+        -1.19209231e-9
+      ],
+      "name": "deck_cards_bottom",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "children": [
+        5
+      ],
+      "mesh": 4,
+      "translation": [
+        0.000099945064,
+        0.142151237,
+        -0.0225004945
+      ],
+      "rotation": [
+        8.742278e-8,
+        -1.62920685e-7,
+        1.424298e-14,
+        1
+      ],
+      "scale": [
+        1,
+        -1,
+        1
+      ],
+      "name": "flap_top"
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        1.86264511e-11,
+        5.340576e-7,
+        0.04275467
+      ],
+      "rotation": [
+        0.7071066,
+        -8.429375e-8,
+        1.461109e-7,
+        0.707106948
+      ],
+      "scale": [
+        1,
+        -1,
+        1
+      ],
+      "name": "flap_front"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "deck_cards"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "flap_right"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "flap_left"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "indices": 12,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 3,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "deck_cards_bottom"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TEXCOORD_0": 19
+          },
+          "indices": 16,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "flap_top"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 20,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 5,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "flap_front"
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 2808,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 520,
+      "max": [
+        0.07781773288572301,
+        0.1421685755032656,
+        0.022514988470914973
+      ],
+      "min": [
+        -0.07782583790326558,
+        -0.1421685755032656,
+        -0.02251735250326558
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 520,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 520,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 4356,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 728,
+      "max": [
+        0.0000023746714399100477,
+        0.0010016154370408473,
+        0.0194018634285601
+      ],
+      "min": [
+        -0.03890661687143991,
+        -0.0000028705820399072213,
+        -0.019502378771439906
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 728,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 728,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 4356,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 728,
+      "max": [
+        0.0000023746714399100477,
+        0.0010016154370408473,
+        0.0194018634285601
+      ],
+      "min": [
+        -0.03890661687143991,
+        -0.0000028705820399072213,
+        -0.019502378771439906
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 728,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 728,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 1074,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 192,
+      "max": [
+        0.07738763615638163,
+        0.003354109177891742,
+        0.022206962749972536
+      ],
+      "min": [
+        -0.07738763615638161,
+        7.236624183849098e-7,
+        -0.022208864556381616
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 192,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 192,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 4356,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 728,
+      "max": [
+        0.07703980369895624,
+        0.0010056998777171582,
+        0.04301251902581945
+      ],
+      "min": [
+        -0.07703980369895623,
+        -0.000009899609556235122,
+        -0.000009403698956235122
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 728,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 728,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 19644,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 3276,
+      "max": [
+        0.07703980369895624,
+        0.001006186716656158,
+        0.000013455005878047072
+      ],
+      "min": [
+        -0.07703980369895623,
+        -0.000009412770617235121,
+        -0.029674022598956233
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 3276,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 3276,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1685
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1688,
+      "byteLength": 3094
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4784,
+      "byteLength": 3094
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7880,
+      "byteLength": 1352
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9232,
+      "byteLength": 2683
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11920,
+      "byteLength": 11832
+    }
+  ],
+  "buffers": [
+    {
+      "name": "deck_cards",
+      "byteLength": 23752,
+      "uri": "deck_cards.bin"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.6,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "Cartes_deck_physical",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.007843138,
+          0.007843138,
+          0.007843138,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.65
+      },
+      "doubleSided": true,
+      "name": "noirrough_physical",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "deck_cards_deck_cards_Normal.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "deck_cards_deck_cards_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "deck_cards_deck_cards_Roughnessdeck_cards_deck_cards_Metallic.jpg"
+    }
+  ],
+  "images": [
+    {
+      "name": "deck_cards_deck_cards_Normal",
+      "uri": "deck_cards_deck_cards_Normal.jpg"
+    },
+    {
+      "name": "deck_cards_deck_cards_BaseColor",
+      "uri": "deck_cards_deck_cards_BaseColor.jpg"
+    },
+    {
+      "name": "deck_cards_deck_cards_Roughnessdeck_cards_deck_cards_Metallic",
+      "uri": "deck_cards_deck_cards_Roughnessdeck_cards_deck_cards_Metallic.jpg"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

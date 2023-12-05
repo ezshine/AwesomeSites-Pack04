@@ -1,0 +1,1089 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2019 v20220628.14"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        0,
+        0.0123301269,
+        -0.0038480144
+      ],
+      "name": "eye",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        0,
+        0.0123301214,
+        -0.012225274
+      ],
+      "name": "ouija_body1",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        0,
+        0.0123301214,
+        -0.012225274
+      ],
+      "name": "ouija_body2",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        0,
+        0.0123301214,
+        -0.012225274
+      ],
+      "name": "ouija_body003",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        -0.06038945,
+        -0.0465986058,
+        0.009523813
+      ],
+      "name": "Moon01",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        -0.0320987552,
+        -0.06290942,
+        0.009855331
+      ],
+      "name": "Moon02",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 6,
+      "translation": [
+        -0.00000140249722,
+        -0.06855344,
+        0.009882885
+      ],
+      "name": "Moon03",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 7,
+      "translation": [
+        0.0320972577,
+        -0.06290942,
+        0.009855331
+      ],
+      "name": "Moon04",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 8,
+      "translation": [
+        0.0603881627,
+        -0.0465986058,
+        0.009523813
+      ],
+      "name": "Moon05",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "eye"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "COLOR_0": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "ouija_body1"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 10,
+            "NORMAL": 11,
+            "COLOR_0": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 9,
+          "material": 2,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "ouija_body2"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "COLOR_0": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 14,
+          "material": 3,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 3,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "ouija_body003"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "COLOR_0": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 19,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "Moon01"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26,
+            "COLOR_0": 27,
+            "TEXCOORD_0": 28
+          },
+          "indices": 24,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 5,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "Moon02"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30,
+            "NORMAL": 31,
+            "COLOR_0": 32,
+            "TEXCOORD_0": 33
+          },
+          "indices": 29,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 6,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "Moon03"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 35,
+            "NORMAL": 36,
+            "COLOR_0": 37,
+            "TEXCOORD_0": 38
+          },
+          "indices": 34,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 7,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "Moon04"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 40,
+            "NORMAL": 41,
+            "COLOR_0": 42,
+            "TEXCOORD_0": 43
+          },
+          "indices": 39,
+          "material": 1,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 8,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "COLOR_0": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ],
+      "name": "Moon05"
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 12672,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 2114,
+      "max": [
+        0.024762870326832696,
+        0.024762870326832696,
+        0.01608761773638711
+      ],
+      "min": [
+        -0.024762870326832692,
+        -0.024762870326832692,
+        0.0014036965831673077
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 2114,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 2114,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 51249,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 9974,
+      "max": [
+        0.09690012233693461,
+        0.11424103011225048,
+        0.01861047337201062
+      ],
+      "min": [
+        -0.0969076261122505,
+        -0.1342557191122505,
+        0.003216869437749496
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 9974,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 9974,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 9974,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 109764,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 20980,
+      "max": [
+        0.0895454879695416,
+        0.10326355712787647,
+        0.01966970540363181
+      ],
+      "min": [
+        -0.08941185012787646,
+        -0.12563698812787646,
+        0.01599556177212354
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 20980,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 20980,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 20980,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 55944,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 11281,
+      "max": [
+        0.08940637752047853,
+        0.10436041816468289,
+        0.021495966385039367
+      ],
+      "min": [
+        -0.0894047951646829,
+        -0.1267527051646829,
+        0.001466632535317097
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 11281,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 11281,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 11281,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 30030,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 5137,
+      "max": [
+        0.01165635676890069,
+        0.011664879348281754,
+        0.003999206290338765
+      ],
+      "min": [
+        -0.011656311148281756,
+        -0.011664874748281756,
+        -0.003998549508281755
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 5137,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 5137,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 5137,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 36210,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 6161,
+      "max": [
+        0.011662089708051028,
+        0.01164605232287737,
+        0.004330555104406397
+      ],
+      "min": [
+        -0.011662089708051028,
+        -0.01164538640805103,
+        -0.0043300678780510285
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 6161,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 6161,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 6161,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 3750,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 651,
+      "max": [
+        0.011595482398089486,
+        0.01161794331941647,
+        0.0043581468141976444
+      ],
+      "min": [
+        -0.011595024419416467,
+        -0.011617943319416468,
+        -0.0043576151194164685
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 651,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 651,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 651,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 36210,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 6161,
+      "max": [
+        0.011660783348593055,
+        0.01164486677954587,
+        0.004329585121546116
+      ],
+      "min": [
+        -0.011660783348593055,
+        -0.011645386248593055,
+        -0.004330067718593054
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 6161,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 6161,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 6161,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 30030,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 5137,
+      "max": [
+        0.011655026372337177,
+        0.011664879348281754,
+        0.003999206290338765
+      ],
+      "min": [
+        -0.011654793848281756,
+        -0.011664874748281756,
+        -0.003998549508281755
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 5137,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 5137,
+      "type": "VEC4",
+      "name": "accessorColors"
+    },
+    {
+      "componentType": 5126,
+      "count": 5137,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 9437
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9440,
+      "byteLength": 32960
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 42400,
+      "byteLength": 59349
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 101752,
+      "byteLength": 35617
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 137376,
+      "byteLength": 18511
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 155888,
+      "byteLength": 20913
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 176808,
+      "byteLength": 2711
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 179520,
+      "byteLength": 21247
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 200768,
+      "byteLength": 19000
+    }
+  ],
+  "buffers": [
+    {
+      "name": "ouija_draco_5moons",
+      "byteLength": 219768,
+      "uri": "ouija_draco_5moons.bin"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.2
+      },
+      "doubleSided": true,
+      "name": "glass_physical",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.3,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "Ouija_physical_01",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 5,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "normalTexture": {
+        "index": 3,
+        "scale": 0.3,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "Ouija_physical_02",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 7,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 8,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1
+      },
+      "normalTexture": {
+        "index": 6,
+        "scale": 0.3,
+        "texCoord": 0
+      },
+      "doubleSided": true,
+      "name": "Ouija_physical_03",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "ouija_export_1001_Normal.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "ouija_export_1001_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "ouija_export_1001_Roughnessouija_export_1001_Metallic.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 3,
+      "name": "ouija_export_1002_Normal.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 4,
+      "name": "ouija_export_1002_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 5,
+      "name": "ouija_export_1002_Roughnessouija_export_1002_Metallic.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 6,
+      "name": "ouija_export_1003_Normal.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 7,
+      "name": "ouija_export_1003_BaseColor.jpg"
+    },
+    {
+      "sampler": 0,
+      "source": 8,
+      "name": "ouija_export_1003_Roughnessouija_export_1003_Metallic.jpg"
+    }
+  ],
+  "images": [
+    {
+      "name": "ouija_export_1001_Normal",
+      "uri": "ouija_export_1001_Normal.jpg"
+    },
+    {
+      "name": "ouija_export_1001_BaseColor",
+      "uri": "ouija_export_1001_BaseColor.jpg"
+    },
+    {
+      "name": "ouija_export_1001_Roughnessouija_export_1001_Metallic",
+      "uri": "ouija_export_1001_Roughnessouija_export_1001_Metallic.jpg"
+    },
+    {
+      "name": "ouija_export_1002_Normal",
+      "uri": "ouija_export_1002_Normal.jpg"
+    },
+    {
+      "name": "ouija_export_1002_BaseColor",
+      "uri": "ouija_export_1002_BaseColor.jpg"
+    },
+    {
+      "name": "ouija_export_1002_Roughnessouija_export_1002_Metallic",
+      "uri": "ouija_export_1002_Roughnessouija_export_1002_Metallic.jpg"
+    },
+    {
+      "name": "ouija_export_1003_Normal",
+      "uri": "ouija_export_1003_Normal.jpg"
+    },
+    {
+      "name": "ouija_export_1003_BaseColor",
+      "uri": "ouija_export_1003_BaseColor.jpg"
+    },
+    {
+      "name": "ouija_export_1003_Roughnessouija_export_1003_Metallic",
+      "uri": "ouija_export_1003_Roughnessouija_export_1003_Metallic.jpg"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

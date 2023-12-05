@@ -1,0 +1,1383 @@
+[
+    {
+        "title": "BIG SKY",
+        "smallTitle": "BIG SKY",
+        "texture": "bigSky.jpg",
+        "background": "bigSky.jpg",
+        "content": [
+            {
+                "category": "text",
+                "type": "intro",
+                "copy": "We have proudly represented ABC’s Big Sky since the premiere episode and assisted in making it the network’s most-watched and highest rated debut episode since 2018. Through each of the three seasons we have propelled and sustained the well-established intrigue of the series by developing static and video content that built excitement by teasing the mystery in each storyline."
+            },
+            {
+                "category": "text",
+                "type": "small",
+                "copy": "What We Did —-—— Content Production • Social Media • Design & Animation • Digital Strategy • Display Campaign"
+            },
+            {
+                "category": "grid",
+                "amount": "1",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "wide",
+                        "src": "/video/work/big_sky/01_big_letters.mp4",
+                        "alt": "Big Sky"
+                    }
+                ]
+            },
+            {
+                "category": "quote",
+                "author": "- Alicia Corrigan",
+                "copy": "“Stay in the shadows until it’s clear who your real friends and foes are, then strike. When you rise up, you will be more powerful than ever in this new world.”"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/big_sky/02_state_trooper.mp4",
+                        "alt": "Big Sky"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/big_sky/03_hype_tweet.mp4",
+                        "alt": "Big Sky"
+                    },                    
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/big_sky/04_she_knows.mp4",
+                        "alt": "Big Sky"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "right",
+                "copy": "All video content was created with custom animation and opening card thumbnails to remain visually consistent in-feed, while allowing us to develop a variety of content types throughout the campaign."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/big_sky/05_character.mp4",
+                        "alt": "Big Sky"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/big_sky/06_character.mp4",
+                        "alt": "Big Sky"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/big_sky/07_character.mp4",
+                        "alt": "Big Sky"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "We were able to retain existing fans by consistently providing tailored content that built continued excitement on social channels. Through banner ads and paid creative we captured the attention of new audiences with impressive platform breaking videos that helped convert people into fans and regularly increased viewership both live and on streaming."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/big_sky/08_quote_volley.mp4",
+                        "alt": "Big Sky"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/big_sky/09_vertical_line.mp4",
+                        "alt": "Big Sky"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/big_sky/10_quote_volley.mp4",
+                        "alt": "Big Sky"
+                    }                    
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "1",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "wide",
+                        "src": "/video/work/big_sky/11_redacted.mp4",
+                        "alt": "Big Sky"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "THE BACHELOR",
+        "smallTitle": "BACHELOR",
+        "texture": "bachelor.jpg",
+        "background": "bachelor.jpg",
+        "content": [
+            {
+                "category": "text",
+                "type": "intro",
+                "copy": "To know Bachelor Nation is to become a part of Bachelor Nation. When it comes to developing creative for such a massive franchise, no one knows this better than the Curious team. Through social listening and strategy, we have been able to provide fans with the content that they want to see. We act in real time to provide content to further the discussion or add fuel to the fire for any of the Bachelor Nation drama."
+            },
+            {
+                "category": "text",
+                "type": "small",
+                "copy": "What We Did —-—— Content Production • Social Media • Design & Animation • Digital Strategy • Display Campaign • Social Listening • Talent Shoot Scripts"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/bachelor/01_planebreaker.mp4",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/bachelor/02_2_better_than_1.mp4",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/bachelor/03_multipanel.mp4",
+                        "alt": "The Bachelor"
+                    }
+                ]
+            },
+            {
+                "category": "quote",
+                "author": "",
+                "copy": "“Will you accept this rose?”"
+            },
+            {
+                "category": "text",
+                "type": "right",
+                "copy": "Bachelor Nation has been a recognizable staple of reality television for years, so we took knowledge from all of the previous seasons to continue to enhance the brands social presence. While keeping with the look and feel that the fans have grown accustomed to, we have created fun and experimental video pieces that stuck out in users feeds and gamified content that existing fans can engage with and share."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/bachelor/05_greetings.mp4",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/bachelor/06_superlatives.mp4",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/bachelor/07_spoiler.mp4",
+                        "alt": "The Bachelor"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "With each new season comes a new challenge. How do we keep things fresh and different for each new Bachelor or Bachelorette? Before designing or editing, our creative strategy team studies each participant to figure out exactly who they are. Using aspects of each person’s personality we are able to craft strategic narratives that allow them to shine and represent them in a way that is supportive and exciting for all fans."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "image",
+                        "src": "/images/work/bachelor/static_clayton_01.jpg",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "image",
+                        "src": "/images/work/bachelor/static_clayton_02.jpg",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "image",
+                        "src": "/images/work/bachelor/static_clayton_03.jpg",
+                        "alt": "The Bachelor"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "Gamified content always wins out big with fans who treat the show like a professional sport. To broaden our marketing efforts, we also create cross-promotional content for shows with audiences whose viewing habits may potentially overlap."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "image",
+                        "src": "/images/work/bachelor/08_ig_exp_swipe.gif",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "image",
+                        "src": "/images/work/bachelor/09_would_you_rather.gif",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "image",
+                        "src": "/images/work/bachelor/10_spin_wheel.gif",
+                        "alt": "The Bachelor"
+                    }
+                ]
+            },            
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "src": "/video/work/bachelor/11_cross_promo.mp4",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "video",
+                        "src": "/video/work/bachelor/12_prom.mp4",
+                        "alt": "The Bachelor"
+                    },
+                    {
+                        "category": "video",
+                        "src": "/video/work/bachelor/13_cross_promo.mp4",
+                        "alt": "The Bachelor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "THE ROOKIE FEDS",
+        "smallTitle": "ROOKIE FEDS",
+        "texture": "rookieFeds.jpg",
+        "background": "rookieFeds.jpg",
+        "content": [
+            {
+                "category": "text",
+                "type": "intro",
+                "copy": "In this strategy-forward campaign, we were able to secure fans of The Rookie while attracting new viewers by creating content that merged the worlds. Highlighting characters from the initial show while also featuring the new, big names allowed us to cross promote and grow our audience."
+            },
+            {
+                "category": "text",
+                "type": "small",
+                "copy": "What We Did —-—— Content Production • Design & Animation • Digital Strategy • Display Campaign • Social Listening • Talent Shoot Scripts"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/01_google.mp4",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/rookie_feds/02_fed.gif",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/03_multi.mp4",
+                        "alt": "The Rookie Feds"
+                    }                    
+                ]
+            },
+            {
+                "category": "quote",
+                "author": "- Simone Clark",
+                "copy": "“You gotta arm up every day and prove you belong.”"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/04_planebreaker.mp4",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/05_weapon.mp4",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/06_explosive.mp4",
+                        "alt": "The Rookie Feds"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "right",
+                "copy": "Using quotes and taglines from our outspoken protagonist, we captured Simone Clark’s explosive and determined nature in animated videos featuring meaningful, dynamic copy.  We distributed  these videos on talent pages, therein reaching audiences through Niecy Nash’s impressive 3.3 million followers on Instagram."
+            },            
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/07_background.mp4",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/08_background.mp4",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/09_background.mp4",
+                        "alt": "The Rookie Feds"
+                    }
+                ]
+            },            
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/10_background.mp4",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/11_background.mp4",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/12_background.mp4",
+                        "alt": "The Rookie Feds"
+                    }
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/13_meet_simone.mp4",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/14_question.mp4",
+                        "alt": "The Rookie Feds"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/rookie_feds/15_feds.mp4",
+                        "alt": "The Rookie Feds"
+                    }
+                ]
+            },                        
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "We created specific, targeted ads for sustain to increase the streaming audience. These focused videos played a huge part in the 755% demo rating increase that took place within the first 35 days."
+            },
+            {
+                "category": "grid",
+                "amount": "1",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "wide",
+                        "src": "/video/work/rookie_feds/16_imdb_wall.mp4",
+                        "alt": "The Rookie Feds"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "IMDb",
+        "smallTitle": "IMDb",
+        "texture": "imdb.jpg",
+        "background": "imdb.jpg",
+        "content": [
+            {
+                "category": "text",
+                "type": "intro",
+                "copy": "As movie fanatics ourselves, working with IMDb has been the perfect pairing. Working closely with the brand we have been able to craft original content ideas and a new aesthetic that has increased engagement across all channels."
+            },
+            {
+                "category": "text",
+                "type": "small",
+                "copy": "What We Did —-—— Content Production • Design & Animation • Community Management • Display Campaign • Social Listening • Talent Shoot Scripts • Copywriting • Reporting & Analytics"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/IMDb/01_many_faces.gif",
+                        "alt": "IMDb"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/IMDb/02_many_faces.jpg",
+                        "alt": "IMDb"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/IMDb/06_many_faces.gif",
+                        "alt": "IMDb"
+                    }
+                ]
+            },
+            {
+                "category": "quote",
+                "author": "- Happy Gilmore",
+                "copy": "“You could trouble me for a warm glass of shut the hell up!”"
+            },
+
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "image",
+                        "src": "/images/work/IMDb/07_vibe.jpg",
+                        "alt": "IMDb"
+                    },
+                    {
+                        "category": "image",
+                        "src": "/images/work/IMDb/08_new.gif",
+                        "alt": "IMDb"
+                    },                    
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/IMDb/09_new.jpg",
+                        "alt": "IMDb"
+                    }
+                ]
+            },            
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/IMDb/10_cameos.mp4",
+                        "alt": "IMDb"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/IMDb/11_vision_board.mp4",
+                        "alt": "IMDb"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/IMDb/12_iconic.mp4",
+                        "alt": "IMDb"
+                    }
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/IMDb/13_superlatives.jpg",
+                        "alt": "IMDb"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/IMDb/14_superlatives.jpg",
+                        "alt": "IMDb"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/IMDb/15_superlatives.jpg",
+                        "alt": "IMDb"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "right",
+                "copy": "Our in-feed creative was always designed with a sleek custom look that kept our feed consistent and aesthetically pleasing. However, to evolve our TikTok and IG Reels content, we produced simpler and more organic videos that resonated with our fans, particularly playing on current trends and relating them back our channel’s primary interest…movies and television."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/IMDb/16_tiktok.mp4",
+                        "alt": "IMDb"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/IMDb/17_tiktok.mp4",
+                        "alt": "IMDb"
+                    },                    
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/IMDb/18_tiktok.mp4",
+                        "alt": "IMDb"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "This account allowed us to show off our reactive skills by seeking out trends and quickly creating content that plays into the conversation, always keeping a pulse on cultural moments and our fans’ interests."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/IMDb/19_tiktok.mp4",
+                        "alt": "IMDb"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/IMDb/20_tiktok.mp4",
+                        "alt": "IMDb"
+                    },                    
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/IMDb/21_tiktok.mp4",
+                        "alt": "IMDb"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "20TH TV",
+        "smallTitle": "20TH TV",
+        "texture": "20thTv.jpg",
+        "background": "20thTv.jpg",
+        "content": [
+            {
+                "category": "text",
+                "type": "intro",
+                "copy": "Partnering with 20th Century, we have the unique task of reigniting fanbases from past successful shows. Our first step? Become fans! While we already had a team of television enthusiasts, we have dug deeper to find what characters, storylines, and moments really resonate with these supporters."
+            },
+            {
+                "category": "text",
+                "type": "small",
+                "copy": "What We Did —-—— Content Production • Design & Animation • Community Management • Display Campaign • Social Listening • Talent Shoot Scripts • Copywriting • Reporting & Analytics"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/20th/01_24_time_travel.mp4",
+                        "alt": "20TH TV"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",                        
+                        "src": "/video/work/20th/02_xfiles_scary.mp4",
+                        "alt": "20TH TV"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/20th/03_origami.mp4",
+                        "alt": "20TH TV"
+                    }
+                ]
+            },
+            {
+                "category": "quote",
+                "author": "- Barney Stinson",
+                "copy": "“When I get sad, I stop being sad and be awesome instead.”"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/20th/04_buffy.mp4",
+                        "alt": "20TH TV"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/20th/05_barney.mp4",
+                        "alt": "20TH TV"
+                    },                    
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/20th/06_xfiles.mp4",
+                        "alt": "20TH TV"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "right",
+                "copy": "Managing a high volume of titles under the 20th banner, we have identified key dates for each series and created editorial calendars around them. The content we developed for these “tentpole moments“ helped to sustain engagement with the shows and facilitated crossover promotion across different titles. This approach helped to increase viewership and build audience engagement."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/20th/07_buffy.jpg",
+                        "alt": "20TH TV"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/20th/08_bones.jpg",
+                        "alt": "20TH TV"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/20th/09_himym.jpg",
+                        "alt": "20TH TV"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "With our concerted effort to revitalize these social channels for past shows, we were able to directly increase streaming numbers by providing links paired with our creative that led users to specific episodes."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "image",
+                        "src": "/images/work/20th/10_xfiles.jpg",
+                        "alt": "20th"
+                    },
+                    {
+                        "category": "image",
+                        "src": "/images/work/20th/11_binge.jpg",
+                        "alt": "20th"
+                    },
+                    {
+                        "category": "image",
+                        "src": "/images/work/20th/12_sleepy_hollow.jpg",
+                        "alt": "20th"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "FOR LIFE",
+        "smallTitle": "FOR LIFE",
+        "texture": "forLife.jpg",
+        "background": "forLife.jpg",
+        "content": [
+            {
+                "category": "text",
+                "type": "intro",
+                "copy": "We developed an engaging social media campaign for the debut of ABC’s true story inspired drama, For Life. With over 50 pieces of custom creative we were able to successfully raise awareness and build anticipation for the show by introducing the strong leading cast. Using multi-panel videos and planebreaking motion graphic, we were able to capture the attention of social users and drive viewership numbers, resulting in a second season of the show."
+            },
+            {
+                "category": "text",
+                "type": "small",
+                "copy": "What We Did —-—— Content Production • Social Media • Design & Animation • Digital Strategy • Display Campaign"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/01_for_life.mp4",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/02_for_freedom.mp4",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/03_countdown_tonight.mp4",
+                        "alt": "For Life"
+                    }
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/04_reflections.mp4",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/05_one_week.mp4",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/06_right_show.mp4",
+                        "alt": "For Life"
+                    }
+                ]
+            },            
+            {
+                "category": "quote",
+                "author": "- Aaron Wallace",
+                "copy": "“Sooner or later you’re gonna have to decide if there’s anything worth fighting for besides yourself.”"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/07_quote.mp4",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/08_many_men.mp4",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/09_work.mp4",
+                        "alt": "For Life"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "right",
+                "copy": "We created custom content that was shared by cast and crew, including Executive Producer 50 Cent. With 25 million followers on his Instagram alone, we tapped into 50 Cent’s fanbase with custom animations that integrated lyrics from many of his popular songs in ways that thematically tied back to the show."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/10_portraits_50cent.mp4",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/11_portraits_nicholas.mp4",
+                        "alt": "For Life"
+                    },                    
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/12_portraits_boris.mp4",
+                        "alt": "For Life"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "We encouraged sharing and community conversation by highlighting the incredible story of our protagonist, Aaron Wallace. Underscoring the show’s timely narratives of freedom, justice, and fighting for what’s right."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/13_mirror.mp4",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/14_fight.mp4",
+                        "alt": "For Life"
+                    },                    
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/15_women.mp4",
+                        "alt": "For Life"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "This aspect of the campaign allowed users to share their thoughts on the key themes through interactive Instagram Polls and an immersive Instagram Experience that took viewers on a journey through the character’s life and his ongoing fight for justice."
+            },            
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/for_life/16_ig_exp.mp4",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/for_life/17_ig_exp.jpg",
+                        "alt": "For Life"
+                    },                    
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/for_life/18_ig_exp.jpg",
+                        "alt": "For Life"
+                    }
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/for_life/19_ig_exp.jpg",
+                        "alt": "For Life"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/for_life/20_ig_exp.jpg",
+                        "alt": "For Life"
+                    },                    
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/for_life/21_ig_exp.jpg",
+                        "alt": "For Life"
+                    }
+                ]
+            }            
+        ]
+    },
+    {
+        "title": "WILL TRENT",
+        "smallTitle": "WILL TRENT",
+        "texture": "willTrent.jpg",
+        "background": "willTrent.jpg",
+        "content": [
+            {
+                "category": "text",
+                "type": "intro",
+                "copy": "Partnering with ABC we had the unique challenge of marketing a show that originated as a best selling book series. Accounting for the fans of the literature, we had to strategize how we could effectively attract new viewers while retaining the diehard fans."
+            },
+            {
+                "category": "text",
+                "type": "small",
+                "copy": "What We Did —-—— Content Production • Design & Animation • Community Management • Display Campaign"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/01_hype.mp4",
+                        "alt": "Will Trent"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/02_reviews.mp4",
+                        "alt": "Will Trent"
+                    },                    
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/03_reviews.mp4",
+                        "alt": "Will Trent"
+                    }
+                ]
+            },
+            {
+                "category": "quote",
+                "author": "- Will Trent",
+                "copy": "“I’m a pretty observant guy.”"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/04_anatomy.mp4",
+                        "alt": "Will Trent"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/05_eyes.mp4",
+                        "alt": "Will Trent"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/06_twists.mp4",
+                        "alt": "Will Trent"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "right",
+                "copy": "We used thematic elements from the show to develop visually striking motion templates, creating a distinct visual identity that was easily recognizable. This helped to build familiarity with the project and increase engagement among audiences, as viewers spent more time watching and interacting with the creative content. This initiative was a key factor in driving viewership and increasing the popularity of the show."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/07_carousel.mp4",
+                        "alt": "Will Trent"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/08_carousel.mp4",
+                        "alt": "Will Trent"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/09_carousel.mp4",
+                        "alt": "Will Trent"
+                    }
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [                    
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/10_carousel.mp4",
+                        "alt": "Will Trent"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/11_carousel.mp4",
+                        "alt": "Will Trent"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/will_trent/12_carousel.mp4",
+                        "alt": "Will Trent"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "We capitalized on the cultural fascination with true crime and procedural television by highlighting the show’s compelling storyline and its standout main character, positioning it as the next must-watch drama in the genre. By emphasizing its unique elements, we were able to build anticipation and excitement for the show among audiences, making it a standout choice for viewers looking for their next crime drama fix."
+            },
+            {
+                "category": "grid",
+                "amount": "1",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "wide",
+                        "src": "/video/work/will_trent/13_us_weekly.mp4",
+                        "alt": "Will Trent"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "AWARDS SEASON",
+        "smallTitle": "AWARDS SEASON",
+        "texture": "awardsSeason.jpg",
+        "background": "awardsSeason.jpg",
+        "content": [
+            {
+                "category": "text",
+                "type": "intro",
+                "copy": "We have extensive experience promoting award ceremonies, whether it be the Oscars or the CMA Awards. Throughout multiple campaigns, we have successfully developed and executed paid social and display creative to build excitement and increase viewership for these specials. We are able to brainstorm, plan and execute effective promotional strategies."
+            },
+            {
+                "category": "text",
+                "type": "small",
+                "copy": "What We Did —-—— Content Production • Design & Animation • Community Management • Display Campaign • Social Listening • Talent Shoot Scripts • Copywriting • Reporting & Analytics"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/awards/01_oscars.mp4",
+                        "alt": "Awards Season"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/awards/02_billie.mp4",
+                        "alt": "Awards Season"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/awards/03_flip.mp4",
+                        "alt": "Awards Season"
+                    }                    
+                ]
+            },
+            {
+                "category": "quote",
+                "author": "",
+                "copy": "“And the award goes to ...”"
+            },
+            {
+                "category": "grid",
+                "amount": "1",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "wide",
+                        "src": "/video/work/awards/04_nominee.mp4",
+                        "alt": "Awards Season"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "Our expertise in promoting one-off television specials allows us to understand the most effective strategies for reaching and engaging audiences. By using a well-organized production calendar, we carefully plan flight dates and develop creative content that is timed to effectively reach viewers, resulting in maximum viewership for the program."
+            },
+            {
+                "category": "grid",
+                "amount": "1",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "wide",
+                        "src": "/video/work/awards/05_oscars.mp4",
+                        "alt": "Awards Season"
+                    }
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "1",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "wide",
+                        "src": "/video/work/awards/06_googleTV.mp4",
+                        "alt": "Awards Season"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "THE WONDER YEARS",
+        "smallTitle": "WONDER YEARS",
+        "texture": "wonderYears.jpg",
+        "background": "wonderYears.jpg",
+        "content": [
+            {
+                "category": "text",
+                "type": "intro",
+                "copy": "With the reboot of the classic show, The Wonder Years, we faced the challenge of introducing an old concept to a new generation. We leveraged the nostalgia and history of the property, but found that the key to its success was emphasizing the relatable situations that all children experience, regardless of the era. By focusing on this universal theme, we were able to connect with a new audience and make the show relevant for today’s viewers."
+            },
+            {
+                "category": "text",
+                "type": "small",
+                "copy": "What We Did —-—— Content Production • Design & Animation • Community Management • Display Campaign • Social Listening • Talent Shoot Scripts • Copywriting • Reporting & Analytics"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/01_home.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/02_bike.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/03_advice.mp4",
+                        "alt": "The Wonder Years"
+                    }                    
+                ]
+            },
+            {
+                "category": "quote",
+                "author": "- Dean Williams",
+                "copy": "“It’s the little things that you remember all your life.”"
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/04_wonder.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/05_baseball.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/06_family.mp4",
+                        "alt": "The Wonder Years"
+                    }                    
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/07_lyrics.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/08_twitter.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/09_monologue.mp4",
+                        "alt": "The Wonder Years"
+                    }
+                ]
+            },
+            {
+                "category": "text",
+                "type": "right",
+                "copy": "We brought the show’s setting in the late 60s to life by using design elements that paid homage to the period, while incorporating modern aesthetics that appeal to a younger, socially-active audience. This allowed us to create a unique visual identity that resonated with both older and younger viewers."
+            },            
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/10_carousel.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/11_carousel.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/12_carousel.mp4",
+                        "alt": "The Wonder Years"
+                    }            
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/13_carousel.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/14_carousel.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/15_carousel.mp4",
+                        "alt": "The Wonder Years"
+                    }               
+                ]
+            },
+            {
+                "category": "text",
+                "type": "medium",
+                "copy": "We highlighted the relatable family dynamics of the show through popular creative formats on social media, drawing in a new generation of fans. Our paid TikTok content helped to expand our audience and maintain viewership throughout the season, ultimately leading to 8 million viewers within the first 35 days."
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/16_ig_exp.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "video",
+                        "size": "default",
+                        "src": "/video/work/wonder_years/17_ig_exp.mp4",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/wonder_years/18_ig_exp.jpg",
+                        "alt": "The Wonder Years"
+                    }             
+                ]
+            },
+            {
+                "category": "grid",
+                "amount": "3",
+                "content": [
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/wonder_years/19_ig_exp.jpg",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/wonder_years/20_ig_exp.jpg",
+                        "alt": "The Wonder Years"
+                    },
+                    {
+                        "category": "image",
+                        "size": "default",
+                        "src": "/images/work/wonder_years/21_ig_exp.jpg",
+                        "alt": "The Wonder Years"
+                    }             
+                ]
+            }            
+        ]
+    }
+]
