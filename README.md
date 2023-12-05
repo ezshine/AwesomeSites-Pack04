@@ -23,3 +23,5 @@
 - colorfulnight.pha5e.com
 - quentinhocde.com
 - curious.co
+- www.artisansdidees.com
+- pvp.qq.com
