@@ -3166,8 +3166,6 @@
                 label: "single play"
             }, {
                 label: "practice"
-            }, {
-                label: "about"
             }];
             let s = document.createElement("div");
             s.className = "game-side-menu";
